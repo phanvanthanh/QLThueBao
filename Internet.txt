@@ -1,0 +1,4 @@
+doi ngay_hd tu chuoi sang datetime
+create table goicuoc_int
+create table toc_do
+create table internet

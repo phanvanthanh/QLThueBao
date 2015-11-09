@@ -1,0 +1,2 @@
+-noi rong field rp_slg_diaban ma_tuyen 100
+-sua procedure TKsoluongtbGanNV

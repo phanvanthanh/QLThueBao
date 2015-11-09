@@ -1,0 +1,49 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmkhdoanhnghiep" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    mc:Ignorable="d" Width="734" Height="401" Title="Khách hàng doanh nghiệp" FontSize="13" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors">
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="38" />
+        </Grid.RowDefinitions>
+        <dxg:GridControl AutoPopulateColumns="True" Name="gridControl1" FontFamily=".VnAvant" FontSize="13" >
+            <dxg:GridControl.Columns>                                
+                <dxg:GridColumn Name="tentb" FieldName="ten_dktb" Header="Tªn thuª bao" Width="400" />
+                <dxg:GridColumn Name="ngay_ld" FieldName="ngay_tl" Header="Ngµy TL" Width="110">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy}" Mask="dd/MM/yyyy" MaskType="DateTime" PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>                
+                <dxg:GridColumn Name="giam_doc" FieldName="giam_doc" Header="Gi¸m §èc" Width="200" />
+                <dxg:GridColumn Name="diachitb" FieldName="dia_chitb" Header="§Þa chØ thuª bao" Width="380" />
+                <dxg:GridColumn Name="sodt" FieldName="so_dt" Header="Sè §T" Width="150" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" AllowGrouping="True" AllowHorizontalScrollingVirtualization="False" IsColumnMenuEnabled="False" IsGroupPanelMenuEnabled="False" IsRowCellMenuEnabled="False" Name="tableView1" ShowFilterPanelMode="Never" ShowGroupPanel="False" ShowGroupedColumns="False" ShowIndicator="False" MultiSelectMode="Cell" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <Button FontSize="13" Height="23" HorizontalAlignment="Right" Margin="0,8,7,7" Name="CancelButton" TabIndex="30" Width="100" Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="2,0,0,0" Text="Đóng" Width="52" />
+            </StackPanel>
+        </Button>
+        <Button FontSize="12" Height="23" HorizontalAlignment="Right" Margin="0,8,114,7" Name="FindButton" Width="100" Grid.Row="1" Click="FindButton_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Search_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="8,0,0,0" Text="Tìm" Width="52" />
+            </StackPanel>
+        </Button>
+        <TextBlock FontSize="13" FontWeight="Normal" HorizontalAlignment="Right" Margin="0,8,343,11" Name="textBlock1" Text="Đến tháng" TextAlignment="Right" Width="74" Grid.Row="1" />
+        <dxe:DateEdit DisplayFormatString="MM/yyyy" FontSize="13" HorizontalAlignment="Right" Margin="0,8,222,0" Mask="MM/yyyy" MaskAllowNullInput="False" Name="dngaykt" TabIndex="2" VerticalAlignment="Top" Width="109" Grid.Row="1" />
+        <TextBlock FontSize="13" FontWeight="Normal" HorizontalAlignment="Right" Margin="0,8,533,11" Name="textBlock2" Text="Từ tháng" TextAlignment="Right" Width="82" Grid.Row="1" />
+        <dxe:DateEdit DisplayFormatString="MM/yyyy" FontSize="13" HorizontalAlignment="Right" Margin="0,8,418,0" Mask="MM/yyyy" MaskAllowNullInput="False" Name="dngaybd" TabIndex="1" VerticalAlignment="Top" Width="109" Grid.Row="1"/>
+        <dxe:CheckEdit Grid.Row="1" HorizontalAlignment="Left" Margin="4,8,0,0" Name="checkEdit1" Content="Tìm trong tháng" VerticalAlignment="Top" Width="150" Checked="checkEdit1_Checked" Unchecked="checkEdit1_Unchecked" IsChecked="True" />
+    </Grid>
+</dx:DXWindow>

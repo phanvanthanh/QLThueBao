@@ -1,0 +1,94 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmds119" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    mc:Ignorable="d" Width="829" Height="535" Title="Danh sách báo hỏng 119" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" FontSize="13" KeepPosition="False" >    
+    
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Background>
+            <ImageBrush ImageSource="/SilverlightQLThuebao;component/Images/bgform.png" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.3*" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <dxg:GridControl Name="grid" Grid.Row="0" FontFamily=".VnAvant" FontSize="13">            
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Name="ma_huyen" FieldName="ma_huyen" Header="HuyÖn" Width="65" />
+                <dxg:GridColumn Name="sDamagedPhoneNo" FieldName="sDamagedPhoneNo" Header="Sè háng" Width="100" />
+                <dxg:GridColumn Name="sCallerNo" FieldName="user_name" Header=" Account " Width="120" />
+                <dxg:GridColumn Name="user_name" FieldName="sCallerNo" Header="Sè b¸o" Width="120" />
+                <dxg:GridColumn Name="dtRecvTime" FieldName="dtRecvTime" Header="Thêi gian b¸o" Width="170">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy hh:mm:ss tt}" Mask="dd/MM/yyyy hh:mm:ss" MaskType="DateTime" PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn Name="tentb" FieldName="ten_dkdb" Header="Tªn thuª bao" Width="280" />                                
+                <dxg:GridColumn Name="diachidb" FieldName="dc_tbld" Header="§Þa chØ l¾p ®Æt" Width="320" />
+                <dxg:GridColumn Name="ID" FieldName="ID" Header="ID" Width="120" Visible="False" />
+                <dxg:GridColumn Name="phonekd" FieldName="phonekd" Header="PhoneKD" Width="120" Visible="False" />
+                <dxg:GridColumn Name="phonekt" FieldName="phonekt" Header="PhoneKT" Width="120" Visible="False" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" ShowGroupedColumns="False" Name="view" AutoWidth="True" FontSize="13" ShowGroupPanel="False" MultiSelectMode="Cell">
+                    <dxg:TableView.RowCellMenuCustomizations>
+                        <dxb:BarButtonItem Name="SuaXongItem" Content="Đã sửa xong" Glyph="/SilverlightQLThuebao;component/Images/Reset_16x16.png" GlyphSize="Default"  
+                           ItemClick="SuaXong_ItemClick" />
+                        <dxb:BarButtonItem Name="DatabaoItem" Content="Đã thông báo" Glyph="/SilverlightQLThuebao;component/Images/Refresh_16x16.png" GlyphSize="Default"  
+                           ItemClick="DabaoItem_ItemClick" />
+                        <dxb:BarButtonItem Name="cmdThem" Content="Báo hỏng 119"
+                           ItemClick="cmdThem_ItemClick" Glyph="/SilverlightQLThuebao;component/Images/Add_16x16.png" GlyphSize="Default" />
+
+                        <dxb:BarButtonItem Name="deleteRowItem" Content="Xóa số này" Glyph="/SilverlightQLThuebao;component/Images/Delete_16x16.png" GlyphSize="Default"  
+                           ItemClick="deleteRowItem_ItemClick" />
+                        <dxb:BarButtonItem Name="sendSMSRowItem" Content="Nhắn tin thông báo" Glyph="/SilverlightQLThuebao;component/Images/sms.png" GlyphSize="Default"  
+                           ItemClick="sendSMSRowItem_ItemClick" />
+                        <dxb:BarButtonItem Name="RefreshDataItem" Content="Lấy dữ liệu mới" Glyph="/SLDiemBanLe;component/Images/Icons/Refresh_16x16.png" GlyphSize="Default"  
+                           ItemClick="RefreshDataItem_ItemClick" />
+                        <!--<dxb:BarButtonItem Name="cmdclose" Content="Đóng" Glyph="/SLDiemBanLe;component/Images/Icons/close_16x16.png" GlyphSize="Default"  
+                           ItemClick="Close_ItemClick" />-->
+                    </dxg:TableView.RowCellMenuCustomizations>
+                </dxg:TableView>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <TextBlock FontSize="16" FontWeight="Normal" HorizontalAlignment="Left" Margin="20,2,10,0" Name="textBlock2" Text="Các máy chờ sửa" TextAlignment="Left" Width="230"  Grid.Row="1" Foreground="#FFFAE8E8" />
+
+        <dxg:GridControl Name="grid1" FontFamily=".VnAvant" FontSize="13" Grid.Row="2">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Name="ma_huyen1" FieldName="ma_huyen" Header="HuyÖn" Width="65" />
+                <dxg:GridColumn Name="sDamagedPhoneNo1" FieldName="sDamagedPhoneNo" Header="Sè háng" Width="100" />
+                <dxg:GridColumn Name="sCallerNo1" FieldName="user_name" Header=" Account " Width="120" />
+                <dxg:GridColumn Name="user_name1" FieldName="sCallerNo" Header="Sè b¸o" Width="120" />
+                <dxg:GridColumn Name="dtRecvTime1" FieldName="dtRecvTime" Header="Thêi gian b¸o" Width="150">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy hh:mm:ss}" Mask="dd/MM/yyyy hh:mm:ss" MaskType="DateTime" PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn Name="tentb1" FieldName="ten_dkdb" Header="Tªn thuª bao" Width="280" />
+                <dxg:GridColumn Name="diachidb1" FieldName="dc_tbld" Header="§Þa chØ l¾p ®Æt" Width="320" />
+                <dxg:GridColumn Name="ID1" FieldName="ID" Header="ID" Width="120" Visible="False" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" ShowGroupedColumns="False" Name="view1" AutoWidth="True" FontSize="13" ShowGroupPanel="False" MultiSelectMode="Cell">
+                    <dxg:TableView.RowCellMenuCustomizations>
+                        <dxb:BarButtonItem Name="SuaXongItem1" Content="Đã sửa xong" Glyph="/SilverlightQLThuebao;component/Images/Edit_16x16.png" GlyphSize="Small"  
+                           ItemClick="SuaXong1_ItemClick" />
+                        <dxb:BarButtonItem Name="cmdThem1" Content="Báo hỏng 119"
+                           ItemClick="cmdThem_ItemClick" Glyph="/SilverlightQLThuebao;component/Images/Add_16x16.png" GlyphSize="Default" />
+                      
+                        <dxb:BarButtonItem Name="deleteRowItem1" Content="Xóa" Glyph="/SilverlightQLThuebao;component/Images/Delete_16x16.png" GlyphSize="Small"  
+                           ItemClick="deleteRowItem1_ItemClick" />
+                        <!--<dxb:BarButtonItem Name="BookRowItem" Content="Book" Glyph="/SLDiemBanLe;component/Images/Icons/book_16x16.png" GlyphSize="Default"  
+                           ItemClick="BookRowItem_ItemClick" />-->
+                        <!--<dxb:BarButtonItem Name="cmdclose" Content="Đóng" Glyph="/SLDiemBanLe;component/Images/Icons/close_16x16.png" GlyphSize="Default"  
+                           ItemClick="Close_ItemClick" />-->
+                    </dxg:TableView.RowCellMenuCustomizations>
+                </dxg:TableView>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+    </Grid>
+</dx:DXWindow>

@@ -1,0 +1,1450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLThuebaoModelStoreContainer" CdmEntityContainer="QLThuebaoEntities">
+    <EntitySetMapping Name="cat_mo">
+      <EntityTypeMapping TypeName="QLThuebaoModel.cat_mo">
+        <MappingFragment StoreEntitySet="cat_mo">
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="ma_yc" ColumnName="ma_yc" />
+          <ScalarProperty Name="tg_yc" ColumnName="tg_yc" />
+          <ScalarProperty Name="logic" ColumnName="logic" />
+          <ScalarProperty Name="nguoi_yc" ColumnName="nguoi_yc" />
+          <ScalarProperty Name="tg_mo" ColumnName="tg_mo" />
+          <ScalarProperty Name="nguoi_mo" ColumnName="nguoi_mo" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="dlu" ColumnName="dlu" />
+          <ScalarProperty Name="shell" ColumnName="shell" />
+          <ScalarProperty Name="card" ColumnName="card" />
+          <ScalarProperty Name="port" ColumnName="port" />
+          <ScalarProperty Name="slp" ColumnName="slp" />
+          <ScalarProperty Name="en" ColumnName="en" />
+          <ScalarProperty Name="frame" ColumnName="frame" />
+          <ScalarProperty Name="slot" ColumnName="slot" />
+          <ScalarProperty Name="mo" ColumnName="mo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cat_mo_log">
+      <EntityTypeMapping TypeName="QLThuebaoModel.cat_mo_log">
+        <MappingFragment StoreEntitySet="cat_mo_log">
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="ma_yc" ColumnName="ma_yc" />
+          <ScalarProperty Name="tg_yc" ColumnName="tg_yc" />
+          <ScalarProperty Name="logic" ColumnName="logic" />
+          <ScalarProperty Name="nguoi_yc" ColumnName="nguoi_yc" />
+          <ScalarProperty Name="tg_mo" ColumnName="tg_mo" />
+          <ScalarProperty Name="nguoi_mo" ColumnName="nguoi_mo" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="dlu" ColumnName="dlu" />
+          <ScalarProperty Name="shell" ColumnName="shell" />
+          <ScalarProperty Name="card" ColumnName="card" />
+          <ScalarProperty Name="port" ColumnName="port" />
+          <ScalarProperty Name="slp" ColumnName="slp" />
+          <ScalarProperty Name="en" ColumnName="en" />
+          <ScalarProperty Name="frame" ColumnName="frame" />
+          <ScalarProperty Name="slot" ColumnName="slot" />
+          <ScalarProperty Name="mo" ColumnName="mo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dichvugiatangs">
+      <EntityTypeMapping TypeName="QLThuebaoModel.dichvugiatang">
+        <MappingFragment StoreEntitySet="dichvugiatang">
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+          <ScalarProperty Name="ten_dv" ColumnName="ten_dv" />
+          <ScalarProperty Name="tien" ColumnName="tien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dichvugiatang_log">
+      <EntityTypeMapping TypeName="QLThuebaoModel.dichvugiatang_log">
+        <MappingFragment StoreEntitySet="dichvugiatang_log">
+          <ScalarProperty Name="ngay" ColumnName="ngay" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+          <ScalarProperty Name="tien" ColumnName="tien" />
+          <ScalarProperty Name="nguoi_mo" ColumnName="nguoi_mo" />
+          <ScalarProperty Name="don_vi" ColumnName="don_vi" />
+          <ScalarProperty Name="mo_dv" ColumnName="mo_dv" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Goi_th">
+      <EntityTypeMapping TypeName="QLThuebaoModel.Goi_th">
+        <MappingFragment StoreEntitySet="Goi_th">
+          <ScalarProperty Name="ma_goi" ColumnName="ma_goi" />
+          <ScalarProperty Name="ten_goi" ColumnName="ten_goi" />
+          <ScalarProperty Name="tien" ColumnName="tien" />
+          <ScalarProperty Name="Ghi_chu" ColumnName="Ghi_chu" />
+          <ScalarProperty Name="sl_dd" ColumnName="sl_dd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khachhangDNs">
+      <EntityTypeMapping TypeName="QLThuebaoModel.khachhangDN">
+        <MappingFragment StoreEntitySet="khachhangDN">
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="ngay_tl" ColumnName="ngay_tl" />
+          <ScalarProperty Name="giam_doc" ColumnName="giam_doc" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="loai_catmo">
+      <EntityTypeMapping TypeName="QLThuebaoModel.loai_catmo">
+        <MappingFragment StoreEntitySet="loai_catmo">
+          <ScalarProperty Name="ten_yc" ColumnName="ten_yc" />
+          <ScalarProperty Name="ma_yc" ColumnName="ma_yc" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ma_ap">
+      <EntityTypeMapping TypeName="QLThuebaoModel.ma_ap">
+        <MappingFragment StoreEntitySet="ma_ap">
+          <ScalarProperty Name="maxa" ColumnName="maxa" />
+          <ScalarProperty Name="maap" ColumnName="maap" />
+          <ScalarProperty Name="ten_ap" ColumnName="ten_ap" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ma_duong">
+      <EntityTypeMapping TypeName="QLThuebaoModel.ma_duong">
+        <MappingFragment StoreEntitySet="ma_duong">
+          <ScalarProperty Name="ten_duong" ColumnName="ten_duong" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="menus">
+      <EntityTypeMapping TypeName="QLThuebaoModel.menu">
+        <MappingFragment StoreEntitySet="menu">
+          <ScalarProperty Name="m_menu" ColumnName="m_menu" />
+          <ScalarProperty Name="t_menu" ColumnName="t_menu" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nhom_kh">
+      <EntityTypeMapping TypeName="QLThuebaoModel.nhom_kh">
+        <MappingFragment StoreEntitySet="nhom_kh">
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="ten_dktb_cd" ColumnName="ten_dktb_cd" />
+          <ScalarProperty Name="dc_dktb_cd" ColumnName="dc_dktb_cd" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="dc_dktb" ColumnName="dc_dktb" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="soluu" ColumnName="soluu" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nv_thuethu">
+      <EntityTypeMapping TypeName="QLThuebaoModel.nv_thuethu">
+        <MappingFragment StoreEntitySet="nv_thuethu">
+          <ScalarProperty Name="ten_nv" ColumnName="ten_nv" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="ghi_chu" ColumnName="ghi_chu" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tien_tb">
+      <EntityTypeMapping TypeName="QLThuebaoModel.tien_tb">
+        <MappingFragment StoreEntitySet="tien_tb">
+          <ScalarProperty Name="loai" ColumnName="loai" />
+          <ScalarProperty Name="tien_tb1" ColumnName="tien_tb" />
+          <ScalarProperty Name="ghi_chu" ColumnName="ghi_chu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="toc_do">
+      <EntityTypeMapping TypeName="QLThuebaoModel.toc_do">
+        <MappingFragment StoreEntitySet="toc_do">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ma_goi" ColumnName="ma_goi" />
+          <ScalarProperty Name="ma_td" ColumnName="ma_td" />
+          <ScalarProperty Name="toc_do1" ColumnName="toc_do" />
+          <ScalarProperty Name="ghi_chu" ColumnName="ghi_chu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tram_vt">
+      <EntityTypeMapping TypeName="QLThuebaoModel.tram_vt">
+        <MappingFragment StoreEntitySet="tram_vt">
+          <ScalarProperty Name="ma_tram" ColumnName="ma_tram" />
+          <ScalarProperty Name="ten_tram" ColumnName="ten_tram" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="dauso" ColumnName="dauso" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tuyen_temp">
+      <EntityTypeMapping TypeName="QLThuebaoModel.tuyen_temp">
+        <MappingFragment StoreEntitySet="tuyen_temp">
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="tuyen_tc" ColumnName="tuyen_tc" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users_log">
+      <EntityTypeMapping TypeName="QLThuebaoModel.users_log">
+        <MappingFragment StoreEntitySet="users_log">
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="thoi_gian" ColumnName="thoi_gian" />
+          <ScalarProperty Name="ip_address" ColumnName="ip_address" />
+          <ScalarProperty Name="thanhcong" ColumnName="thanhcong" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Create_tables" FunctionName="QLThuebaoModel.Store.CreateTable" />
+    <EntitySetMapping Name="don_vi">
+      <EntityTypeMapping TypeName="QLThuebaoModel.don_vi">
+        <MappingFragment StoreEntitySet="don_vi">
+          <ScalarProperty Name="batdau_mkh" ColumnName="batdau_mkh" />
+          <ScalarProperty Name="ind" ColumnName="ind" />
+          <ScalarProperty Name="ten_dv" ColumnName="ten_dv" />
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="gc_mytv">
+      <EntityTypeMapping TypeName="QLThuebaoModel.gc_mytv">
+        <MappingFragment StoreEntitySet="gc_mytv">
+          <ScalarProperty Name="ten_dv" ColumnName="ten_dv" />
+          <ScalarProperty Name="ma_goi" ColumnName="ma_goi" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="goicuoc_int">
+      <EntityTypeMapping TypeName="QLThuebaoModel.goicuoc_int">
+        <MappingFragment StoreEntitySet="goicuoc_int">
+          <ScalarProperty Name="ghi_chu" ColumnName="ghi_chu" />
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+          <ScalarProperty Name="ten_goi" ColumnName="ten_goi" />
+          <ScalarProperty Name="ma_goi" ColumnName="ma_goi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kh_mai">
+      <EntityTypeMapping TypeName="QLThuebaoModel.kh_mai">
+        <MappingFragment StoreEntitySet="kh_mai">
+          <ScalarProperty Name="hieu_luc" ColumnName="hieu_luc" />
+          <ScalarProperty Name="ngay_kt" ColumnName="ngay_kt" />
+          <ScalarProperty Name="ngay_bd" ColumnName="ngay_bd" />
+          <ScalarProperty Name="ten_ct" ColumnName="ten_ct" />
+          <ScalarProperty Name="ma_km" ColumnName="ma_km" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kh_uutien">
+      <EntityTypeMapping TypeName="QLThuebaoModel.kh_uutien">
+        <MappingFragment StoreEntitySet="kh_uutien">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ten_uutien" ColumnName="ten_uutien" />
+          <ScalarProperty Name="kh_uutien1" ColumnName="kh_uutien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="loai_dv">
+      <EntityTypeMapping TypeName="QLThuebaoModel.loai_dv">
+        <MappingFragment StoreEntitySet="loai_dv">
+          <ScalarProperty Name="ten_dv" ColumnName="ten_dv" />
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="loai_kh">
+      <EntityTypeMapping TypeName="QLThuebaoModel.loai_kh">
+        <MappingFragment StoreEntitySet="loai_kh">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="mota" ColumnName="mota" />
+          <ScalarProperty Name="maloai" ColumnName="maloai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ma_xa">
+      <EntityTypeMapping TypeName="QLThuebaoModel.ma_xa">
+        <MappingFragment StoreEntitySet="ma_xa">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="vtci" ColumnName="vtci" />
+          <ScalarProperty Name="tientb" ColumnName="tientb" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="maxa" ColumnName="maxa" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nganh_nghe">
+      <EntityTypeMapping TypeName="QLThuebaoModel.nganh_nghe">
+        <MappingFragment StoreEntitySet="nganh_nghe">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ten_nghe" ColumnName="ten_nghe" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="doi_accint" FunctionName="QLThuebaoModel.Store.doi_accint" />
+    <FunctionImportMapping FunctionImportName="doi_accmytv" FunctionName="QLThuebaoModel.Store.doi_accmytv" />
+    <EntitySetMapping Name="thongbaos">
+      <EntityTypeMapping TypeName="QLThuebaoModel.thongbao">
+        <MappingFragment StoreEntitySet="thongbao">
+          <ScalarProperty Name="noi_dung" ColumnName="noi_dung" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lydocats">
+      <EntityTypeMapping TypeName="QLThuebaoModel.lydocat">
+        <MappingFragment StoreEntitySet="lydocat">
+          <ScalarProperty Name="m_order" ColumnName="m_order" />
+          <ScalarProperty Name="loai" ColumnName="loai" />
+          <ScalarProperty Name="ten_ld" ColumnName="ten_ld" />
+          <ScalarProperty Name="ma_ld" ColumnName="ma_ld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rp_tktonghop">
+      <EntityTypeMapping TypeName="QLThuebaoModel.rp_tktonghop">
+        <MappingFragment StoreEntitySet="rp_tktonghop">
+          <ScalarProperty Name="thftth" ColumnName="thftth" />
+          <ScalarProperty Name="hdlftth" ColumnName="hdlftth" />
+          <ScalarProperty Name="catnguftth" ColumnName="catnguftth" />
+          <ScalarProperty Name="catftth" ColumnName="catftth" />
+          <ScalarProperty Name="ngungftth" ColumnName="ngungftth" />
+          <ScalarProperty Name="hmftth" ColumnName="hmftth" />
+          <ScalarProperty Name="thint" ColumnName="thint" />
+          <ScalarProperty Name="hdlint" ColumnName="hdlint" />
+          <ScalarProperty Name="catnguint" ColumnName="catnguint" />
+          <ScalarProperty Name="catint" ColumnName="catint" />
+          <ScalarProperty Name="ngungint" ColumnName="ngungint" />
+          <ScalarProperty Name="hmint" ColumnName="hmint" />
+          <ScalarProperty Name="thmy" ColumnName="thmy" />
+          <ScalarProperty Name="hdlmy" ColumnName="hdlmy" />
+          <ScalarProperty Name="catmy" ColumnName="catmy" />
+          <ScalarProperty Name="ngungmy" ColumnName="ngungmy" />
+          <ScalarProperty Name="hmmy" ColumnName="hmmy" />
+          <ScalarProperty Name="thgp" ColumnName="thgp" />
+          <ScalarProperty Name="hdlgp" ColumnName="hdlgp" />
+          <ScalarProperty Name="catgp" ColumnName="catgp" />
+          <ScalarProperty Name="ngunggp" ColumnName="ngunggp" />
+          <ScalarProperty Name="hmgp" ColumnName="hmgp" />
+          <ScalarProperty Name="thgpt" ColumnName="thgpt" />
+          <ScalarProperty Name="hdlgpt" ColumnName="hdlgpt" />
+          <ScalarProperty Name="catgpt" ColumnName="catgpt" />
+          <ScalarProperty Name="ngunggpt" ColumnName="ngunggpt" />
+          <ScalarProperty Name="hmgpt" ColumnName="hmgpt" />
+          <ScalarProperty Name="thcd" ColumnName="thcd" />
+          <ScalarProperty Name="hdlcd" ColumnName="hdlcd" />
+          <ScalarProperty Name="catcd" ColumnName="catcd" />
+          <ScalarProperty Name="ngungcd" ColumnName="ngungcd" />
+          <ScalarProperty Name="hmcd" ColumnName="hmcd" />
+          <ScalarProperty Name="ten_dv" ColumnName="ten_dv" />
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="p_tktonghop" FunctionName="QLThuebaoModel.Store.p_tktonghop" />
+    <FunctionImportMapping FunctionImportName="p_tklydocat" FunctionName="QLThuebaoModel.Store.p_tklydocat" />
+    <EntitySetMapping Name="rp_tklydocat">
+      <EntityTypeMapping TypeName="QLThuebaoModel.rp_tklydocat">
+        <MappingFragment StoreEntitySet="rp_tklydocat">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="slftth" ColumnName="slftth" />
+          <ScalarProperty Name="slint" ColumnName="slint" />
+          <ScalarProperty Name="slmy" ColumnName="slmy" />
+          <ScalarProperty Name="slgp" ColumnName="slgp" />
+          <ScalarProperty Name="slcd" ColumnName="slcd" />
+          <ScalarProperty Name="ten_ld" ColumnName="ten_ld" />
+          <ScalarProperty Name="ma_ld" ColumnName="ma_ld" />
+          <ScalarProperty Name="ten_dv" ColumnName="ten_dv" />
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CnfgStatus119">
+      <EntityTypeMapping TypeName="QLThuebaoModel.CnfgStatus119">
+        <MappingFragment StoreEntitySet="CnfgStatus119">
+          <ScalarProperty Name="sStatus" ColumnName="sStatus" />
+          <ScalarProperty Name="iStatusID" ColumnName="iStatusID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="suaxong_119" FunctionName="QLThuebaoModel.Store.suaxong_119" />
+    <FunctionImportMapping FunctionImportName="Delete_119" FunctionName="QLThuebaoModel.Store.Delete_119" />
+    <FunctionImportMapping FunctionImportName="dathongbao_119" FunctionName="QLThuebaoModel.Store.dathongbao_119" />
+    <EntitySetMapping Name="tk119">
+      <EntityTypeMapping TypeName="QLThuebaoModel.tk119">
+        <MappingFragment StoreEntitySet="tk119">
+          <ScalarProperty Name="ton" ColumnName="ton" />
+          <ScalarProperty Name="ts" ColumnName="ts" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="baohong" ColumnName="baohong" />
+          <ScalarProperty Name="suaxong" ColumnName="suaxong" />
+          <ScalarProperty Name="loai" ColumnName="loai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dsw_119">
+      <EntityTypeMapping TypeName="QLThuebaoModel.dsw_119">
+        <MappingFragment StoreEntitySet="dsw_119">
+          <ScalarProperty Name="dckd" ColumnName="dckd" />
+          <ScalarProperty Name="tenkhkd" ColumnName="tenkhkd" />
+          <ScalarProperty Name="phonekt" ColumnName="phonekt" />
+          <ScalarProperty Name="phonekd" ColumnName="phonekd" />
+          <ScalarProperty Name="sendsms" ColumnName="sendsms" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="sNotes" ColumnName="sNotes" />
+          <ScalarProperty Name="dtRecvTime" ColumnName="dtRecvTime" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="dtfinished" ColumnName="dtfinished" />
+          <ScalarProperty Name="sCallerNo" ColumnName="sCallerNo" />
+          <ScalarProperty Name="sName" ColumnName="sName" />
+          <ScalarProperty Name="sDamagedPhoneNo" ColumnName="sDamagedPhoneNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khoes">
+      <EntityTypeMapping TypeName="QLThuebaoModel.kho">
+        <MappingFragment StoreEntitySet="kho">
+          <ScalarProperty Name="ten_kh" ColumnName="ten_kh" />
+          <ScalarProperty Name="ma_kho" ColumnName="ma_kho" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="get_suaxong119" FunctionName="QLThuebaoModel.Store.get_suaxong119" />
+    <EntitySetMapping Name="thiet_bi">
+      <EntityTypeMapping TypeName="QLThuebaoModel.thiet_bi">
+        <MappingFragment StoreEntitySet="thiet_bi">
+          <ScalarProperty Name="ten_tb" ColumnName="ten_tb" />
+          <ScalarProperty Name="ma_tb" ColumnName="ma_tb" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="thuhoi_log">
+      <EntityTypeMapping TypeName="QLThuebaoModel.thuhoi_log">
+        <MappingFragment StoreEntitySet="thuhoi_log">
+          <ScalarProperty Name="loai_tb" ColumnName="loai_tb" />
+          <ScalarProperty Name="seri_th" ColumnName="seri_th" />
+          <ScalarProperty Name="seri_ld" ColumnName="seri_ld" />
+          <ScalarProperty Name="ld_khong_thuhoi" ColumnName="ld_khong_thuhoi" />
+          <ScalarProperty Name="users" ColumnName="users" />
+          <ScalarProperty Name="thoi_gian" ColumnName="thoi_gian" />
+          <ScalarProperty Name="loai_dv" ColumnName="loai_dv" />
+          <ScalarProperty Name="nhap_kho" ColumnName="nhap_kho" />
+          <ScalarProperty Name="tinhtrang_tb" ColumnName="tinhtrang_tb" />
+          <ScalarProperty Name="ngay_th" ColumnName="ngay_th" />
+          <ScalarProperty Name="thtb" ColumnName="thtb" />
+          <ScalarProperty Name="toc_do" ColumnName="toc_do" />
+          <ScalarProperty Name="goi_cuoc" ColumnName="goi_cuoc" />
+          <ScalarProperty Name="loai_cap" ColumnName="loai_cap" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="may_ngung" ColumnName="may_ngung" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="ten_nsd" ColumnName="ten_nsd" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="chungloaicaps">
+      <EntityTypeMapping TypeName="QLThuebaoModel.chungloaicap">
+        <MappingFragment StoreEntitySet="chungloaicap">
+          <ScalarProperty Name="dv" ColumnName="dv" />
+          <ScalarProperty Name="moi" ColumnName="moi" />
+          <ScalarProperty Name="ten_loai" ColumnName="ten_loai" />
+          <ScalarProperty Name="loai_cap" ColumnName="loai_cap" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="thuhoi_thietbi">
+      <EntityTypeMapping TypeName="QLThuebaoModel.thuhoi_thietbi">
+        <MappingFragment StoreEntitySet="thuhoi_thietbi">
+          <ScalarProperty Name="loai_tb" ColumnName="loai_tb" />
+          <ScalarProperty Name="seri_th" ColumnName="seri_th" />
+          <ScalarProperty Name="seri_ld" ColumnName="seri_ld" />
+          <ScalarProperty Name="ld_khong_thuhoi" ColumnName="ld_khong_thuhoi" />
+          <ScalarProperty Name="loai_dv" ColumnName="loai_dv" />
+          <ScalarProperty Name="nhap_kho" ColumnName="nhap_kho" />
+          <ScalarProperty Name="tinhtrang_tb" ColumnName="tinhtrang_tb" />
+          <ScalarProperty Name="ngay_th" ColumnName="ngay_th" />
+          <ScalarProperty Name="thtb" ColumnName="thtb" />
+          <ScalarProperty Name="toc_do" ColumnName="toc_do" />
+          <ScalarProperty Name="goi_cuoc" ColumnName="goi_cuoc" />
+          <ScalarProperty Name="loai_cap" ColumnName="loai_cap" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="may_ngung" ColumnName="may_ngung" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="ten_nsd" ColumnName="ten_nsd" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C119TVPrefix">
+      <EntityTypeMapping TypeName="QLThuebaoModel.C119TVPrefix">
+        <MappingFragment StoreEntitySet="119TVPrefix">
+          <ScalarProperty Name="nGroupID" ColumnName="nGroupID" />
+          <ScalarProperty Name="nPrefixEnd" ColumnName="nPrefixEnd" />
+          <ScalarProperty Name="nPrefixBegin" ColumnName="nPrefixBegin" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="bao_119" FunctionName="QLThuebaoModel.Store.bao_119" />
+    <EntitySetMapping Name="kenh_thue_rieng">
+      <EntityTypeMapping TypeName="QLThuebaoModel.kenh_thue_rieng">
+        <MappingFragment StoreEntitySet="kenh_thue_rieng">
+          <ScalarProperty Name="ma_nvld" ColumnName="ma_nvld" />
+          <ScalarProperty Name="ma_nvkt" ColumnName="ma_nvkt" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="dc_cuoi" ColumnName="dc_cuoi" />
+          <ScalarProperty Name="dc_dau" ColumnName="dc_dau" />
+          <ScalarProperty Name="toc_do" ColumnName="toc_do" />
+          <ScalarProperty Name="loaikenh" ColumnName="loaikenh" />
+          <ScalarProperty Name="kh_db" ColumnName="kh_db" />
+          <ScalarProperty Name="ms_thue" ColumnName="ms_thue" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="thanghd" ColumnName="thanghd" />
+          <ScalarProperty Name="ngay_hd" ColumnName="ngay_hd" />
+          <ScalarProperty Name="sohopdong" ColumnName="sohopdong" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="may_ngung" ColumnName="may_ngung" />
+          <ScalarProperty Name="ngay_mo" ColumnName="ngay_mo" />
+          <ScalarProperty Name="village" ColumnName="village" />
+          <ScalarProperty Name="ngay_ld" ColumnName="ngay_ld" />
+          <ScalarProperty Name="tienno" ColumnName="tienno" />
+          <ScalarProperty Name="tien_tb" ColumnName="tien_tb" />
+          <ScalarProperty Name="tbao" ColumnName="tbao" />
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="ma_tram" ColumnName="ma_tram" />
+          <ScalarProperty Name="tuyen_tc" ColumnName="tuyen_tc" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="loai_kenh">
+      <EntityTypeMapping TypeName="QLThuebaoModel.loai_kenh">
+        <MappingFragment StoreEntitySet="loai_kenh">
+          <ScalarProperty Name="ten_loai" ColumnName="ten_loai" />
+          <ScalarProperty Name="ma_loai" ColumnName="ma_loai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="td_kenhrieng">
+      <EntityTypeMapping TypeName="QLThuebaoModel.td_kenhrieng">
+        <MappingFragment StoreEntitySet="td_kenhrieng">
+          <ScalarProperty Name="toc_do" ColumnName="toc_do" />
+          <ScalarProperty Name="ma_loai" ColumnName="ma_loai" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="update_goi_tich_hop" FunctionName="QLThuebaoModel.Store.update_goi_tich_hop" />
+    <EntitySetMapping Name="codinh_log">
+      <EntityTypeMapping TypeName="QLThuebaoModel.codinh_log">
+        <MappingFragment StoreEntitySet="codinh_log">
+          <ScalarProperty Name="id_goicuoc" ColumnName="id_goicuoc" />
+          <ScalarProperty Name="slg_cap" ColumnName="slg_cap" />
+          <ScalarProperty Name="loai_cap" ColumnName="loai_cap" />
+          <ScalarProperty Name="so_nhald" ColumnName="so_nhald" />
+          <ScalarProperty Name="so_nha" ColumnName="so_nha" />
+          <ScalarProperty Name="dt_lh" ColumnName="dt_lh" />
+          <ScalarProperty Name="camket" ColumnName="camket" />
+          <ScalarProperty Name="ldthtb" ColumnName="ldthtb" />
+          <ScalarProperty Name="lydocat" ColumnName="lydocat" />
+          <ScalarProperty Name="thtb" ColumnName="thtb" />
+          <ScalarProperty Name="ma_nvld" ColumnName="ma_nvld" />
+          <ScalarProperty Name="ma_nvkt" ColumnName="ma_nvkt" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+          <ScalarProperty Name="ma_nhom" ColumnName="ma_nhom" />
+          <ScalarProperty Name="goi_th" ColumnName="goi_th" />
+          <ScalarProperty Name="ma_km" ColumnName="ma_km" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="e_mail" ColumnName="e_mail" />
+          <ScalarProperty Name="users" ColumnName="users" />
+          <ScalarProperty Name="thoi_gian" ColumnName="thoi_gian" />
+          <ScalarProperty Name="ngay_cap" ColumnName="ngay_cap" />
+          <ScalarProperty Name="noi_cap" ColumnName="noi_cap" />
+          <ScalarProperty Name="socmnd" ColumnName="socmnd" />
+          <ScalarProperty Name="tbdc" ColumnName="tbdc" />
+          <ScalarProperty Name="khg_vat" ColumnName="khg_vat" />
+          <ScalarProperty Name="ms_thue" ColumnName="ms_thue" />
+          <ScalarProperty Name="note_ngay_kn" ColumnName="note_ngay_kn" />
+          <ScalarProperty Name="ngay_kn" ColumnName="ngay_kn" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="ngay_hd" ColumnName="ngay_hd" />
+          <ScalarProperty Name="sohopdong" ColumnName="sohopdong" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="mo_may" ColumnName="mo_may" />
+          <ScalarProperty Name="keo_may" ColumnName="keo_may" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="may_ngung" ColumnName="may_ngung" />
+          <ScalarProperty Name="ngay_mo" ColumnName="ngay_mo" />
+          <ScalarProperty Name="village" ColumnName="village" />
+          <ScalarProperty Name="ngay_ld" ColumnName="ngay_ld" />
+          <ScalarProperty Name="tb_dv" ColumnName="tb_dv" />
+          <ScalarProperty Name="tienno" ColumnName="tienno" />
+          <ScalarProperty Name="tien_tb" ColumnName="tien_tb" />
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="ma_tram" ColumnName="ma_tram" />
+          <ScalarProperty Name="tuyen_tc" ColumnName="tuyen_tc" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gphone_log">
+      <EntityTypeMapping TypeName="QLThuebaoModel.Gphone_log">
+        <MappingFragment StoreEntitySet="Gphone_log">
+          <ScalarProperty Name="id_goicuoc" ColumnName="id_goicuoc" />
+          <ScalarProperty Name="so_nhald" ColumnName="so_nhald" />
+          <ScalarProperty Name="dt_lh" ColumnName="dt_lh" />
+          <ScalarProperty Name="camket" ColumnName="camket" />
+          <ScalarProperty Name="loai_tb" ColumnName="loai_tb" />
+          <ScalarProperty Name="ldthtb" ColumnName="ldthtb" />
+          <ScalarProperty Name="lydocat" ColumnName="lydocat" />
+          <ScalarProperty Name="thtb" ColumnName="thtb" />
+          <ScalarProperty Name="ma_nvld" ColumnName="ma_nvld" />
+          <ScalarProperty Name="ma_nvkt" ColumnName="ma_nvkt" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+          <ScalarProperty Name="ma_nhom" ColumnName="ma_nhom" />
+          <ScalarProperty Name="goi_th" ColumnName="goi_th" />
+          <ScalarProperty Name="ma_km" ColumnName="ma_km" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="users" ColumnName="users" />
+          <ScalarProperty Name="thoi_gian" ColumnName="thoi_gian" />
+          <ScalarProperty Name="e_mail" ColumnName="e_mail" />
+          <ScalarProperty Name="goicuoc" ColumnName="goicuoc" />
+          <ScalarProperty Name="imei" ColumnName="imei" />
+          <ScalarProperty Name="seri" ColumnName="seri" />
+          <ScalarProperty Name="tbdc" ColumnName="tbdc" />
+          <ScalarProperty Name="khom_ap" ColumnName="khom_ap" />
+          <ScalarProperty Name="xa_phuong" ColumnName="xa_phuong" />
+          <ScalarProperty Name="duong" ColumnName="duong" />
+          <ScalarProperty Name="so_nha" ColumnName="so_nha" />
+          <ScalarProperty Name="khg_vat" ColumnName="khg_vat" />
+          <ScalarProperty Name="ttin_khac" ColumnName="ttin_khac" />
+          <ScalarProperty Name="tghmang" ColumnName="tghmang" />
+          <ScalarProperty Name="sohieu_nv" ColumnName="sohieu_nv" />
+          <ScalarProperty Name="nv_ld" ColumnName="nv_ld" />
+          <ScalarProperty Name="ngan_hang" ColumnName="ngan_hang" />
+          <ScalarProperty Name="tai_khoan" ColumnName="tai_khoan" />
+          <ScalarProperty Name="chucvu" ColumnName="chucvu" />
+          <ScalarProperty Name="ng_daidien" ColumnName="ng_daidien" />
+          <ScalarProperty Name="ngay_cap" ColumnName="ngay_cap" />
+          <ScalarProperty Name="noi_cap" ColumnName="noi_cap" />
+          <ScalarProperty Name="socmnd" ColumnName="socmnd" />
+          <ScalarProperty Name="ms_thue" ColumnName="ms_thue" />
+          <ScalarProperty Name="note_ngay_kn" ColumnName="note_ngay_kn" />
+          <ScalarProperty Name="ngay_kn" ColumnName="ngay_kn" />
+          <ScalarProperty Name="ngay_hd" ColumnName="ngay_hd" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="sohopdong" ColumnName="sohopdong" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="mo_may" ColumnName="mo_may" />
+          <ScalarProperty Name="keo_may" ColumnName="keo_may" />
+          <ScalarProperty Name="ngay_mo" ColumnName="ngay_mo" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="may_ngung" ColumnName="may_ngung" />
+          <ScalarProperty Name="tb_dv" ColumnName="tb_dv" />
+          <ScalarProperty Name="tienno" ColumnName="tienno" />
+          <ScalarProperty Name="tien_tb" ColumnName="tien_tb" />
+          <ScalarProperty Name="village" ColumnName="village" />
+          <ScalarProperty Name="ngay_ld" ColumnName="ngay_ld" />
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="tuyen_tc" ColumnName="tuyen_tc" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="SoSim" ColumnName="SoSim" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="internets">
+      <EntityTypeMapping TypeName="QLThuebaoModel.internet">
+        <MappingFragment StoreEntitySet="internet">
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="goi_th" ColumnName="goi_th" />
+          <ScalarProperty Name="id_goicuoc" ColumnName="id_goicuoc" />
+          <ScalarProperty Name="so_nhald" ColumnName="so_nhald" />
+          <ScalarProperty Name="so_nha" ColumnName="so_nha" />
+          <ScalarProperty Name="slg_cap" ColumnName="slg_cap" />
+          <ScalarProperty Name="loai_tb" ColumnName="loai_tb" />
+          <ScalarProperty Name="modem_seri" ColumnName="modem_seri" />
+          <ScalarProperty Name="kh_db" ColumnName="kh_db" />
+          <ScalarProperty Name="khom_apld" ColumnName="khom_apld" />
+          <ScalarProperty Name="xa_phuongld" ColumnName="xa_phuongld" />
+          <ScalarProperty Name="duongld" ColumnName="duongld" />
+          <ScalarProperty Name="so_119" ColumnName="so_119" />
+          <ScalarProperty Name="dt_lh" ColumnName="dt_lh" />
+          <ScalarProperty Name="camket" ColumnName="camket" />
+          <ScalarProperty Name="thtb" ColumnName="thtb" />
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+          <ScalarProperty Name="kh_uutien" ColumnName="kh_uutien" />
+          <ScalarProperty Name="ma_nvld" ColumnName="ma_nvld" />
+          <ScalarProperty Name="ma_nvkt" ColumnName="ma_nvkt" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="dckd" ColumnName="dckd" />
+          <ScalarProperty Name="tenkhkd" ColumnName="tenkhkd" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="may_ngung" ColumnName="may_ngung" />
+          <ScalarProperty Name="khg_vat" ColumnName="khg_vat" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="ten_nsd" ColumnName="ten_nsd" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="e_mail" ColumnName="e_mail" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+          <ScalarProperty Name="ma_nhom" ColumnName="ma_nhom" />
+          <ScalarProperty Name="ma_tram" ColumnName="ma_tram" />
+          <ScalarProperty Name="xa_phuong" ColumnName="xa_phuong" />
+          <ScalarProperty Name="khom_ap" ColumnName="khom_ap" />
+          <ScalarProperty Name="duong" ColumnName="duong" />
+          <ScalarProperty Name="ma_km" ColumnName="ma_km" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="noi_cap" ColumnName="noi_cap" />
+          <ScalarProperty Name="ngay_cap" ColumnName="ngay_cap" />
+          <ScalarProperty Name="socmnd" ColumnName="socmnd" />
+          <ScalarProperty Name="maxa" ColumnName="maxa" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="tuyen_tc" ColumnName="tuyen_tc" />
+          <ScalarProperty Name="note_ngay_kn" ColumnName="note_ngay_kn" />
+          <ScalarProperty Name="ngay_kn" ColumnName="ngay_kn" />
+          <ScalarProperty Name="ht_tt" ColumnName="ht_tt" />
+          <ScalarProperty Name="ngan_hang" ColumnName="ngan_hang" />
+          <ScalarProperty Name="tai_khoan" ColumnName="tai_khoan" />
+          <ScalarProperty Name="ms_thue" ColumnName="ms_thue" />
+          <ScalarProperty Name="toc_do" ColumnName="toc_do" />
+          <ScalarProperty Name="goi_cuoc" ColumnName="goi_cuoc" />
+          <ScalarProperty Name="loai_cap" ColumnName="loai_cap" />
+          <ScalarProperty Name="ht_ld" ColumnName="ht_ld" />
+          <ScalarProperty Name="ngay_ld" ColumnName="ngay_ld" />
+          <ScalarProperty Name="sohopdong" ColumnName="sohopdong" />
+          <ScalarProperty Name="ngay_hd" ColumnName="ngay_hd" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="internet_log">
+      <EntityTypeMapping TypeName="QLThuebaoModel.internet_log">
+        <MappingFragment StoreEntitySet="internet_log">
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="goi_th" ColumnName="goi_th" />
+          <ScalarProperty Name="id_goicuoc" ColumnName="id_goicuoc" />
+          <ScalarProperty Name="modem_seri" ColumnName="modem_seri" />
+          <ScalarProperty Name="so_nhald" ColumnName="so_nhald" />
+          <ScalarProperty Name="so_nha" ColumnName="so_nha" />
+          <ScalarProperty Name="slg_cap" ColumnName="slg_cap" />
+          <ScalarProperty Name="dt_lh" ColumnName="dt_lh" />
+          <ScalarProperty Name="camket" ColumnName="camket" />
+          <ScalarProperty Name="ldthtb" ColumnName="ldthtb" />
+          <ScalarProperty Name="lydocat" ColumnName="lydocat" />
+          <ScalarProperty Name="thtb" ColumnName="thtb" />
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+          <ScalarProperty Name="kh_uutien" ColumnName="kh_uutien" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="thoi_gian" ColumnName="thoi_gian" />
+          <ScalarProperty Name="user_login" ColumnName="user_login" />
+          <ScalarProperty Name="ma_nvld" ColumnName="ma_nvld" />
+          <ScalarProperty Name="ma_nvkt" ColumnName="ma_nvkt" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="may_ngung" ColumnName="may_ngung" />
+          <ScalarProperty Name="khg_vat" ColumnName="khg_vat" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="ten_nsd" ColumnName="ten_nsd" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="e_mail" ColumnName="e_mail" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+          <ScalarProperty Name="ma_nhom" ColumnName="ma_nhom" />
+          <ScalarProperty Name="ma_tram" ColumnName="ma_tram" />
+          <ScalarProperty Name="xa_phuong" ColumnName="xa_phuong" />
+          <ScalarProperty Name="khom_ap" ColumnName="khom_ap" />
+          <ScalarProperty Name="duong" ColumnName="duong" />
+          <ScalarProperty Name="ma_km" ColumnName="ma_km" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="noi_cap" ColumnName="noi_cap" />
+          <ScalarProperty Name="ngay_cap" ColumnName="ngay_cap" />
+          <ScalarProperty Name="socmnd" ColumnName="socmnd" />
+          <ScalarProperty Name="maxa" ColumnName="maxa" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="tuyen_tc" ColumnName="tuyen_tc" />
+          <ScalarProperty Name="note_ngay_kn" ColumnName="note_ngay_kn" />
+          <ScalarProperty Name="ngay_kn" ColumnName="ngay_kn" />
+          <ScalarProperty Name="ht_tt" ColumnName="ht_tt" />
+          <ScalarProperty Name="ngan_hang" ColumnName="ngan_hang" />
+          <ScalarProperty Name="tai_khoan" ColumnName="tai_khoan" />
+          <ScalarProperty Name="ms_thue" ColumnName="ms_thue" />
+          <ScalarProperty Name="toc_do" ColumnName="toc_do" />
+          <ScalarProperty Name="goi_cuoc" ColumnName="goi_cuoc" />
+          <ScalarProperty Name="loai_cap" ColumnName="loai_cap" />
+          <ScalarProperty Name="ht_ld" ColumnName="ht_ld" />
+          <ScalarProperty Name="ngay_ld" ColumnName="ngay_ld" />
+          <ScalarProperty Name="sohopdong" ColumnName="sohopdong" />
+          <ScalarProperty Name="ngay_hd" ColumnName="ngay_hd" />
+          <ScalarProperty Name="n_user_name" ColumnName="n_user_name" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mytvs">
+      <EntityTypeMapping TypeName="QLThuebaoModel.mytv">
+        <MappingFragment StoreEntitySet="mytv">
+          <ScalarProperty Name="id_nhom" ColumnName="id_nhom" />
+          <ScalarProperty Name="maychinh" ColumnName="maychinh" />
+          <ScalarProperty Name="id_goicuoc" ColumnName="id_goicuoc" />
+          <ScalarProperty Name="so_nhald" ColumnName="so_nhald" />
+          <ScalarProperty Name="so_nha" ColumnName="so_nha" />
+          <ScalarProperty Name="slg_cap" ColumnName="slg_cap" />
+          <ScalarProperty Name="loai_tb" ColumnName="loai_tb" />
+          <ScalarProperty Name="kh_db" ColumnName="kh_db" />
+          <ScalarProperty Name="khom_apld" ColumnName="khom_apld" />
+          <ScalarProperty Name="xa_phuongld" ColumnName="xa_phuongld" />
+          <ScalarProperty Name="duongld" ColumnName="duongld" />
+          <ScalarProperty Name="so_119" ColumnName="so_119" />
+          <ScalarProperty Name="dt_lh" ColumnName="dt_lh" />
+          <ScalarProperty Name="camket" ColumnName="camket" />
+          <ScalarProperty Name="thtb" ColumnName="thtb" />
+          <ScalarProperty Name="ma_nvld" ColumnName="ma_nvld" />
+          <ScalarProperty Name="ma_nvkt" ColumnName="ma_nvkt" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="goi_th" ColumnName="goi_th" />
+          <ScalarProperty Name="e_mail" ColumnName="e_mail" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+          <ScalarProperty Name="ma_nhom" ColumnName="ma_nhom" />
+          <ScalarProperty Name="ma_tram" ColumnName="ma_tram" />
+          <ScalarProperty Name="xa_phuong" ColumnName="xa_phuong" />
+          <ScalarProperty Name="khom_ap" ColumnName="khom_ap" />
+          <ScalarProperty Name="duong" ColumnName="duong" />
+          <ScalarProperty Name="ma_km" ColumnName="ma_km" />
+          <ScalarProperty Name="dckd" ColumnName="dckd" />
+          <ScalarProperty Name="tenkhkd" ColumnName="tenkhkd" />
+          <ScalarProperty Name="note_ngay_kn" ColumnName="note_ngay_kn" />
+          <ScalarProperty Name="ngay_kn" ColumnName="ngay_kn" />
+          <ScalarProperty Name="ngan_hang" ColumnName="ngan_hang" />
+          <ScalarProperty Name="tai_khoan" ColumnName="tai_khoan" />
+          <ScalarProperty Name="ht_tt" ColumnName="ht_tt" />
+          <ScalarProperty Name="ms_thue" ColumnName="ms_thue" />
+          <ScalarProperty Name="user_login" ColumnName="user_login" />
+          <ScalarProperty Name="port" ColumnName="port" />
+          <ScalarProperty Name="slot" ColumnName="slot" />
+          <ScalarProperty Name="user_adsl" ColumnName="user_adsl" />
+          <ScalarProperty Name="system_id" ColumnName="system_id" />
+          <ScalarProperty Name="tinh_trang" ColumnName="tinh_trang" />
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="noi_cap" ColumnName="noi_cap" />
+          <ScalarProperty Name="ngay_cap" ColumnName="ngay_cap" />
+          <ScalarProperty Name="socmnd" ColumnName="socmnd" />
+          <ScalarProperty Name="tuyen_tc" ColumnName="tuyen_tc" />
+          <ScalarProperty Name="maxa" ColumnName="maxa" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="ht_ld" ColumnName="ht_ld" />
+          <ScalarProperty Name="loai_cap" ColumnName="loai_cap" />
+          <ScalarProperty Name="stb_serial" ColumnName="stb_serial" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="goi_cuoc" ColumnName="goi_cuoc" />
+          <ScalarProperty Name="ngay_hdl" ColumnName="ngay_hdl" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="ngay_ld" ColumnName="ngay_ld" />
+          <ScalarProperty Name="sohopdong" ColumnName="sohopdong" />
+          <ScalarProperty Name="ngay_hd" ColumnName="ngay_hd" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mytv_log">
+      <EntityTypeMapping TypeName="QLThuebaoModel.mytv_log">
+        <MappingFragment StoreEntitySet="mytv_log">
+          <ScalarProperty Name="id_nhom" ColumnName="id_nhom" />
+          <ScalarProperty Name="maychinh" ColumnName="maychinh" />
+          <ScalarProperty Name="id_goicuoc" ColumnName="id_goicuoc" />
+          <ScalarProperty Name="so_nhald" ColumnName="so_nhald" />
+          <ScalarProperty Name="so_nha" ColumnName="so_nha" />
+          <ScalarProperty Name="slg_cap" ColumnName="slg_cap" />
+          <ScalarProperty Name="loai_tb" ColumnName="loai_tb" />
+          <ScalarProperty Name="dt_lh" ColumnName="dt_lh" />
+          <ScalarProperty Name="camket" ColumnName="camket" />
+          <ScalarProperty Name="ldthtb" ColumnName="ldthtb" />
+          <ScalarProperty Name="lydocat" ColumnName="lydocat" />
+          <ScalarProperty Name="thtb" ColumnName="thtb" />
+          <ScalarProperty Name="ma_nvld" ColumnName="ma_nvld" />
+          <ScalarProperty Name="ma_nvkt" ColumnName="ma_nvkt" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+          <ScalarProperty Name="ma_nhom" ColumnName="ma_nhom" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="goi_th" ColumnName="goi_th" />
+          <ScalarProperty Name="ma_km" ColumnName="ma_km" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="thoi_gian" ColumnName="thoi_gian" />
+          <ScalarProperty Name="note_ngay_kn" ColumnName="note_ngay_kn" />
+          <ScalarProperty Name="ngay_kn" ColumnName="ngay_kn" />
+          <ScalarProperty Name="ngan_hang" ColumnName="ngan_hang" />
+          <ScalarProperty Name="tk_nh" ColumnName="tk_nh" />
+          <ScalarProperty Name="ht_tt" ColumnName="ht_tt" />
+          <ScalarProperty Name="ms_thue" ColumnName="ms_thue" />
+          <ScalarProperty Name="user_login" ColumnName="user_login" />
+          <ScalarProperty Name="port" ColumnName="port" />
+          <ScalarProperty Name="slot" ColumnName="slot" />
+          <ScalarProperty Name="tinh_trang" ColumnName="tinh_trang" />
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="noi_cap" ColumnName="noi_cap" />
+          <ScalarProperty Name="ngay_cap" ColumnName="ngay_cap" />
+          <ScalarProperty Name="socmnd" ColumnName="socmnd" />
+          <ScalarProperty Name="tuyen_tc" ColumnName="tuyen_tc" />
+          <ScalarProperty Name="maxa" ColumnName="maxa" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="ht_ld" ColumnName="ht_ld" />
+          <ScalarProperty Name="loai_cap" ColumnName="loai_cap" />
+          <ScalarProperty Name="stb_serial" ColumnName="stb_serial" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+          <ScalarProperty Name="goi_cuoc" ColumnName="goi_cuoc" />
+          <ScalarProperty Name="ngay_hdl" ColumnName="ngay_hdl" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="ngay_ld" ColumnName="ngay_ld" />
+          <ScalarProperty Name="sohopdong" ColumnName="sohopdong" />
+          <ScalarProperty Name="ngay_hd" ColumnName="ngay_hd" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="n_user_name" ColumnName="n_user_name" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nhanvien_cs_log">
+      <EntityTypeMapping TypeName="QLThuebaoModel.nhanvien_cs_log">
+        <MappingFragment StoreEntitySet="nhanvien_cs_log">
+          <ScalarProperty Name="thoi_gian" ColumnName="thoi_gian" />
+          <ScalarProperty Name="users" ColumnName="users" />
+          <ScalarProperty Name="diaban" ColumnName="diaban" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="kt" ColumnName="kt" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="ten_nv" ColumnName="ten_nv" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ds_119">
+      <EntityTypeMapping TypeName="QLThuebaoModel.ds_119">
+        <MappingFragment StoreEntitySet="ds_119">
+          <ScalarProperty Name="dckd" ColumnName="dckd" />
+          <ScalarProperty Name="tenkhkd" ColumnName="tenkhkd" />
+          <ScalarProperty Name="phonekt" ColumnName="phonekt" />
+          <ScalarProperty Name="phonekd" ColumnName="phonekd" />
+          <ScalarProperty Name="sendsms" ColumnName="sendsms" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="sNotes" ColumnName="sNotes" />
+          <ScalarProperty Name="dtRecvTime" ColumnName="dtRecvTime" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="dtfinished" ColumnName="dtfinished" />
+          <ScalarProperty Name="sCallerNo" ColumnName="sCallerNo" />
+          <ScalarProperty Name="sName" ColumnName="sName" />
+          <ScalarProperty Name="sDamagedPhoneNo" ColumnName="sDamagedPhoneNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="get_119_new" FunctionName="QLThuebaoModel.Store.get_119_new" />
+    <FunctionImportMapping FunctionImportName="SendSMS" FunctionName="QLThuebaoModel.Store.SendSMS" />
+    <EntitySetMapping Name="ma_diaban">
+      <EntityTypeMapping TypeName="QLThuebaoModel.ma_diaban">
+        <MappingFragment StoreEntitySet="ma_diaban">
+          <ScalarProperty Name="kt" ColumnName="kt" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="ten_tuyen" ColumnName="ten_tuyen" />
+          <ScalarProperty Name="ma_tuyen" ColumnName="ma_tuyen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="TKsoluongtbGanNV" FunctionName="QLThuebaoModel.Store.TKsoluongtbGanNV" />
+    <EntitySetMapping Name="rp_dsgan">
+      <EntityTypeMapping TypeName="QLThuebaoModel.rp_dsgan">
+        <MappingFragment StoreEntitySet="rp_dsgan">
+          <ScalarProperty Name="ten_nvkt" ColumnName="ten_nvkt" />
+          <ScalarProperty Name="ten_nv" ColumnName="ten_nv" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="ma_nvkt" ColumnName="ma_nvkt" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DSGanDiaban" FunctionName="QLThuebaoModel.Store.DSGanDiaban" />
+    <EntitySetMapping Name="rp_slg_diaban">
+      <EntityTypeMapping TypeName="QLThuebaoModel.rp_slg_diaban">
+        <MappingFragment StoreEntitySet="rp_slg_diaban">
+          <ScalarProperty Name="thang" ColumnName="thang" />
+          <ScalarProperty Name="tien" ColumnName="tien" />
+          <ScalarProperty Name="tienmy" ColumnName="tienmy" />
+          <ScalarProperty Name="tienftth" ColumnName="tienftth" />
+          <ScalarProperty Name="tienint" ColumnName="tienint" />
+          <ScalarProperty Name="tiengp" ColumnName="tiengp" />
+          <ScalarProperty Name="tiencd" ColumnName="tiencd" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="soluongmy" ColumnName="soluongmy" />
+          <ScalarProperty Name="soluongftth" ColumnName="soluongftth" />
+          <ScalarProperty Name="soluongint" ColumnName="soluongint" />
+          <ScalarProperty Name="soluonggp" ColumnName="soluonggp" />
+          <ScalarProperty Name="soluongcd" ColumnName="soluongcd" />
+          <ScalarProperty Name="ten_tuyen" ColumnName="ten_tuyen" />
+          <ScalarProperty Name="ma_tuyen" ColumnName="ma_tuyen" />
+          <ScalarProperty Name="ten_nv" ColumnName="ten_nv" />
+          <ScalarProperty Name="ma_nv" ColumnName="ma_nv" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ds_codinh">
+      <EntityTypeMapping TypeName="QLThuebaoModel.ds_codinh">
+        <MappingFragment StoreEntitySet="ds_codinh">
+          <ScalarProperty Name="ttin108s" ColumnName="ttin108s" />
+          <ScalarProperty Name="id_goicuoc" ColumnName="id_goicuoc" />
+          <ScalarProperty Name="slg_cap" ColumnName="slg_cap" />
+          <ScalarProperty Name="loai_cap" ColumnName="loai_cap" />
+          <ScalarProperty Name="so_nhald" ColumnName="so_nhald" />
+          <ScalarProperty Name="so_nha" ColumnName="so_nha" />
+          <ScalarProperty Name="kh_db" ColumnName="kh_db" />
+          <ScalarProperty Name="khom_apld" ColumnName="khom_apld" />
+          <ScalarProperty Name="xa_phuongld" ColumnName="xa_phuongld" />
+          <ScalarProperty Name="duongld" ColumnName="duongld" />
+          <ScalarProperty Name="dt_lh" ColumnName="dt_lh" />
+          <ScalarProperty Name="camket" ColumnName="camket" />
+          <ScalarProperty Name="thtb" ColumnName="thtb" />
+          <ScalarProperty Name="ma_nvld" ColumnName="ma_nvld" />
+          <ScalarProperty Name="ma_nvkt" ColumnName="ma_nvkt" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="goi_th" ColumnName="goi_th" />
+          <ScalarProperty Name="ma_km" ColumnName="ma_km" />
+          <ScalarProperty Name="e_mail" ColumnName="e_mail" />
+          <ScalarProperty Name="ngan_hang" ColumnName="ngan_hang" />
+          <ScalarProperty Name="tai_khoan" ColumnName="tai_khoan" />
+          <ScalarProperty Name="ngay_cap" ColumnName="ngay_cap" />
+          <ScalarProperty Name="noi_cap" ColumnName="noi_cap" />
+          <ScalarProperty Name="socmnd" ColumnName="socmnd" />
+          <ScalarProperty Name="ma_nhom" ColumnName="ma_nhom" />
+          <ScalarProperty Name="tbdc" ColumnName="tbdc" />
+          <ScalarProperty Name="khom_ap" ColumnName="khom_ap" />
+          <ScalarProperty Name="xa_phuong" ColumnName="xa_phuong" />
+          <ScalarProperty Name="duong" ColumnName="duong" />
+          <ScalarProperty Name="ngay" ColumnName="ngay" />
+          <ScalarProperty Name="cuoc" ColumnName="cuoc" />
+          <ScalarProperty Name="khg_vat" ColumnName="khg_vat" />
+          <ScalarProperty Name="ms_thue" ColumnName="ms_thue" />
+          <ScalarProperty Name="dckd" ColumnName="dckd" />
+          <ScalarProperty Name="tenkhkd" ColumnName="tenkhkd" />
+          <ScalarProperty Name="dau" ColumnName="dau" />
+          <ScalarProperty Name="note_ngay_kn" ColumnName="note_ngay_kn" />
+          <ScalarProperty Name="ngay_kn" ColumnName="ngay_kn" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="inct" ColumnName="inct" />
+          <ScalarProperty Name="thangbd" ColumnName="thangbd" />
+          <ScalarProperty Name="ngay_hd" ColumnName="ngay_hd" />
+          <ScalarProperty Name="sohopdong" ColumnName="sohopdong" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+          <ScalarProperty Name="mo_may" ColumnName="mo_may" />
+          <ScalarProperty Name="keo_may" ColumnName="keo_may" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="may_ngung" ColumnName="may_ngung" />
+          <ScalarProperty Name="ngay_mo" ColumnName="ngay_mo" />
+          <ScalarProperty Name="village" ColumnName="village" />
+          <ScalarProperty Name="ngay_ld" ColumnName="ngay_ld" />
+          <ScalarProperty Name="tb_dv" ColumnName="tb_dv" />
+          <ScalarProperty Name="tienno" ColumnName="tienno" />
+          <ScalarProperty Name="tien_tb" ColumnName="tien_tb" />
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="ma_tram" ColumnName="ma_tram" />
+          <ScalarProperty Name="tuyen_tc" ColumnName="tuyen_tc" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gphones">
+      <EntityTypeMapping TypeName="QLThuebaoModel.Gphone">
+        <MappingFragment StoreEntitySet="Gphone">
+          <ScalarProperty Name="ttin108s" ColumnName="ttin108s" />
+          <ScalarProperty Name="id_goicuoc" ColumnName="id_goicuoc" />
+          <ScalarProperty Name="so_nhald" ColumnName="so_nhald" />
+          <ScalarProperty Name="so_nha" ColumnName="so_nha" />
+          <ScalarProperty Name="khom_apld" ColumnName="khom_apld" />
+          <ScalarProperty Name="xa_phuongld" ColumnName="xa_phuongld" />
+          <ScalarProperty Name="duongld" ColumnName="duongld" />
+          <ScalarProperty Name="dt_lh" ColumnName="dt_lh" />
+          <ScalarProperty Name="camket" ColumnName="camket" />
+          <ScalarProperty Name="loai_tb" ColumnName="loai_tb" />
+          <ScalarProperty Name="thtb" ColumnName="thtb" />
+          <ScalarProperty Name="ma_nvld" ColumnName="ma_nvld" />
+          <ScalarProperty Name="ma_nvkt" ColumnName="ma_nvkt" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+          <ScalarProperty Name="ma_nghe" ColumnName="ma_nghe" />
+          <ScalarProperty Name="goi_th" ColumnName="goi_th" />
+          <ScalarProperty Name="ma_km" ColumnName="ma_km" />
+          <ScalarProperty Name="e_mail" ColumnName="e_mail" />
+          <ScalarProperty Name="goicuoc" ColumnName="goicuoc" />
+          <ScalarProperty Name="ma_nhom" ColumnName="ma_nhom" />
+          <ScalarProperty Name="ngay" ColumnName="ngay" />
+          <ScalarProperty Name="cuoc" ColumnName="cuoc" />
+          <ScalarProperty Name="kh_db" ColumnName="kh_db" />
+          <ScalarProperty Name="imei" ColumnName="imei" />
+          <ScalarProperty Name="seri" ColumnName="seri" />
+          <ScalarProperty Name="tbdc" ColumnName="tbdc" />
+          <ScalarProperty Name="khom_ap" ColumnName="khom_ap" />
+          <ScalarProperty Name="xa_phuong" ColumnName="xa_phuong" />
+          <ScalarProperty Name="duong" ColumnName="duong" />
+          <ScalarProperty Name="khg_vat" ColumnName="khg_vat" />
+          <ScalarProperty Name="ttin_khac" ColumnName="ttin_khac" />
+          <ScalarProperty Name="sohieu_nv" ColumnName="sohieu_nv" />
+          <ScalarProperty Name="nv_ld" ColumnName="nv_ld" />
+          <ScalarProperty Name="ptt_toan" ColumnName="ptt_toan" />
+          <ScalarProperty Name="ngan_hang" ColumnName="ngan_hang" />
+          <ScalarProperty Name="tai_khoan" ColumnName="tai_khoan" />
+          <ScalarProperty Name="chucvu" ColumnName="chucvu" />
+          <ScalarProperty Name="ng_daidien" ColumnName="ng_daidien" />
+          <ScalarProperty Name="dvgt" ColumnName="dvgt" />
+          <ScalarProperty Name="ngay_cap" ColumnName="ngay_cap" />
+          <ScalarProperty Name="noi_cap" ColumnName="noi_cap" />
+          <ScalarProperty Name="socmnd" ColumnName="socmnd" />
+          <ScalarProperty Name="ma_tram" ColumnName="ma_tram" />
+          <ScalarProperty Name="CellID" ColumnName="CellID" />
+          <ScalarProperty Name="ms_thue" ColumnName="ms_thue" />
+          <ScalarProperty Name="dckd" ColumnName="dckd" />
+          <ScalarProperty Name="tenkhkd" ColumnName="tenkhkd" />
+          <ScalarProperty Name="note_ngay_kn" ColumnName="note_ngay_kn" />
+          <ScalarProperty Name="ngay_kn" ColumnName="ngay_kn" />
+          <ScalarProperty Name="ngay_hd" ColumnName="ngay_hd" />
+          <ScalarProperty Name="ma_kh" ColumnName="ma_kh" />
+          <ScalarProperty Name="inct" ColumnName="inct" />
+          <ScalarProperty Name="tt_tb" ColumnName="tt_tb" />
+          <ScalarProperty Name="thangbd" ColumnName="thangbd" />
+          <ScalarProperty Name="sohopdong" ColumnName="sohopdong" />
+          <ScalarProperty Name="stt" ColumnName="stt" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="mo_may" ColumnName="mo_may" />
+          <ScalarProperty Name="keo_may" ColumnName="keo_may" />
+          <ScalarProperty Name="ngay_mo" ColumnName="ngay_mo" />
+          <ScalarProperty Name="ngay_ngung" ColumnName="ngay_ngung" />
+          <ScalarProperty Name="may_ngung" ColumnName="may_ngung" />
+          <ScalarProperty Name="tb_dv" ColumnName="tb_dv" />
+          <ScalarProperty Name="tienno" ColumnName="tienno" />
+          <ScalarProperty Name="tien_tb" ColumnName="tien_tb" />
+          <ScalarProperty Name="village" ColumnName="village" />
+          <ScalarProperty Name="ngay_ld" ColumnName="ngay_ld" />
+          <ScalarProperty Name="pl" ColumnName="pl" />
+          <ScalarProperty Name="tuyen_tc" ColumnName="tuyen_tc" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="dia_chitb" ColumnName="dia_chitb" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="ten_dktb" ColumnName="ten_dktb" />
+          <ScalarProperty Name="SoSim" ColumnName="SoSim" />
+          <ScalarProperty Name="so_dt" ColumnName="so_dt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tkloai119">
+      <EntityTypeMapping TypeName="QLThuebaoModel.tkloai119">
+        <MappingFragment StoreEntitySet="tkloai119">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sl" ColumnName="sl" />
+          <ScalarProperty Name="sstatus" ColumnName="sstatus" />
+          <ScalarProperty Name="istatusID" ColumnName="istatusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dssuaxong_119">
+      <EntityTypeMapping TypeName="QLThuebaoModel.dssuaxong_119">
+        <MappingFragment StoreEntitySet="dssuaxong_119">
+          <ScalarProperty Name="sohopdong" ColumnName="sohopdong" />
+          <ScalarProperty Name="ten_tram" ColumnName="ten_tram" />
+          <ScalarProperty Name="ma_tram" ColumnName="ma_tram" />
+          <ScalarProperty Name="tg" ColumnName="tg" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="sNotes" ColumnName="sNotes" />
+          <ScalarProperty Name="dtRecvTime" ColumnName="dtRecvTime" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="dc_tbld" ColumnName="dc_tbld" />
+          <ScalarProperty Name="ten_dkdb" ColumnName="ten_dkdb" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="sStatus" ColumnName="sStatus" />
+          <ScalarProperty Name="iStatusID" ColumnName="iStatusID" />
+          <ScalarProperty Name="bfinished" ColumnName="bfinished" />
+          <ScalarProperty Name="dtfinished" ColumnName="dtfinished" />
+          <ScalarProperty Name="sCallerNo" ColumnName="sCallerNo" />
+          <ScalarProperty Name="sName" ColumnName="sName" />
+          <ScalarProperty Name="sDamagedPhoneNo" ColumnName="sDamagedPhoneNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="TKDoanhThuGanNV" FunctionName="QLThuebaoModel.Store.TKDoanhThuGanNV" />
+    <EntitySetMapping Name="rp_dt_diaban">
+      <EntityTypeMapping TypeName="QLThuebaoModel.rp_dt_diaban">
+        <MappingFragment StoreEntitySet="rp_dt_diaban">
+          <ScalarProperty Name="thang" ColumnName="thang" />
+          <ScalarProperty Name="tien" ColumnName="tien" />
+          <ScalarProperty Name="tienmy" ColumnName="tienmy" />
+          <ScalarProperty Name="tienftth" ColumnName="tienftth" />
+          <ScalarProperty Name="tienint" ColumnName="tienint" />
+          <ScalarProperty Name="tiengp" ColumnName="tiengp" />
+          <ScalarProperty Name="tiencd" ColumnName="tiencd" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="soluongmy" ColumnName="soluongmy" />
+          <ScalarProperty Name="soluongftth" ColumnName="soluongftth" />
+          <ScalarProperty Name="soluongint" ColumnName="soluongint" />
+          <ScalarProperty Name="soluonggp" ColumnName="soluonggp" />
+          <ScalarProperty Name="soluongcd" ColumnName="soluongcd" />
+          <ScalarProperty Name="thangb" ColumnName="thangb" />
+          <ScalarProperty Name="tienb" ColumnName="tienb" />
+          <ScalarProperty Name="tienmyb" ColumnName="tienmyb" />
+          <ScalarProperty Name="tienftthb" ColumnName="tienftthb" />
+          <ScalarProperty Name="tienintb" ColumnName="tienintb" />
+          <ScalarProperty Name="tiengpb" ColumnName="tiengpb" />
+          <ScalarProperty Name="tiencdb" ColumnName="tiencdb" />
+          <ScalarProperty Name="soluongb" ColumnName="soluongb" />
+          <ScalarProperty Name="soluongmyb" ColumnName="soluongmyb" />
+          <ScalarProperty Name="soluongftthb" ColumnName="soluongftthb" />
+          <ScalarProperty Name="soluongintb" ColumnName="soluongintb" />
+          <ScalarProperty Name="soluonggpb" ColumnName="soluonggpb" />
+          <ScalarProperty Name="soluongcdb" ColumnName="soluongcdb" />
+          <ScalarProperty Name="ten_tuyen" ColumnName="ten_tuyen" />
+          <ScalarProperty Name="ma_tuyen" ColumnName="ma_tuyen" />
+          <ScalarProperty Name="ten_nv" ColumnName="ten_nv" />
+          <ScalarProperty Name="ma_nv" ColumnName="ma_nv" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khois">
+      <EntityTypeMapping TypeName="QLThuebaoModel.khoi">
+        <MappingFragment StoreEntitySet="khoi">
+          <ScalarProperty Name="ten_khoi" ColumnName="ten_khoi" />
+          <ScalarProperty Name="ma_khoi" ColumnName="ma_khoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KPOs">
+      <EntityTypeMapping TypeName="QLThuebaoModel.KPOs">
+        <MappingFragment StoreEntitySet="KPOs">
+          <ScalarProperty Name="ma_vien_canh" ColumnName="ma_vien_canh" />
+          <ScalarProperty Name="sap_xep" ColumnName="sap_xep" />
+          <ScalarProperty Name="ky_thuat" ColumnName="ky_thuat" />
+          <ScalarProperty Name="ten_kpos" ColumnName="ten_kpos" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vien_canh">
+      <EntityTypeMapping TypeName="QLThuebaoModel.vien_canh">
+        <MappingFragment StoreEntitySet="vien_canh">
+          <ScalarProperty Name="sap_xep" ColumnName="sap_xep" />
+          <ScalarProperty Name="ten_vien_canh" ColumnName="ten_vien_canh" />
+          <ScalarProperty Name="ma_vien_canh" ColumnName="ma_vien_canh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phong_huyen">
+      <EntityTypeMapping TypeName="QLThuebaoModel.Phong_huyen">
+        <MappingFragment StoreEntitySet="Phong_huyen">
+          <ScalarProperty Name="kythuat" ColumnName="kythuat" />
+          <ScalarProperty Name="nhom" ColumnName="nhom" />
+          <ScalarProperty Name="ten_dv" ColumnName="ten_dv" />
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+          <ScalarProperty Name="ma_khoi" ColumnName="ma_khoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="QLThuebaoModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="xemBSC" ColumnName="xemBSC" />
+          <ScalarProperty Name="adminBSC_TTKD" ColumnName="adminBSC_TTKD" />
+          <ScalarProperty Name="adminBSC_VTT" ColumnName="adminBSC_VTT" />
+          <ScalarProperty Name="kt" ColumnName="kt" />
+          <ScalarProperty Name="admin119" ColumnName="admin119" />
+          <ScalarProperty Name="huyentd" ColumnName="huyentd" />
+          <ScalarProperty Name="themes" ColumnName="themes" />
+          <ScalarProperty Name="lan_dau" ColumnName="lan_dau" />
+          <ScalarProperty Name="lock_usr" ColumnName="lock_usr" />
+          <ScalarProperty Name="admin" ColumnName="admin" />
+          <ScalarProperty Name="sua" ColumnName="sua" />
+          <ScalarProperty Name="m_menu" ColumnName="m_menu" />
+          <ScalarProperty Name="e_mail" ColumnName="e_mail" />
+          <ScalarProperty Name="connecting" ColumnName="connecting" />
+          <ScalarProperty Name="huyen" ColumnName="huyen" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+          <ScalarProperty Name="namsinh" ColumnName="namsinh" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="m_password" ColumnName="m_password" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sKPOes">
+      <EntityTypeMapping TypeName="QLThuebaoModel.sKPO">
+        <MappingFragment StoreEntitySet="sKPO">
+          <ScalarProperty Name="sap_xep" ColumnName="sap_xep" />
+          <ScalarProperty Name="ky_thuat" ColumnName="ky_thuat" />
+          <ScalarProperty Name="ten_kpo" ColumnName="ten_kpo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="chi_tieu_ca_nhan">
+      <EntityTypeMapping TypeName="QLThuebaoModel.chi_tieu_ca_nhan">
+        <MappingFragment StoreEntitySet="chi_tieu_ca_nhan">
+          <ScalarProperty Name="id_nv_cs" ColumnName="id_nv_cs" />
+          <ScalarProperty Name="id_kpi" ColumnName="id_kpi" />
+          <ScalarProperty Name="tytrong_th" ColumnName="tytrong_th" />
+          <ScalarProperty Name="chitieu_th" ColumnName="chitieu_th" />
+          <ScalarProperty Name="tytrong_giao" ColumnName="tytrong_giao" />
+          <ScalarProperty Name="chitieu_giao" ColumnName="chitieu_giao" />
+          <ScalarProperty Name="sanluong" ColumnName="sanluong" />
+          <ScalarProperty Name="sl_quydoi" ColumnName="sl_quydoi" />
+          <ScalarProperty Name="tytrong" ColumnName="tytrong" />
+          <ScalarProperty Name="thang_nvcs" ColumnName="thang_nvcs" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="chi_tieu_huyen">
+      <EntityTypeMapping TypeName="QLThuebaoModel.chi_tieu_huyen">
+        <MappingFragment StoreEntitySet="chi_tieu_huyen">
+          <ScalarProperty Name="ty_trong_thuc_hien" ColumnName="ty_trong_thuc_hien" />
+          <ScalarProperty Name="chi_tieu_thuc_hien" ColumnName="chi_tieu_thuc_hien" />
+          <ScalarProperty Name="trong_so_giao" ColumnName="trong_so_giao" />
+          <ScalarProperty Name="chi_tieu_giao" ColumnName="chi_tieu_giao" />
+          <ScalarProperty Name="qui" ColumnName="qui" />
+          <ScalarProperty Name="ma_dv" ColumnName="ma_dv" />
+          <ScalarProperty Name="id_kpis" ColumnName="id_kpis" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KPIs">
+      <EntityTypeMapping TypeName="QLThuebaoModel.KPI">
+        <MappingFragment StoreEntitySet="KPIs">
+          <ScalarProperty Name="sap_xep" ColumnName="sap_xep" />
+          <ScalarProperty Name="loai_dvt" ColumnName="loai_dvt" />
+          <ScalarProperty Name="dvt" ColumnName="dvt" />
+          <ScalarProperty Name="ky_thuat" ColumnName="ky_thuat" />
+          <ScalarProperty Name="id_kpos" ColumnName="id_kpos" />
+          <ScalarProperty Name="ma_cha" ColumnName="ma_cha" />
+          <ScalarProperty Name="ten_kpis" ColumnName="ten_kpis" />
+          <ScalarProperty Name="ma_kpis" ColumnName="ma_kpis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sKPIs">
+      <EntityTypeMapping TypeName="QLThuebaoModel.sKPI">
+        <MappingFragment StoreEntitySet="sKPI">
+          <ScalarProperty Name="loai_dvt" ColumnName="loai_dvt" />
+          <ScalarProperty Name="dvt" ColumnName="dvt" />
+          <ScalarProperty Name="id_kpo" ColumnName="id_kpo" />
+          <ScalarProperty Name="id_kpis" ColumnName="id_kpis" />
+          <ScalarProperty Name="tong_hop" ColumnName="tong_hop" />
+          <ScalarProperty Name="sap_xep" ColumnName="sap_xep" />
+          <ScalarProperty Name="ky_thuat" ColumnName="ky_thuat" />
+          <ScalarProperty Name="id_cha" ColumnName="id_cha" />
+          <ScalarProperty Name="ten_kpi" ColumnName="ten_kpi" />
+          <ScalarProperty Name="ma_kpi" ColumnName="ma_kpi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nhanvien_cs">
+      <EntityTypeMapping TypeName="QLThuebaoModel.nhanvien_cs">
+        <MappingFragment StoreEntitySet="nhanvien_cs">
+          <ScalarProperty Name="id_donvi" ColumnName="id_donvi" />
+          <ScalarProperty Name="diaban" ColumnName="diaban" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="kt" ColumnName="kt" />
+          <ScalarProperty Name="ma_huyen" ColumnName="ma_huyen" />
+          <ScalarProperty Name="ten_nv" ColumnName="ten_nv" />
+          <ScalarProperty Name="ma_nvcs" ColumnName="ma_nvcs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

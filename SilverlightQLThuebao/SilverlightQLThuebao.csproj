@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B531381B-10E0-4E98-8589-C4DC3716941A}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SilverlightQLThuebao</RootNamespace>
+    <AssemblyName>SilverlightQLThuebao</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>SilverlightQLThuebao.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>SilverlightQLThuebao.App</SilverlightAppEntry>
+    <TestPageFileName>SilverlightQLThuebaoTestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <EnableOutOfBrowser>false</EnableOutOfBrowser>
+    <OutOfBrowserSettingsFile>Properties\OutOfBrowserSettings.xml</OutOfBrowserSettingsFile>
+    <UsePlatformExtensions>false</UsePlatformExtensions>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <LinkedServerProject>..\SilverlightQLThuebao.Web\SilverlightQLThuebao.Web.csproj</LinkedServerProject>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v12.1.Core, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v12.1.Core, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Charts.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Core.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Core.v12.1.Extensions, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Docking.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Grid.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Grid.v12.1.Core, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Layout.v12.1.Core, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.LayoutControl.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.PivotGrid.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Printing.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Printing.v12.1.Core, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Ribbon.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Scheduler.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Themes.DeepBlue.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Black.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Blue.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.VS2010.v12.1, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.1.Core, Version=12.1.8.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="mscorlib" />
+    <Reference Include="SilverlightXoSo">
+      <HintPath>..\..\SilverlightXoSo\SilverlightXoSo\Bin\Debug\SilverlightXoSo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations, Version=5.0.5.0, Culture=neutral, PublicKeyToken=ddd0da4d3e678217, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.DomainServices.Client" />
+    <Reference Include="System.ServiceModel.DomainServices.Client.Web" />
+    <Reference Include="System.ServiceModel.Web.Extensions, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Data.Input, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Windows.Data, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChildWindow1.xaml.cs">
+      <DependentUpon>ChildWindow1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converter.cs" />
+    <Compile Include="Forms\BosungCat\frmcatcd.xaml.cs">
+      <DependentUpon>frmcatcd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BosungCat\frmcatgp.xaml.cs">
+      <DependentUpon>frmcatgp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BosungCat\frmcatint.xaml.cs">
+      <DependentUpon>frmcatint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BosungCat\frmcatmy.xaml.cs">
+      <DependentUpon>frmcatmy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BSC\frmbscnld.xaml.cs">
+      <DependentUpon>frmbscnld.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\BSC\frmbsctinh.xaml.cs">
+      <DependentUpon>frmbsctinh.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DXPopup.xaml.cs">
+      <DependentUpon>DXPopup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm1080.xaml.cs">
+      <DependentUpon>frm1080.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmabout.xaml.cs">
+      <DependentUpon>frmabout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmapkhom.xaml.cs">
+      <DependentUpon>frmapkhom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmbao119.xaml.cs">
+      <DependentUpon>frmbao119.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmchart.xaml.cs">
+      <DependentUpon>frmchart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmchoso119.xaml.cs">
+      <DependentUpon>frmchoso119.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmcscodinh.xaml.cs">
+      <DependentUpon>frmcscodinh.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmcsgphone.xaml.cs">
+      <DependentUpon>frmcsgphone.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmcsint.xaml.cs">
+      <DependentUpon>frmcsint.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmcsmytv.xaml.cs">
+      <DependentUpon>frmcsmytv.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmdataview.xaml.cs">
+      <DependentUpon>frmdataview.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmdataviewstop.xaml.cs">
+      <DependentUpon>frmdataviewstop.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmdiabancs.xaml.cs">
+      <DependentUpon>frmdiabancs.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmdiachi.xaml.cs">
+      <DependentUpon>frmdiachi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmdoiaccount.xaml.cs">
+      <DependentUpon>frmdoiaccount.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmdoiaccountmytv.xaml.cs">
+      <DependentUpon>frmdoiaccountmytv.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmdoimk.xaml.cs">
+      <DependentUpon>frmdoimk.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmds119.xaml.cs">
+      <DependentUpon>frmds119.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmdsbdcodinh.xaml.cs">
+      <DependentUpon>frmdsbdcodinh.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmdsbdgphone.xaml.cs">
+      <DependentUpon>frmdsbdgphone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmdsbdint.xaml.cs">
+      <DependentUpon>frmdsbdint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmdsbdmytv.xaml.cs">
+      <DependentUpon>frmdsbdmytv.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmdscodinh.xaml.cs">
+      <DependentUpon>frmdscodinh.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmdsgandiaban.xaml.cs">
+      <DependentUpon>frmdsgandiaban.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmdsgphone.xaml.cs">
+      <DependentUpon>frmdsgphone.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmdsinternet.xaml.cs">
+      <DependentUpon>frmdsinternet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmdsmytv.xaml.cs">
+      <DependentUpon>frmdsmytv.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmdstam.xaml.cs">
+      <DependentUpon>frmdstam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmduong.xaml.cs">
+      <DependentUpon>frmduong.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BosungCat\frmeditcd.xaml.cs">
+      <DependentUpon>frmeditcd.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\BosungCat\frmeditgp.xaml.cs">
+      <DependentUpon>frmeditgp.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\BosungCat\frmeditint.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>frmeditint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BosungCat\frmeditmy.xaml.cs">
+      <DependentUpon>frmeditmy.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmgoicuoc.xaml.cs">
+      <DependentUpon>frmgoicuoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmhdcoquan.xaml.cs">
+      <DependentUpon>frmhdcoquan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Hopdong\frmhopdongcd.xaml.cs">
+      <DependentUpon>frmhopdongcd.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\Hopdong\frmhopdonggp.xaml.cs">
+      <DependentUpon>frmhopdonggp.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\Hopdong\frmhopdongint.xaml.cs">
+      <DependentUpon>frmhopdongint.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\Hopdong\frmhopdongmy.xaml.cs">
+      <DependentUpon>frmhopdongmy.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmkhdoanhnghiep.xaml.cs">
+      <DependentUpon>frmkhdoanhnghiep.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmkhuyenmai.xaml.cs">
+      <DependentUpon>frmkhuyenmai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmktcodinh.xaml.cs">
+      <DependentUpon>frmktcodinh.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmktgphone.xaml.cs">
+      <DependentUpon>frmktgphone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmktint.xaml.cs">
+      <DependentUpon>frmktint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmktmytv.xaml.cs">
+      <DependentUpon>frmktmytv.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmlogcatmo.xaml.cs">
+      <DependentUpon>frmlogcatmo.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmlogcodinh.xaml.cs">
+      <DependentUpon>frmlogcodinh.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmloggphone.xaml.cs">
+      <DependentUpon>frmloggphone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmlogint.xaml.cs">
+      <DependentUpon>frmlogint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmlogmytv.xaml.cs">
+      <DependentUpon>frmlogmytv.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmlogusers.xaml.cs">
+      <DependentUpon>frmlogusers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmmonitor.xaml.cs">
+      <DependentUpon>frmmonitor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmmoso.xaml.cs">
+      <DependentUpon>frmmoso.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmnhanviencs.xaml.cs">
+      <DependentUpon>frmnhanviencs.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmnhapap.xaml.cs">
+      <DependentUpon>frmnhapap.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmnhapdiaban.xaml.cs">
+      <DependentUpon>frmnhapdiaban.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmnhapkm.xaml.cs">
+      <DependentUpon>frmnhapkm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmnhapnv.xaml.cs">
+      <DependentUpon>frmnhapnv.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmdsnhom.xaml.cs">
+      <DependentUpon>frmdsnhom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmnhapnvcs.xaml.cs">
+      <DependentUpon>frmnhapnvcs.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmnhaptram.xaml.cs">
+      <DependentUpon>frmnhaptram.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmnhapuser.xaml.cs">
+      <DependentUpon>frmnhapuser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmnhapxa.xaml.cs">
+      <DependentUpon>frmnhapxa.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmnhiemthucd.xaml.cs">
+      <DependentUpon>frmnhiemthucd.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmnhiemthugp.xaml.cs">
+      <DependentUpon>frmnhiemthugp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmsuaxong.xaml.cs">
+      <DependentUpon>frmsuaxong.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmsuaxong119.xaml.cs">
+      <DependentUpon>frmsuaxong119.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmtestf.xaml.cs">
+      <DependentUpon>frmtestf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmthemsonhom.xaml.cs">
+      <DependentUpon>frmthemsonhom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmthuethu.xaml.cs">
+      <DependentUpon>frmthuethu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmthuhoitb.xaml.cs">
+      <DependentUpon>frmthuhoitb.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmtimint.xaml.cs">
+      <DependentUpon>frmtimint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkbd.xaml.cs">
+      <DependentUpon>frmtkbd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkcatmo.xaml.cs">
+      <DependentUpon>frmtkcatmo.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkckcodinh.xaml.cs">
+      <DependentUpon>frmtkckcodinh.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkckgphone.xaml.cs">
+      <DependentUpon>frmtkckgphone.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkckint.xaml.cs">
+      <DependentUpon>frmtkckint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkckmytv.xaml.cs">
+      <DependentUpon>frmtkckmytv.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmtkdtgandb.xaml.cs">
+      <DependentUpon>frmtkdtgandb.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkkm.xaml.cs">
+      <DependentUpon>frmtkkm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtklydocat.xaml.cs">
+      <DependentUpon>frmtklydocat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkptcodinh.xaml.cs">
+      <DependentUpon>frmtkptcodinh.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkptgphone.xaml.cs">
+      <DependentUpon>frmtkptgphone.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkptint.xaml.cs">
+      <DependentUpon>frmtkptint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Thongke\frmtkptmytv.xaml.cs">
+      <DependentUpon>frmtkptmytv.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmtkslgandb.xaml.cs">
+      <DependentUpon>frmtkslgandb.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmtramvt.xaml.cs">
+      <DependentUpon>frmtramvt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmtuyenthu.xaml.cs">
+      <DependentUpon>frmtuyenthu.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmusers.xaml.cs">
+      <DependentUpon>frmusers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmxaphuong.xaml.cs">
+      <DependentUpon>frmxaphuong.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\frmxoalog.xaml.cs">
+      <DependentUpon>frmxoalog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FunAndPro.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\frmreport.xaml.cs">
+      <DependentUpon>frmreport.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reports\frmreportMyTv.xaml.cs">
+      <DependentUpon>frmreportMyTv.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmreportNT.xaml.cs">
+      <DependentUpon>frmreportNT.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reports\frmreportNTMy.xaml.cs">
+      <DependentUpon>frmreportNTMy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmtest.xaml.cs">
+      <DependentUpon>frmtest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\UploadService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="ChildWindow1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\BosungCat\frmcatcd.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\BosungCat\frmcatgp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\BosungCat\frmcatint.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\BosungCat\frmcatmy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\BSC\frmbscnld.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\BSC\frmbsctinh.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\DXPopup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frm1080.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmabout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmapkhom.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmbao119.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmchart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmchoso119.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmcscodinh.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmcsgphone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmcsint.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmcsmytv.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdataview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdataviewstop.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmdiabancs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdiachi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdoiaccount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdoiaccountmytv.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmdoimk.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmds119.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdsbdcodinh.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdsbdgphone.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmdsbdint.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmdsbdmytv.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmdscodinh.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdsgandiaban.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmdsgphone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdsinternet.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmdsmytv.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdstam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmduong.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\BosungCat\frmeditcd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\BosungCat\frmeditgp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\BosungCat\frmeditint.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\BosungCat\frmeditmy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmgoicuoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmhdcoquan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Hopdong\frmhopdongcd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Hopdong\frmhopdonggp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Hopdong\frmhopdongint.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Hopdong\frmhopdongmy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmkhdoanhnghiep.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmkhuyenmai.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmktcodinh.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmktgphone.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmktint.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmktmytv.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmlogcatmo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmlogcodinh.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmloggphone.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmlogint.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmlogmytv.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmlogusers.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmmonitor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmmoso.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmnhanviencs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmnhapap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmnhapdiaban.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmnhapkm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmnhapnv.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmdsnhom.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmnhapnvcs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmnhaptram.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmnhapuser.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmnhapxa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmnhiemthucd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmnhiemthugp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmsuaxong.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmsuaxong119.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmtestf.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmthemsonhom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmthuethu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmthuhoitb.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmtimint.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkbd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkcatmo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkckcodinh.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkckgphone.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkckint.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkckmytv.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmtkdtgandb.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkkm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\Thongke\frmtklydocat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkptcodinh.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkptgphone.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkptint.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\Thongke\frmtkptmytv.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmtkslgandb.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmtramvt.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmtuyenthu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmusers.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\frmxaphuong.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\frmxoalog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reports\frmreport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reports\frmreportMyTv.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reports\frmreportNT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reports\frmreportNTMy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Reports\frmtest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Service References\UploadService\service.wsdl" />
+    <None Include="Service References\UploadService\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UploadService\service1.wsdl" />
+    <None Include="Service References\UploadService\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UploadService\SilverlightQLThuebao.UploadService.PictureFile.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UploadService\SilverlightQLThuebao.UploadService.UploadFile.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UploadService\SilverlightQLThuebao.Web.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Resource Include="Images\backward.png" />
+    <Resource Include="Images\forwardB.png" />
+    <Content Include="ServiceReferences.ClientConfig">
+      <SubType>Designer</SubType>
+    </Content>
+    <Resource Include="Images\cut_32_32.png" />
+    <Resource Include="Images\pencil.png" />
+    <Resource Include="Images\exec.png" />
+    <Resource Include="Images\technology.png" />
+    <Resource Include="Images\Change_16x16.png" />
+    <Resource Include="Images\About.png" />
+    <Resource Include="Images\Help.png" />
+    <Resource Include="Images\silverlight.png" />
+    <Resource Include="Images\LightGray.jpg" />
+    <Resource Include="Images\LightGray_48x48.png" />
+    <Resource Include="Images\sticker_blue.png" />
+    <Resource Include="Images\hd_internet.png" />
+    <Resource Include="Images\hd_new_internet.png" />
+    <Resource Include="Images\internet.png" />
+    <Resource Include="Images\internet_downloads_folder.png" />
+    <Resource Include="Images\internet_options.png" />
+    <Resource Include="Images\texture_apple.png" />
+    <Resource Include="Images\Forward.png" />
+    <Resource Include="Images\ItemProperties.Icon.png" />
+    <Resource Include="Images\Search.png" />
+    <Resource Include="Images\canvas.png" />
+    <Resource Include="Images\Background1.jpg" />
+    <Resource Include="Images\background2.jpg" />
+    <Resource Include="Images\background3.jpg" />
+    <Resource Include="Images\background4.jpg" />
+    <Resource Include="Images\bgform.png" />
+    <Resource Include="Images\telephone_119.png" />
+    <Resource Include="Images\sms.png" />
+    <Resource Include="Images\Wallpaper.jpg" />
+    <Resource Include="Images\man_dbrown.png" />
+    <Resource Include="Images\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Addcolor_32x32.png" />
+    <Resource Include="Images\AddCustomer_32x32.png" />
+    <Resource Include="Images\Add_16x16.png" />
+    <Resource Include="Images\Album_32x32.png" />
+    <Resource Include="Images\bg_body-blue.jpg" />
+    <Resource Include="Images\BO_Notes_Large.png" />
+    <Resource Include="Images\BO_Reports_Large.png" />
+    <Resource Include="Images\close-32x32.png" />
+    <Resource Include="Images\Close_16x16.png" />
+    <Resource Include="Images\CustomerRevenue_32x32.png" />
+    <Resource Include="Images\DeepBlue.png" />
+    <Resource Include="Images\Delete_16x16.png" />
+    <Resource Include="Images\Demo_Collection_Properties_Audit_32x32.png" />
+    <Resource Include="Images\Demo_KeyProperty_String_32x32.png" />
+    <Resource Include="Images\Demo_ListEditors_Grid_32x32.png" />
+    <Resource Include="Images\Demo_ListEditors_PivotGrid_32x32.png" />
+    <Resource Include="Images\Demo_String_InSpecialFormat_Properties_32x32.png" />
+    <Resource Include="Images\Edit_16x16.png" />
+    <Resource Include="Images\Expand_16x16.png" />
+    <Resource Include="Images\Filter_16x16.png" />
+    <Resource Include="Images\Find_16x16.png" />
+    <Resource Include="Images\image1.png" />
+    <Resource Include="Images\keys-32x32.png" />
+    <Resource Include="Images\Kind_32x32.png" />
+    <Resource Include="Images\Palette_32x32.png" />
+    <Resource Include="Images\Period_32x32.png" />
+    <Resource Include="Images\PictureBox_16x16.png" />
+    <Resource Include="Images\print-16x16.png" />
+    <Resource Include="Images\Refresh_32x32.png" />
+    <Resource Include="Images\Reset_16x16.png" />
+    <Resource Include="Images\save-16x16.png" />
+    <Resource Include="Images\Search_16x16.png" />
+    <Resource Include="Images\Select_16x16.png" />
+    <Resource Include="Images\swoosh.png" />
+    <Resource Include="Images\UserKey_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Gphone_32x32.png" />
+    <Resource Include="Images\telephone_add.png" />
+    <Resource Include="Images\television_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Codinh_32x32.png" />
+    <Resource Include="Images\telephone_edit.png" />
+    <Resource Include="Images\tv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\telephone_blue.png" />
+    <Resource Include="Images\telephone_delete.png" />
+    <Resource Include="Images\television_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tv1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bookcase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\contents.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\telephone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\New_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\stop-16x16.png" />
+    <Resource Include="Images\Stop1-16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Customer_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Monitor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Logfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Refresh_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\GenerateData_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="alarm.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\speaker.png" />
+    <Resource Include="Images\speakerSilent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\SelectAll_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\th.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Palette_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\kcall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Demo_ListEditors_Chart_Bar_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevExpress.Xpf.Grid.Extensions.SL\DevExpress.Xpf.Grid.Extensions.SL.csproj">
+      <Project>{42C128EC-2AB5-418D-A9AE-BF6534E03955}</Project>
+      <Name>DevExpress.Xpf.Grid.Extensions.SL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\UploadService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UploadService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UploadService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\UploadService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

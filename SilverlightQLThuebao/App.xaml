@@ -1,0 +1,7 @@
+<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             x:Class="SilverlightQLThuebao.App" xmlns:my="clr-namespace:System;assembly=mscorlib">
+  <Application.Resources>
+    <my:String x:Key="DevExpress.Xpf.License">97-A4-83-D7-EA-30-0A-48-64-02-D1-22-B4-99-04-35-A2-C5-94-50</my:String>
+  </Application.Resources>
+</Application>

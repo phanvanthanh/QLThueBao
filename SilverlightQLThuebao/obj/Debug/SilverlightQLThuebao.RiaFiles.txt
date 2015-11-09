@@ -1,0 +1,2 @@
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao
+Generated_Code\SilverlightQLThuebao.Web.g.cs

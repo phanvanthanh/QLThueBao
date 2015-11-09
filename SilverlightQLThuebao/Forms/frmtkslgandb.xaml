@@ -1,0 +1,94 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmtkslgandb" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    mc:Ignorable="d" Width="829" Height="535" Title="Danh sách thống kê số lượng giao địa bàn" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" FontSize="13" KeepPosition="False" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">    
+    
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Background>
+            <ImageBrush ImageSource="/SilverlightQLThuebao;component/Images/bgform.png" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />           
+        </Grid.RowDefinitions>
+        
+        <dxg:GridControl Name="grid" Grid.Row="1" FontFamily=".VnAvant" FontSize="13">            
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Name="ma_huyen" FieldName="ma_huyen" Header="HuyÖn" Width="65" />
+                <dxg:GridColumn Name="ma_nv" FieldName="ma_nv" Header="M· NV" Width="80" />
+                <dxg:GridColumn Name="ten_nv" FieldName="ten_nv" Header="Tªn nh©n viªn:" Width="240" />
+                <dxg:GridColumn Name="ma_tuyen" FieldName="ma_tuyen" Header="M· tuyÕn" Width="120" />
+                <dxg:GridColumn Name="ten_tuyen" FieldName="ten_tuyen" Header=" Tªn TuyÕn " Width="450" />
+                <dxg:GridColumn Name="soluongcd" FieldName="soluongcd" Header="Cè ®Þnh" Width="80"/>
+                <dxg:GridColumn Name="soluonggp" FieldName="soluonggp" Header="Gphone" Width="80"/>
+                <dxg:GridColumn Name="soluongmy" FieldName="soluongmy" Header="MyTV" Width="80"/>
+                <dxg:GridColumn Name="soluongint" FieldName="soluongint" Header="MegaVNN" Width="80"/>
+                <dxg:GridColumn Name="soluongftth" FieldName="soluongftth" Header="FTTH" Width="80"/>
+                <dxg:GridColumn Name="soluong" FieldName="soluong" Header="Tæng céng" Width="80"/>
+                <dxg:GridColumn Name="tien" FieldName="tien" Header="Tiền" Width="100">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:TextEditSettings MaskType="Numeric" Mask="n2" DisplayFormat="### ### ###"/>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <!--<dxg:GridColumn Name="note" FieldName="note" Header="Ghi chó" Width="270"/>-->
+           
+            <dxg:GridColumn Name="tiencd" FieldName="tiencd" Header="Tiền CĐ" Width="100">
+                <dxg:GridColumn.EditSettings>
+                    <dxe:TextEditSettings MaskType="Numeric" Mask="n2" DisplayFormat="### ### ###"/>
+                </dxg:GridColumn.EditSettings>
+            </dxg:GridColumn>
+                 
+            <dxg:GridColumn Name="tiengp" FieldName="tiengp" Header="Tiền GP" Width="100">
+                <dxg:GridColumn.EditSettings>
+                    <dxe:TextEditSettings MaskType="Numeric" Mask="n2" DisplayFormat="### ### ###"/>
+                </dxg:GridColumn.EditSettings>
+            </dxg:GridColumn>
+                <dxg:GridColumn Name="tienmy" FieldName="tienmy" Header="Tiền MYTV" Width="100">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:TextEditSettings MaskType="Numeric" Mask="n2" DisplayFormat="### ### ###"/>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+
+                <dxg:GridColumn Name="tienint" FieldName="tienint" Header="Tiền MeGa" Width="100">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:TextEditSettings MaskType="Numeric" Mask="n2" DisplayFormat="### ### ###"/>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn Name="tienftth" FieldName="tienftth" Header="Tiền FTTH" Width="100">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:TextEditSettings MaskType="Numeric" Mask="n2" DisplayFormat="### ### ###"/>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <!--<dxg:GridColumn Name="note" FieldName="note" Header="Ghi chó" Width="270"/>-->
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" ShowGroupedColumns="False" Name="view" FontSize="13" ShowGroupPanel="False" AllowHorizontalScrollingVirtualization="False" MultiSelectMode="Cell">
+                    <dxg:TableView.RowCellMenuCustomizations>
+                        <dxb:BarButtonItem Name="in1Item" Content="In chi tiết từng người" Glyph="/SilverlightQLThuebao;component/Images/print-16x16.png" GlyphSize="Default" ItemClick="in1Item_ItemClick"/>
+                        <dxb:BarButtonItem Name="inAllItem" Content="In chi tiết trống" Glyph="/SilverlightQLThuebao;component/Images/print-16x16.png" GlyphSize="Default" ItemClick="inAllItem_ItemClick"/>
+                        <dxb:BarButtonItem Name="inItem" Content="In chi tiết tất cả" Glyph="/SilverlightQLThuebao;component/Images/print-16x16.png" GlyphSize="Default" ItemClick="inItem_ItemClick"/>
+                    </dxg:TableView.RowCellMenuCustomizations>                       
+                </dxg:TableView>                   
+            </dxg:GridControl.View>
+            <!--<dxg:GridControl.GroupSummary>
+                <dxg:GridSummaryItem FieldName="soluong" SummaryType="Sum"/>               
+            </dxg:GridControl.GroupSummary>-->
+        </dxg:GridControl>
+        
+        <RadioButton Content="Theo nhân viên      " Height="20" HorizontalAlignment="Right" Margin="0,6,151,0" Name="rdnhanvien" VerticalAlignment="Top" Checked="rdnhanvien_Checked" />
+        <RadioButton Content="Theo từng khu vực" Height="20" HorizontalAlignment="Right" Margin="0,25,157,0" Name="rddiaban" VerticalAlignment="Top" Checked="rddiaban_Checked" />
+        <Button FontSize="12" Height="30" HorizontalAlignment="Right" Margin="700,0,20,3" Name="XemButton" Click="XemButton_Click" Width="100" Grid.Row="0">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Filter_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="8,0,0,0" Text="Xem" Width="52" />
+            </StackPanel>
+        </Button>
+        <TextBlock Height="39" HorizontalAlignment="Left" Margin="10,6,0,0" Name="label1" VerticalAlignment="Top" Width="303" Text="Không tính các khách hàng cắt, ngưng và cắt ngưng nửa tháng đầu" FontSize="14" Foreground="#FFE7F56B" TextWrapping="Wrap" />
+        <TextBlock Height="20" HorizontalAlignment="Right" Margin="0,15,435,0" VerticalAlignment="Top" Width="60" Text="Tháng" FontSize="13" Visibility="Collapsed" />
+        <dxe:DateEdit Name="thang" DisplayFormatString="MM/yyyy" Mask="MM/yyyy" FontSize="13" Height="23" HorizontalAlignment="Right" Margin="0,1,325,0" Width="120" Visibility="Collapsed" />
+    </Grid>
+</dx:DXWindow>

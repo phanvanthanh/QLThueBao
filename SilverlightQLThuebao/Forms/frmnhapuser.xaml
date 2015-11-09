@@ -1,0 +1,72 @@
+﻿<controls:ChildWindow x:Class="SilverlightQLThuebao.frmnhapuser"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="526" Height="310" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" Closed="ChildWindow_Closed" xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" Title="User" FontSize="12">
+    <Grid x:Name="LayoutRoot" Margin="2" Height="271" Width="502">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="194*" />            
+            <RowDefinition Height="35" />
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Silver" BorderThickness="1" HorizontalAlignment="Left" Margin="2,2,0,0" Name="border2" Height="232" Width="500" />
+        <Button x:Name="CancelButton" Click="CancelButton_Click" Width="80" Height="23" HorizontalAlignment="Right" Margin="0,6,3,6" Grid.Row="1" TabIndex="12" FontSize="13">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Đóng" Margin="4,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <Button x:Name="OKButton" Click="OKButton_Click"  Width="80" Height="23" HorizontalAlignment="Left" Margin="331,6,0,6" Grid.Row="1" TabIndex="11" FontSize="13">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/save-16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Lưu" Margin="10,0,0,0" FontSize="13" Width="42" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <dxe:TextEdit HorizontalAlignment="Left" Margin="87,26,0,0" Name="txtusername" VerticalAlignment="Top" Width="150" FontSize="13" TabIndex="0" />
+        <sdk:Label Height="28" HorizontalAlignment="Left" Margin="12,25,0,0" Name="label1" VerticalAlignment="Top" Width="120" Content="Username" FontSize="13" />
+        <dxe:TextEdit FontFamily=".VnAvant" FontSize="13" HorizontalAlignment="Left" Margin="87,57,0,0" Name="txthoten" VerticalAlignment="Top" Width="335" TabIndex="2" />
+        <sdk:Label Content="Password" FontSize="13" Height="28" HorizontalAlignment="Left" Margin="245,25,0,0" Name="label2" VerticalAlignment="Top" Width="120" />
+        <dxe:DateEdit HorizontalAlignment="Left" Margin="87,88,0,0" Name="dngaysinh" VerticalAlignment="Top" Width="150" FontSize="13" TabIndex="3" Mask="dd/MM/yyyy" MaskAllowNullInput="False" DisplayFormatString="dd/MM/yyyy" />
+        <sdk:Label Content="Họ tên" FontSize="13" Height="28" HorizontalAlignment="Left" Margin="12,57,0,0" Name="label3" VerticalAlignment="Top" Width="120" />
+        <sdk:Label Content="Ngày sinh" FontSize="13" Height="23" HorizontalAlignment="Left" Margin="12,88,0,0" Name="label4" VerticalAlignment="Top" Width="80" />
+        <sdk:Label Content="Điện thoại" FontSize="13" Height="23" HorizontalAlignment="Left" Margin="245,88,0,0" Name="label5" VerticalAlignment="Top" Width="68" />
+        <dxe:CheckEdit HorizontalAlignment="Left" Margin="425,58,0,0" Name="chkgt" VerticalAlignment="Top" Width="74" Content="Là nam" FontSize="13" IsChecked="True" />
+        <dxe:TextEdit FontSize="13" HorizontalAlignment="Left" Margin="319,88,0,0" Name="txtphone" VerticalAlignment="Top" Width="175" TabIndex="4" />
+        <dxe:CheckEdit Content="Admin" FontSize="13" HorizontalAlignment="Left" IsChecked="False" Margin="296,206,0,0" Name="chkadmin" VerticalAlignment="Top" Width="109" TabIndex="10" Height="19" />
+        <dxe:CheckEdit Content="Admin119" FontSize="13" HorizontalAlignment="Left" IsChecked="False" Margin="386,206,0,0" Name="chkadmin119" VerticalAlignment="Top" Width="109" TabIndex="10" Height="19" />
+        <dxe:CheckEdit Content="Sửa dữ liệu" FontSize="13" HorizontalAlignment="Left" IsChecked="False" Margin="86,205,0,0" Name="chkSua" VerticalAlignment="Top" Width="104" TabIndex="8" />
+        <dxe:CheckEdit Content="Lockuser" FontSize="13" HorizontalAlignment="Left" IsChecked="False" Margin="201,205,0,0" Name="chklock" VerticalAlignment="Top" Width="104" TabIndex="9" />
+        <Border Background="SteelBlue" BorderBrush="Silver" BorderThickness="1" Height="18" HorizontalAlignment="Left" Margin="1,2,0,0" Name="border4" VerticalAlignment="Top" Width="500">
+            <Grid Height="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        </Border>        
+        <TextBlock FontSize="11" FontWeight="Bold" Foreground="White" Height="17" Margin="1,0,1,216" Name="textBlock2" Text="     Thông tin chung" VerticalAlignment="Bottom" />
+        <Border Background="SteelBlue" BorderBrush="Silver" BorderThickness="1" Height="18" HorizontalAlignment="Left" Margin="1,150,0,0" Name="border1" VerticalAlignment="Top" Width="500">
+            <Grid Height="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="45*" />
+                    <ColumnDefinition Width="453*" />
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </Border>
+        <TextBlock FontSize="11" FontWeight="Bold" Foreground="White" Height="17" Margin="-3,0,-2,69" Name="textBlock1" Text="     Thông tin sử dụng" VerticalAlignment="Bottom" />
+        <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="87,175,0,0" Name="cmbmenu" VerticalAlignment="Top" Width="407" TabIndex="7" FontSize="13">
+            <dxe:ComboBoxEdit.StyleSettings>
+                <dxe:CheckedComboBoxStyleSettings />
+            </dxe:ComboBoxEdit.StyleSettings>
+        </dxe:ComboBoxEdit>
+        <sdk:Label Content="Menu SD" FontSize="13" HorizontalAlignment="Left" Margin="17,175,0,38" Name="label7" Width="75" />
+        <dxe:PasswordBoxEdit HorizontalAlignment="Left" Margin="317,26,0,0" Name="txtpass" VerticalAlignment="Top" Width="177" FontSize="13" TabIndex="1" />
+        <dxe:ComboBoxEdit FontFamily=".VnAvant" FontSize="13" HorizontalAlignment="Left" Margin="87,120,0,0" MaskAllowNullInput="False" Name="cmbhuyen" TabIndex="5" VerticalAlignment="Top" Width="150"/>         
+        <sdk:Label Content="Đơn vị" FontSize="13" Height="23" HorizontalAlignment="Left" Margin="11,120,0,0" Name="label6" VerticalAlignment="Top" Width="80" />
+        <dxe:ComboBoxEdit FontFamily=".VnAvant" FontSize="13" HorizontalAlignment="Left" Margin="319,120,0,0" MaskAllowNullInput="False" Name="cmbhuyentd" TabIndex="5" VerticalAlignment="Top" Width="175">
+            <dxe:ComboBoxEdit.StyleSettings>
+                <dxe:CheckedComboBoxStyleSettings />
+            </dxe:ComboBoxEdit.StyleSettings>
+        </dxe:ComboBoxEdit>
+        <sdk:Label Content="TK dữ liệu" FontSize="13" Height="23" HorizontalAlignment="Left" Margin="245,120,0,0" Name="label8" VerticalAlignment="Top" Width="68" />
+       
+    </Grid>
+</controls:ChildWindow>

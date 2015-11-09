@@ -1,0 +1,61 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frm1080" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    mc:Ignorable="d" Width="679" Height="332" Title="" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors">
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <dxg:GridControl AutoPopulateColumns="True" Grid.Row="2" Name="gridControl1" FontFamily=".VnAvant" FontSize="13">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Name="ma_huyen" FieldName="ma_huyen" Header="HuyÖn" Width="80"  VisibleIndex="0" Fixed="Left"/>
+                <dxg:GridColumn Name="may_ngung" FieldName="may_ngung" Header="TT" Width="50"  VisibleIndex="1" Fixed="Left"/>
+                <dxg:GridColumn Name="so_dt" FieldName="so_dt" Header="Sè §T" Width="100"  VisibleIndex="2" Fixed="Left"/>
+                <dxg:GridColumn Name="tentb" FieldName="ten_dktb" Header="Tªn thuª bao" Width="220" VisibleIndex="3" />
+                <dxg:GridColumn Name="diachidb" FieldName="dc_tbld" Header="§Þa chØ l¾p ®Æt" Width="280" VisibleIndex="4" />
+                <dxg:GridColumn Name="ttin108s" FieldName="ttin108s" Header="Th«ng tin 1080" Width="280" VisibleIndex="5" KeyDown="ttin108s_KeyDown" />
+             </dxg:GridControl.Columns>            
+                <dxg:GridControl.View>
+                <dxg:TableView Name="tableView1" ShowTotalSummary="False" ShowGroupPanel="False" ShowIndicator="False" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <dxlc:LayoutControl Name="layoutControl1">
+            <dxlc:LayoutGroup Orientation="Vertical">
+                <dxlc:LayoutGroup>
+                    <dxlc:LayoutItem Label="Số điện thoại" Name="layoutItem1" Width="329" FontSize="13">
+                        <dxe:TextEdit Name="txtsodt" FontFamily=".VnAvant" FontSize="13" Height="23" MaskType="Numeric" Mask="#######" KeyDown="txtsodt_KeyDown" />
+                    </dxlc:LayoutItem>
+                    <dxlc:LayoutItem Label=" " Name="layoutItem3"/>                   
+                </dxlc:LayoutGroup>
+                <dxlc:LayoutItem Label="Tên thuê bao" Name="layoutItem2" FontSize="13">
+                    <dxe:TextEdit Name="txttentb" FontFamily=".VnAvant" FontSize="13" Height="23" KeyDown="txttentb_KeyDown"/>
+                </dxlc:LayoutItem>
+                <dxlc:LayoutItem Label="Địa chỉ lắp đặt" Name="layoutItem5" FontSize="13">
+                    <dxe:TextEdit Name="txtdcld" FontFamily=".VnAvant" FontSize="13" Height="23" KeyDown="txtdcld_KeyDown"/>
+                </dxlc:LayoutItem>
+                <dxlc:LayoutItem Label="Thông tin 1080" Name="layoutItem6" FontSize="13">
+                    <dxe:TextEdit Name="txtttin108" FontFamily=".VnAvant" FontSize="13" Height="23" KeyDown="txtttin108_KeyDown"/>
+                </dxlc:LayoutItem>
+            </dxlc:LayoutGroup>
+        </dxlc:LayoutControl>
+        <Button Grid.Row="1" Height="23" HorizontalAlignment="Right" Margin="0,4,140,0" Name="cmdsearch" VerticalAlignment="Top" Width="100" Click="cmdsearch_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Search_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="3,0,0,0" Text="Tìm kiếm" Width="72" />
+            </StackPanel>
+        </Button>
+        <Button Grid.Row="1" Height="23" HorizontalAlignment="Right" Margin="0,4,28,0" Name="cmbnew" VerticalAlignment="Top" Width="100" Click="cmbnew_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/New_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="3,0,0,0" Text="Tìm mới" Width="72" />
+            </StackPanel>
+        </Button>
+    </Grid>
+</dx:DXWindow>

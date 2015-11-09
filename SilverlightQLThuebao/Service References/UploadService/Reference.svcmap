@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="495f5b22-d0de-44d1-ab0a-f9bb037f6962" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8824/Upload.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="6fd33067-2a30-4d1f-8633-ae6de0d88f45" SourceId="1" SourceUrl="http://localhost:8824/Upload.svc/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="60dcf6bb-1202-4b2e-9beb-b857b28565b6" SourceId="1" SourceUrl="http://localhost:8824/Upload.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="f8a1b658-b381-457e-8790-9209c7408e3c" SourceId="1" SourceUrl="http://localhost:8824/Upload.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="385e43ff-8739-45a3-a053-dd43f8270cce" SourceId="1" SourceUrl="http://localhost:8824/Upload.svc/mex" />
+    <MetadataFile FileName="SilverlightQLThuebao.Web.xsd" MetadataType="Schema" ID="c1cdd2c6-a4ed-42ab-b90d-71c8be976a77" SourceId="1" SourceUrl="http://localhost:8824/Upload.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

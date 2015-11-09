@@ -1,0 +1,90 @@
+(
+	from ds_codinh in db.Ds_codinh
+	where
+	  ds_codinh.Tuyen_tc != ""
+	select new {
+	  ds_codinh.Tuyen_tc
+	}
+).Concat
+(
+	from gphone in db.Gphone
+	where
+	  gphone.Tuyen_tc != ""
+	select new {
+	  Tuyen_tc = gphone.Tuyen_tc
+	}
+).Concat
+(
+	from mytv in db.Mytv
+	where
+	  mytv.Tuyen_tc != ""
+	group mytv by new {
+	  mytv.Tuyen_tc
+	} into g
+	select new {
+	  Tuyen_tc = g.Key.Tuyen_tc
+	}
+)
+.OrderBy(p => p.Tuyen_tc)
+
+
+//
+var queryDs_codinh =
+	from ds_codinh in db.Ds_codinh
+	select ds_codinh;
+foreach (var ds_codinh in queryDs_codinh)
+{
+	ds_codinh.Ma_kh = 
+		((from nhom_kh in db.Nhom_kh
+		where
+		  nhom_kh.So_dt = nhom_kh.So_dt
+		select new {
+		  nhom_kh.Ma_kh
+		}).Take(1).First().Ma_kh);
+}
+db.SubmitChanges();
+
+
+//
+(
+	from ds_codinh in db.Ds_codinh
+	where
+	  ds_codinh.Ma_huyen == "CTH"
+	select new {
+	  ds_codinh.So_dt,
+	  ds_codinh.Ten_dktb,
+	  ds_codinh.Ten_dkdb,
+	  ds_codinh.Dia_chitb,
+	  ds_codinh.Dc_tbld,
+	  Stt = (System.Decimal?)ds_codinh.Stt,
+	  ds_codinh.Tuyen_tc
+	}
+).Concat
+(
+	from gphone in db.Gphone
+	where
+	  gphone.Ma_huyen == "CTH"
+	select new {
+	  So_dt = gphone.So_dt,
+	  Ten_dktb = gphone.Ten_dktb,
+	  Ten_dkdb = gphone.Ten_dkdb,
+	  Dia_chitb = gphone.Dia_chitb,
+	  Dc_tbld = gphone.Dc_tbld,
+	  Stt = (System.Decimal?)gphone.Stt,
+	  Tuyen_tc = gphone.Tuyen_tc
+	}
+).Concat
+(
+	from mytv in db.Mytv
+	where
+	  mytv.Ma_huyen == "CTH"
+	select new {
+	  So_dt = mytv.User_name,
+	  Ten_dktb = mytv.Ten_dktb,
+	  Ten_dkdb = mytv.Ten_dkdb,
+	  Dia_chitb = mytv.Dia_chitb,
+	  Dc_tbld = mytv.Dc_tbld,
+	  Stt = (System.Decimal?)0,
+	  Tuyen_tc = mytv.Tuyen_tc
+	}
+)

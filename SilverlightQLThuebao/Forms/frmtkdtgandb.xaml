@@ -1,0 +1,127 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmtkdtgandb" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:dxgext="clr-namespace:DevExpress.Xpf.Grid;assembly=DevExpress.Xpf.Grid.v12.1.Extensions"
+     xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    mc:Ignorable="d" Width="829" Height="535" Title="Danh sách thống kê số lượng giao địa bàn" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" FontSize="13" KeepPosition="False" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">    
+    
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Background>
+            <ImageBrush ImageSource="/SilverlightQLThuebao;component/Images/bgform.png" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />           
+        </Grid.RowDefinitions>
+        
+        <dxg:GridControl Name="grid" Grid.Row="1" FontFamily=".VnAvant" FontSize="13" >
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Header=" "  dxg:BandedViewBehavior.Column="0" dxg:BandedViewBehavior.ColumnSpan="5" dxg:BandedViewBehavior.IsBand="True" FixedWidth="False" />
+                <dxg:GridColumn FieldName="ma_huyen" Header="Huyªn" dxg:BandedViewBehavior.Column="0" dxg:BandedViewBehavior.Row="1" Visibility="Collapsed"/>
+                <dxg:GridColumn FieldName="ma_nv" Header="M· NV" dxg:BandedViewBehavior.Column="1" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="ma_tuyen" Name="ma_tuyen" Header="M· tuyÕn" dxg:BandedViewBehavior.Column="2" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="ten_nv" Header="Tªn NV" dxg:BandedViewBehavior.Column="3" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="ten_tuyen" Name="ten_tuyen" Header="Tªn tuyÕn" dxg:BandedViewBehavior.Column="4" dxg:BandedViewBehavior.Row="1" />
+               
+                <dxg:GridColumn Header="thangtruoc" Name="thangtruoc" dxg:BandedViewBehavior.Column="5" dxg:BandedViewBehavior.ColumnSpan="12" dxg:BandedViewBehavior.IsBand="True" Width="1200" />
+                <dxg:GridColumn FieldName="soluongcdb" Header="SL CĐ" dxg:BandedViewBehavior.Column="5" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="soluonggpb" Header="SL GP" dxg:BandedViewBehavior.Column="6" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="soluongmyb" Header="SL MY" dxg:BandedViewBehavior.Column="7" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="soluongintb" Header="SL ADSL" dxg:BandedViewBehavior.Column="8" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="soluonggpb" Header="SL FIB" dxg:BandedViewBehavior.Column="9" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="soluongb" Header="Tæng" dxg:BandedViewBehavior.Column="10" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tiencdb" Header="TiÒn C§" dxg:BandedViewBehavior.Column="11" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tiengpb" Header="TiÒn GP" dxg:BandedViewBehavior.Column="12" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tienmyb" Header="TiÒn MY" dxg:BandedViewBehavior.Column="13" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tienintb" Header="TiÒn ADSL" dxg:BandedViewBehavior.Column="14" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tienftthb" Header="TiÒn FIB" dxg:BandedViewBehavior.Column="15" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tienb" Header="TiÒn FIB" dxg:BandedViewBehavior.Column="16" dxg:BandedViewBehavior.Row="1" />
+
+                <dxg:GridColumn Header="thangtruoc" Name="thanghientai" dxg:BandedViewBehavior.Column="17" dxg:BandedViewBehavior.ColumnSpan="12" dxg:BandedViewBehavior.IsBand="True" Width="1200" />
+                <dxg:GridColumn FieldName="soluongcd" Header="SL CĐ" dxg:BandedViewBehavior.Column="17" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="soluonggp" Header="SL GP" dxg:BandedViewBehavior.Column="18" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="soluongmy" Header="SL MY" dxg:BandedViewBehavior.Column="19" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="soluongint" Header="SL ADSL" dxg:BandedViewBehavior.Column="20" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="soluongftth" Header="SL FIB" dxg:BandedViewBehavior.Column="21" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="soluong" Header="Tæng" dxg:BandedViewBehavior.Column="22" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tiencd" Header="TiÒn C§" dxg:BandedViewBehavior.Column="23" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tiengp" Header="TiÒn GP" dxg:BandedViewBehavior.Column="24" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tienmy" Header="TiÒn MY" dxg:BandedViewBehavior.Column="25" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tienint" Header="TiÒn ADSL" dxg:BandedViewBehavior.Column="26" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tienftth" Header="TiÒn FIB" dxg:BandedViewBehavior.Column="27" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="tien" Header="TiÒn" dxg:BandedViewBehavior.Column="28" dxg:BandedViewBehavior.Row="1" />
+
+                
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" VerticalScrollbarVisibility="Auto"  ShowGroupedColumns="False" Name="view" FontSize="13" ShowGroupPanel="False" MultiSelectMode="Cell" >
+                    <i:Interaction.Behaviors>
+                        <dxg:BandedViewBehavior>
+                            <dxg:BandedViewBehavior.ColumnDefinitions>
+                                <dxg:ColumnDefinition Width="80" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100"/>
+                                <dxg:ColumnDefinition Width="300"/>
+                                <dxg:ColumnDefinition Width="300" />
+                                
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                
+                                <dxg:ColumnDefinition Width="150" />
+                                <dxg:ColumnDefinition Width="150" />
+                                <dxg:ColumnDefinition Width="150" />
+                                <dxg:ColumnDefinition Width="150" />
+                                <dxg:ColumnDefinition Width="150" />
+                                <dxg:ColumnDefinition Width="150" />
+                                
+                                
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <!--<dxg:ColumnDefinition Width="100" />-->
+                                
+                                
+                            </dxg:BandedViewBehavior.ColumnDefinitions>
+                            <dxg:BandedViewBehavior.RowDefinitions>
+                                <dxg:RowDefinition Height="Auto" />
+                                <dxg:RowDefinition Height="Auto" />
+                            </dxg:BandedViewBehavior.RowDefinitions>
+                            <dxg:BandedViewBehavior.TemplatesContainer>
+                                <dxg:TemplatesContainer />
+                            </dxg:BandedViewBehavior.TemplatesContainer>
+                        </dxg:BandedViewBehavior>
+                    </i:Interaction.Behaviors>
+                </dxg:TableView>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        
+        <RadioButton Content="Theo nhân viên      " Height="20" HorizontalAlignment="Right" Margin="0,6,151,0" Name="rdnhanvien" VerticalAlignment="Top" Checked="rdnhanvien_Checked" />
+        <RadioButton Content="Theo từng khu vực" Height="20" HorizontalAlignment="Right" Margin="0,25,157,0" Name="rddiaban" VerticalAlignment="Top" Checked="rddiaban_Checked" />
+        <Button FontSize="12" Height="30" HorizontalAlignment="Right" Margin="700,0,20,3" Name="XemButton" Click="XemButton_Click" Width="100" Grid.Row="0">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Filter_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="8,0,0,0" Text="Xem" Width="52" />
+            </StackPanel>
+        </Button>
+        <TextBlock Height="39" HorizontalAlignment="Left" Margin="10,6,0,0" Name="label1" VerticalAlignment="Top" Width="303" Text="Không tính các khách hàng cắt, ngưng và cắt ngưng nửa tháng đầu" FontSize="14" Foreground="#FFE7F56B" TextWrapping="Wrap" />
+        <TextBlock Height="20" HorizontalAlignment="Right" Margin="0,15,435,0" VerticalAlignment="Top" Width="60" Text="Tháng" FontSize="13" />
+        <dxe:DateEdit Name="thang" DisplayFormatString="MM/yyyy" Mask="MM/yyyy" FontSize="13" Height="23" HorizontalAlignment="Right" Margin="0,1,325,0" Width="120"  />
+    </Grid>
+</dx:DXWindow>

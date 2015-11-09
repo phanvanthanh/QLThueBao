@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <customBinding>
+                <binding name="CustomBinding_Upload">
+                    <textMessageEncoding messageVersion="Default" writeEncoding="utf-8" />
+                    <httpTransport maxReceivedMessageSize="2147483647" maxBufferSize="2147483647" />
+                </binding>
+            </customBinding>
+        </bindings>
+        <client>
+            <endpoint address="../Upload.svc" binding="customBinding"
+                bindingConfiguration="CustomBinding_Upload" contract="UploadService.Upload"
+                name="CustomBinding_Upload" />
+        </client>
+    </system.serviceModel>
+</configuration>

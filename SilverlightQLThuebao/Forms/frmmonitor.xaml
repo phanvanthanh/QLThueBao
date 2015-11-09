@@ -1,0 +1,95 @@
+﻿<controls:ChildWindow x:Class="SilverlightQLThuebao.frmmonitor"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="960" Height="600" 
+           Title="" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors">
+    <Grid x:Name="LayoutRoot" Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="76*" />
+            <RowDefinition Height="450*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Silver" BorderThickness="1" Height="72" HorizontalAlignment="Left" Name="border1" VerticalAlignment="Top" Width="937" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Button x:Name="CancelButton" Click="CancelButton_Click" Width="95" Height="23" HorizontalAlignment="Right" Grid.Row="3" Grid.Column="1" Margin="0,11,1,2" FontSize="13" TabIndex="30">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Đóng" Margin="2,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <Button  FontSize="13" Height="23" HorizontalAlignment="Right" Margin="1,11,105,1" Name="OKButton" Width="95" Grid.Row="2" Click="OKButton_Click">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/save-16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="T.hiện" Margin="2,0,0,0" FontSize="13" Width="63" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+
+        <dxg:GridControl AutoPopulateColumns="True" Name="gridControl1" Grid.Row="1" FontFamily=".VnAvant" FontSize="13" >
+            <dxg:GridControl.Columns>
+               <!--<dxg:GridColumn Name="colSelect" FieldName="check" >
+                    <dxg:GridColumn.CellTemplate>
+                    <DataTemplate>
+                       <CheckBox Name="chkPerson" VerticalAlignment="Center" IsChecked="false"  HorizontalAlignment="Center" HorizontalContentAlignment="Center"/>
+                    </DataTemplate>
+                    </dxg:GridColumn.CellTemplate>
+                </dxg:GridColumn>-->
+                <dxg:GridColumn FieldName="logic" Header="" Name="check" ReadOnly="False" Width="30" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                <dxg:GridColumn FieldName="so_dt" Header="Sè ®iÖn tho¹i" Name="sodt" ReadOnly="True" Width="110" />
+                <dxg:GridColumn FieldName="ten_yc" Header="Tªn yªu cÇu" Name="ten_yc" ReadOnly="True" Width="200" />
+                <dxg:GridColumn FieldName="dlu" Header="Dlu" Name="dlu" ReadOnly="True" Width="50" />
+                <dxg:GridColumn FieldName="shell" Header="Shell" Name="shell" ReadOnly="True" Width="50" />
+                <dxg:GridColumn FieldName="card" Header="Card" Name="card" ReadOnly="True" Width="55" />
+                <dxg:GridColumn FieldName="port" Header="Port" Name="port" ReadOnly="True" Width="50" />
+                <dxg:GridColumn FieldName="frame" Header="Frame" Name="frame" ReadOnly="True" Width="65" />
+                <dxg:GridColumn FieldName="slot" Header="Slot" Name="slot" ReadOnly="True" Width="50" />
+                <dxg:GridColumn Name="tg_yc" FieldName="tg_yc" Header="Thêi gian" Width="140">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy hh:mm:ss}" Mask="dd/MM/yyyy hh:mm:ss" MaskType="DateTime" PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="ma_yc" Header="M· yªu cÇu" Name="ma_yc" ReadOnly="True" Width="220" Visible="False" />
+                <dxg:GridColumn FieldName="nguoi_yc" Header="Ng­êi yªu cÇu" Name="nguoi_yc" ReadOnly="True" Width="120" />
+                <dxg:GridColumn FieldName="ma_huyen" Header="HuyÖn" Name="ma_huyen" ReadOnly="True" Width="60" />
+                <dxg:GridColumn FieldName="ten_dktb" Header="Tªn thuª bao" Name="ten_dktb" ReadOnly="True" Width="220" />                
+                <dxg:GridColumn FieldName="dia_chitb" Header="§Þa chØ thuª bao" Name="ghi_chu" Width="250" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="True" AllowGrouping="True" AllowHorizontalScrollingVirtualization="False" IsColumnMenuEnabled="False" IsGroupPanelMenuEnabled="False" IsRowCellMenuEnabled="False" Name="tableView1" ShowFilterPanelMode="Never" ShowGroupPanel="False" ShowGroupedColumns="False" ShowIndicator="False" MultiSelectMode="Row" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <Ellipse Fill="Green" Height="40" Width="40" HorizontalAlignment="Left" Margin="53,8,0,0" Name="TVH" Stroke="DarkOrange" StrokeThickness="1" VerticalAlignment="Top"  MouseLeftButtonDown="TVH_MouseLeftButtonDown" />
+        <sdk:Label Height="28" HorizontalAlignment="Left" Margin="43,45,0,3" Content="Trà Vinh" VerticalAlignment="Center" Width="75" FontSize="13" FontStretch="Normal" FontWeight="Bold" Foreground="DarkCyan" VerticalContentAlignment="Top" />
+        <Ellipse Fill="Green" Height="40" HorizontalAlignment="Left" Margin="153,8,0,0" Name="CLG" Stroke="DarkOrange" StrokeThickness="1" VerticalAlignment="Top" Width="40" MouseLeftButtonDown="CLG_MouseLeftButtonDown" />
+        <sdk:Label Content="Càng Long" FontSize="13" FontStretch="Normal" FontWeight="Bold" Foreground="DarkCyan" Height="28" HorizontalAlignment="Left" Margin="133,45,0,3" Name="label1" VerticalAlignment="Center" VerticalContentAlignment="Top" Width="88" />
+        <Ellipse Fill="Green" Height="40" HorizontalAlignment="Left" Margin="253,8,0,0" Name="TCN" Stroke="DarkOrange" StrokeThickness="1" VerticalAlignment="Top" Width="40" MouseLeftButtonDown="TCN_MouseLeftButtonDown" />
+        <sdk:Label Content="Tiểu Cần" FontSize="13" FontStretch="Normal" FontWeight="Bold" Foreground="DarkCyan" Height="28" HorizontalAlignment="Left" Margin="243,45,0,3" VerticalAlignment="Center" VerticalContentAlignment="Top" Width="88" />
+        <Ellipse Fill="Green" Height="40" HorizontalAlignment="Left" Margin="353,8,0,0" Name="CKE" Stroke="DarkOrange" StrokeThickness="1" VerticalAlignment="Top" Width="40" MouseLeftButtonDown="CKE_MouseLeftButtonDown" />
+        <sdk:Label Content="Cầu Kè" FontSize="13" FontStretch="Normal" FontWeight="Bold" Foreground="DarkCyan" Height="28" HorizontalAlignment="Left" Margin="348,45,0,3" VerticalAlignment="Center" VerticalContentAlignment="Top" Width="88" />
+        <Ellipse Fill="Green" Height="40" HorizontalAlignment="Left" Margin="453,8,0,0" Name="CTH" Stroke="DarkOrange" StrokeThickness="1" VerticalAlignment="Top" Width="40" MouseLeftButtonDown="CTH_MouseLeftButtonDown" />
+        <sdk:Label Content="Châu Thành" FontSize="13" FontStretch="Normal" FontWeight="Bold" Foreground="DarkCyan" Height="28" HorizontalAlignment="Left" Margin="433,45,0,3" VerticalAlignment="Center" VerticalContentAlignment="Top" Width="88" />
+        <Ellipse Fill="Green" Height="40" HorizontalAlignment="Left" Margin="553,8,0,0" Name="TCU" Stroke="DarkOrange" StrokeThickness="1" VerticalAlignment="Top" Width="40" MouseLeftButtonDown="TCU_MouseLeftButtonDown" />
+        <sdk:Label Content="Trà Cú" FontSize="13" FontStretch="Normal" FontWeight="Bold" Foreground="DarkCyan" Height="28" HorizontalAlignment="Left" Margin="553,45,0,3" VerticalAlignment="Center" VerticalContentAlignment="Top" Width="88" />
+        <Ellipse Fill="Green" Height="40" HorizontalAlignment="Left" Margin="653,8,0,0" Name="CNG" Stroke="DarkOrange" StrokeThickness="1" VerticalAlignment="Top" Width="40" MouseLeftButtonDown="CNG_MouseLeftButtonDown" />
+        <sdk:Label Content="Cầu Ngang" FontSize="13" FontStretch="Normal" FontWeight="Bold" Foreground="DarkCyan" Height="28" HorizontalAlignment="Left" Margin="638,45,0,3"  VerticalAlignment="Center" VerticalContentAlignment="Top" Width="88" />
+        <Ellipse Fill="Green" Height="40" HorizontalAlignment="Left" Margin="753,8,0,0" Name="DHI" Stroke="DarkOrange" StrokeThickness="1" VerticalAlignment="Top" Width="40" MouseLeftButtonDown="DHI_MouseLeftButtonDown" />
+        <sdk:Label Content="Duyên Hải" FontSize="13" FontStretch="Normal" FontWeight="Bold" Foreground="DarkCyan" Height="28" HorizontalAlignment="Left" Margin="738,45,0,3" VerticalAlignment="Center" VerticalContentAlignment="Top" Width="88" />
+        <dxe:CheckEdit HorizontalAlignment="Left" Margin="854,48,0,0" Name="chkall" VerticalAlignment="Top" Width="72" Content="All" FontSize="13" Foreground="CadetBlue" FontWeight="Bold" IsChecked="True" />
+        <MediaElement x:Name="media" Width="40" Height="30" Margin="810,-25,0,0" AutoPlay="False" Source="/SilverlightQLThuebao;component/alarm.mp3"/>
+        <StackPanel Orientation="Horizontal">
+            <Image Source="/SilverlightQLThuebao;component/Images/speaker.png" Width="32" Height="32" Margin="855,-25,0,0" Name="speaker" MouseLeftButtonDown="speaker_MouseLeftButtonDown" />            
+        </StackPanel>
+        <Button  FontSize="13" Height="23" HorizontalAlignment="Left" Margin="1,11,0,1" Name="CmdExpand" Width="95" Grid.Row="2" Click="CmdExpand_Click">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Select_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="+/-" Margin="10,0,0,0" FontSize="13" Width="50" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+
+    </Grid>
+</controls:ChildWindow>

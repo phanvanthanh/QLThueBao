@@ -1,0 +1,156 @@
+(
+	from ds_codinh in db.Ds_codinh
+	where
+	  ds_codinh.Tuyen_tc != ""
+	select new {
+	  ds_codinh.Tuyen_tc
+	}
+).Concat
+(
+	from gphone in db.Gphone
+	where
+	  gphone.Tuyen_tc != ""
+	select new {
+	  Tuyen_tc = gphone.Tuyen_tc
+	}
+).Concat
+(
+	from mytv in db.Mytv
+	where
+	  mytv.Tuyen_tc != ""
+	group mytv by new {
+	  mytv.Tuyen_tc
+	} into g
+	select new {
+	  Tuyen_tc = g.Key.Tuyen_tc
+	}
+)
+.OrderBy(p => p.Tuyen_tc)
+
+
+//
+var queryDs_codinh =
+	from ds_codinh in db.Ds_codinh
+	select ds_codinh;
+foreach (var ds_codinh in queryDs_codinh)
+{
+	ds_codinh.Ma_kh = 
+		((from nhom_kh in db.Nhom_kh
+		where
+		  nhom_kh.So_dt = nhom_kh.So_dt
+		select new {
+		  nhom_kh.Ma_kh
+		}).Take(1).First().Ma_kh);
+}
+db.SubmitChanges();
+
+
+//
+(
+	from ds_codinh in db.Ds_codinh
+	where
+	  ds_codinh.Ma_huyen == "CTH"
+	select new {
+	  ds_codinh.So_dt,
+	  ds_codinh.Ten_dktb,
+	  ds_codinh.Ten_dkdb,
+	  ds_codinh.Dia_chitb,
+	  ds_codinh.Dc_tbld,
+	  Stt = (System.Decimal?)ds_codinh.Stt,
+	  ds_codinh.Tuyen_tc
+	}
+).Concat
+(
+	from gphone in db.Gphone
+	where
+	  gphone.Ma_huyen == "CTH"
+	select new {
+	  So_dt = gphone.So_dt,
+	  Ten_dktb = gphone.Ten_dktb,
+	  Ten_dkdb = gphone.Ten_dkdb,
+	  Dia_chitb = gphone.Dia_chitb,
+	  Dc_tbld = gphone.Dc_tbld,
+	  Stt = (System.Decimal?)gphone.Stt,
+	  Tuyen_tc = gphone.Tuyen_tc
+	}
+).Concat
+(
+	from mytv in db.Mytv
+	where
+	  mytv.Ma_huyen == "CTH"
+	select new {
+	  So_dt = mytv.User_name,
+	  Ten_dktb = mytv.Ten_dktb,
+	  Ten_dkdb = mytv.Ten_dkdb,
+	  Dia_chitb = mytv.Dia_chitb,
+	  Dc_tbld = mytv.Dc_tbld,
+	  Stt = (System.Decimal?)0,
+	  Tuyen_tc = mytv.Tuyen_tc
+	}
+)
+
+
+
+
+from Ds_codinh in db.Ds_codinh
+orderby
+  Ds_codinh.So_dt
+select new {
+  Ds_codinh.So_dt,
+  Ds_codinh.Ten_dktb,
+  Ds_codinh.Dia_chitb,
+  Ds_codinh.Dc_tbld,
+  Ds_codinh.Ten_dkdb,
+  Ds_codinh.Tuyen_tc,
+  Ds_codinh.Ma_tram,
+  Ds_codinh.Pl,
+  Ds_codinh.Tien_tb,
+  Ds_codinh.Tienno,
+  Ds_codinh.Tb_dv,
+  Ds_codinh.Ngay_ld,
+  Ds_codinh.Village,
+  Ds_codinh.Ngay_mo,
+  Ds_codinh.May_ngung,
+  Ds_codinh.Ngay_ngung,
+  Ds_codinh.Keo_may,
+  Ds_codinh.Mo_may,
+  Ds_codinh.Ma_nghe,
+  Ds_codinh.Ma_huyen,
+  Ds_codinh.Stt,
+  Ds_codinh.Sohopdong,
+  Ds_codinh.Ngay_hd,
+  Ds_codinh.Thangbd,
+  Ds_codinh.Inct,
+  Ds_codinh.Ma_kh,
+  Ds_codinh.Ngay_kn,
+  Ds_codinh.Note_ngay_kn,
+  Ds_codinh.Dau,
+  Ds_codinh.Tenkhkd,
+  Ds_codinh.Dckd,
+  Ds_codinh.Ms_thue,
+  Ds_codinh.Khg_vat,
+  Ds_codinh.Cuoc,
+  Ds_codinh.Ngay,
+  Ds_codinh.Duong,
+  Ds_codinh.Xa_phuong,
+  Ds_codinh.Khom_ap,
+  Ds_codinh.Tbdc,
+  Ds_codinh.Ma_nhom,
+  Ds_codinh.Socmnd,
+  Ds_codinh.Noi_cap,
+  Ds_codinh.Ngay_cap,
+  Ds_codinh.Tai_khoan,
+  Ds_codinh.Ngan_hang,
+  Ds_codinh.E_mail,
+  Ds_codinh.Ma_km,
+  Ds_codinh.Goi_th,
+  Ds_codinh.Ma_nvcs,
+  Ds_codinh.Thtb,
+  us = 
+	((from Codinh_log in db.Codinh_log
+	where
+	  Ds_codinh.So_dt == Codinh_log.So_dt
+	select new {
+	  Codinh_log.Users
+	}).Take(1).First().Users)
+}

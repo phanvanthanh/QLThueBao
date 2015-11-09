@@ -1,0 +1,36 @@
+﻿<controls:ChildWindow x:Class="SilverlightQLThuebao.frmnhapnv"          
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+                      Width="402" Height="171" Title="Thêm nhân viên thu cước" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" FontSize="12" Closed="DXWindow_Closed">          
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Silver" BorderThickness="1" HorizontalAlignment="Left" Margin="3,2,0,2" Name="border2" Height="98" Width="378" />
+        <Button x:Name="CancelButton" Click="CancelButton_Click" HorizontalAlignment="Right" Height="23" Margin="0,6,3,1" TabIndex="4" FontSize="13" Grid.Row="1">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Đóng" Margin="4,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <Button x:Name="OKButton" Click="OKButton_Click"  Width="80" Height="23" HorizontalAlignment="Right" Margin="0,6,89,1" TabIndex="3" FontSize="13" Grid.Row="1">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/save-16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Lưu" Margin="10,0,0,0" FontSize="13" Width="42" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <dxe:TextEdit FontFamily=".VnAvant" FontSize="13" Height="22" HorizontalAlignment="Left" Margin="88,12,0,0" MaxLength="15" Name="txttuyen" TabIndex="0" VerticalAlignment="Top" Width="284" />
+        <dxe:TextEdit FontFamily=".VnAvant" FontSize="13" Height="22" HorizontalAlignment="Left" Margin="88,42,0,0" MaxLength="50" Name="txtten" TabIndex="1" VerticalAlignment="Top" Width="284" />
+        <dxe:TextEdit FontFamily=".VnAvant" FontSize="13" Height="22" HorizontalAlignment="Left" Margin="88,71,0,0" MaxLength="10" Name="txtghichu" TabIndex="2" VerticalAlignment="Top" Width="284" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="10,11,0,0" Name="textBlock4" Text="Tên tuyến" VerticalAlignment="Top" Width="120" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="10,42,0,0" Name="textBlock1" Text="Nhân viên" VerticalAlignment="Top" Width="120" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="10,72,0,0" Name="textBlock2" Text="Ghi chú" VerticalAlignment="Top" Width="120" />
+    </Grid>
+</controls:ChildWindow>

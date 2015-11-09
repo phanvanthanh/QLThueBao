@@ -1,0 +1,45 @@
+﻿<controls:ChildWindow x:Class="SilverlightQLThuebao.frmapkhom"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="590" Height="438" 
+           Title="Xã phường" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">
+    <Grid x:Name="LayoutRoot" Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <dxe:ComboBoxEdit FontSize="13" Height="23" HorizontalAlignment="Left" Margin="80,12,0,0" Name="cmbxa" FontFamily=".VnAvant" VerticalAlignment="Top" Width="200" Grid.Column="1" Grid.Row="1" TabIndex="15" SelectedIndexChanged="cmbxa_SelectedIndexChanged" />
+        <Button FontSize="13" Height="23" HorizontalAlignment="Right" Margin="0,10,94,3" Name="cmdXoa" TabIndex="28" Width="90" Grid.Row="1" Click="cmdXoa_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Delete_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="4,0,0,0" Text="Xóa" Width="59" />
+            </StackPanel>
+        </Button>
+        <Button FontSize="13" Height="23" HorizontalAlignment="Right" Margin="0,11,189,2" Name="cmdThem" TabIndex="28" Width="90" Grid.Row="1" Click="cmdThem_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Add_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="4,0,0,0" Text="Thêm" Width="59" />
+            </StackPanel>
+        </Button>
+        <Button x:Name="CancelButton" Click="CancelButton_Click" Width="90" Height="23" HorizontalAlignment="Right" Margin="0,11,0,3" Grid.Row="1">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Đóng" Margin="2,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <dxg:GridControl AutoPopulateColumns="True" Name="gridControl1" FontFamily=".VnAvant" FontSize="13">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="maap" Header="M· Êp" Name="maap" ReadOnly="True" Width="85"/>                 
+                <dxg:GridColumn FieldName="ten_ap" Header=" Tªn Êp " Name="ten_ap" ReadOnly="True" Width="300" />
+                <dxg:GridColumn Header="Ghi chó" Name="note" ReadOnly="True" Width="160" />                                  
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="True" AllowGrouping="True" AllowHorizontalScrollingVirtualization="False" IsColumnMenuEnabled="False" IsGroupPanelMenuEnabled="False" IsRowCellMenuEnabled="False" Name="tableView1" RowDoubleClick="tableView1_RowDoubleClick"  ShowFilterPanelMode="Never" ShowGroupPanel="False" ShowGroupedColumns="False" ShowIndicator="False" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <sdk:Label Grid.Row="1" Height="22" HorizontalAlignment="Left" Margin="0,13,0,0" Name="label1" VerticalAlignment="Top" Width="85" Content="Xã phường" FontSize=" 13" />
+    </Grid>
+</controls:ChildWindow>

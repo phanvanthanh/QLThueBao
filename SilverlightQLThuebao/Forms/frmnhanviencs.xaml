@@ -1,0 +1,53 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmnhanviencs" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"   
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"   
+    mc:Ignorable="d" Width="750" Height="390" Title="Chăm sóc thuê bao" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" KeepPosition="False">
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="29" />
+        </Grid.RowDefinitions>
+        <dxg:GridControl AutoPopulateColumns="True" Name="gridControl1" FontFamily=".VnAvant"  FontSize="13">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="ma_nvcs" Header="Mã nhân viên" Name="ma_nvcs" ReadOnly="True" Width="140" />
+                <dxg:GridColumn FieldName="ten_nv" Header="  Tên nhân viên" Name="ten_nv" ReadOnly="True" Width="270" />
+                <dxg:GridColumn FieldName="phone" Header="Điện thoại" Name="phone" Width="150" />
+                <dxg:GridColumn FieldName="kt" Header="Kỹ thuật " Name="kt" Width="80" />
+                <dxg:GridColumn FieldName="diaban" Header="PT Địa bàn " Name="diaban" Width="180" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="True" AllowHorizontalScrollingVirtualization="False" IsColumnMenuEnabled="False" IsGroupPanelMenuEnabled="False" IsRowCellMenuEnabled="False" Name="tableView1" ShowFilterPanelMode="Never" ShowGroupPanel="False" ShowGroupedColumns="False" ShowIndicator="False" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <dxb:BarManager Grid.Row="1" Name="barManager1" >
+            <dxb:BarManager.Items>
+                <dxb:BarButtonItem Content="Thêm" Name="brThem" Glyph="/SilverlightQLThuebao;component/Images/Add_16x16.png" GlyphSize="Default" BarItemDisplayMode="ContentAndGlyph" />
+                <dxb:BarButtonItem Content="Sửa" Name="brSua" Glyph="/SilverlightQLThuebao;component/Images/Edit_16x16.png" GlyphSize="Default" BarItemDisplayMode="ContentAndGlyph" />
+                <dxb:BarButtonItem Content="Xóa" Name="brXoa" Glyph="/SilverlightQLThuebao;component/Images/Delete_16x16.png" GlyphSize="Default" BarItemDisplayMode="ContentAndGlyph" />
+                <dxb:BarButtonItem Content="Đóng" Name="brDong" Glyph="/SilverlightQLThuebao;component/Images/close_16x16.png" GlyphSize="Default" BarItemDisplayMode="ContentAndGlyph" />                               
+            </dxb:BarManager.Items>
+            <dxb:BarManager.Bars>
+                <dxb:Bar Caption="bar1" Name="bar1" ShowDragWidget="True">
+                    <dxb:Bar.DockInfo>
+                        <dxb:BarDockInfo ContainerType="Top" />
+                    </dxb:Bar.DockInfo>
+                    <dxb:BarButtonItemLink BarItemName="brThem" />
+                    <dxb:BarButtonItemLink BarItemName="brSua" />
+                    <dxb:BarButtonItemLink BarItemName="brXoa" />                  
+                    <dxb:BarButtonItemLink BarItemName="brDong"/>
+                </dxb:Bar>
+                <dxb:Bar Caption="Status Bar" IsStatusBar="True" Name="statusBar">
+                    <dxb:Bar.DockInfo>
+                        <dxb:BarDockInfo ContainerType="Bottom" />
+                    </dxb:Bar.DockInfo>
+                </dxb:Bar>
+            </dxb:BarManager.Bars>
+            <Grid Name="grid1" />
+        </dxb:BarManager>
+    </Grid>
+</dx:DXWindow>

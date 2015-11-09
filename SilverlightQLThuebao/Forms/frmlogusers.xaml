@@ -1,0 +1,53 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmlogusers" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    mc:Ignorable="d" Width="939" Height="424" Title="Log users" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" FontSize="13" KeepPosition="False">
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="29" />
+        </Grid.RowDefinitions>
+        <dxg:GridControl AutoPopulateColumns="True" Name="grid" FontSize="13">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="user_name" Header="  User  " Name="users" Width="150" ReadOnly="True" />
+                <dxg:GridColumn FieldName="ip_address" Header=" Ip address" Name="ip_address" Width="150" ReadOnly="True" />
+                <dxg:GridColumn FieldName="thoi_gian" Header="Thời gian" Name="thoi_gian" Width="200">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy hh:mm:ss tt}" Mask="dd/MM/yyyy hh:mm:ss tt" MaskType="DateTime" PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="thanhcong" Header="Status" Name="thanhcong" Width="70" ReadOnly="True" />                
+            </dxg:GridControl.Columns>
+            
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" AllowGrouping="True" AllowHorizontalScrollingVirtualization="False" IsColumnMenuEnabled="False" IsGroupPanelMenuEnabled="False" IsRowCellMenuEnabled="False" Name="tableView1"  ShowFilterPanelMode="Never" ShowGroupPanel="False" ShowGroupedColumns="False" ShowIndicator="False" MultiSelectMode="Cell" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <Button FontSize="12" Height="23" HorizontalAlignment="Right" Margin="0,5,2,1" Name="CancelButton" Width="80" Grid.Row="1" Click="CancelButton_Click" TabIndex="4">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="2,0,0,0" Text="Đóng" Width="52" />
+            </StackPanel>
+        </Button>
+        <Button FontSize="12" Height="23" HorizontalAlignment="Right" Margin="0,5,88,1" Name="cmdXoa" Width="80" Grid.Row="1" Click="cmdXoa_Click" TabIndex="4">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Delete_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="4,0,0,0" Text="Xóa" Width="52" />
+            </StackPanel>
+        </Button>
+        <dxe:TextEdit FontSize="12" FontWeight="Bold" HorizontalAlignment="Right" Margin="0,4,265,2" Name="txttim"  Width="179" Grid.Row="1" TabIndex="0" />
+        <TextBlock FontSize="13" FontWeight="Normal" Height="23" Margin="0,4,451,0" Name="textBlock1" Text="User cần tìm" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Row="1" />        
+        <Button FontSize="12" Height="23" HorizontalAlignment="Right" Margin="0,4,176,1" Name="FindButton" TabIndex="1" Width="83" Grid.Row="1" Click="FindButton_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Search_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="8,0,0,0" Text="Tìm" Width="52" />
+            </StackPanel>
+        </Button>
+        <dxe:CheckEdit Grid.Row="1" HorizontalAlignment="Left" Margin="4,4,0,0" Name="chkall" Content="All" IsChecked="true" Checked="chkall_Checked" Unchecked="chkall_Unchecked" VerticalAlignment="Top" Width="75" />
+    </Grid>
+</dx:DXWindow>

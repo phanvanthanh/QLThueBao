@@ -1,0 +1,87 @@
+﻿<controls:ChildWindow x:Class="SilverlightQLThuebao.frmusers"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="907" Height="480" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" Title="Quản lý users" FontSize="12">
+    <Grid x:Name="LayoutRoot" Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Button x:Name="CancelButton" Click="CancelButton_Click" Width="80" Height="23" HorizontalAlignment="Right" Margin="0,12,0,0" Grid.Row="1" FontSize="13">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Đóng" Margin="4,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <dxg:GridControl AutoPopulateColumns="True" Name="grid" OpacityMask="{x:Null}" ShowLoadingPanel="False" Margin="0,0,0,29" Grid.RowSpan="2" FontSize="13" FontFamily=".VnAvant">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="lock_usr" Header="Lock" Name="lock_usr" Width="40" />
+                <dxg:GridColumn FieldName="huyen" Header="HuyÖn" Name="huyen" Visible="True" Width="70"/>
+                <dxg:GridColumn FieldName="huyentd" Header="TK huyÖn" Name="huyentd" Visible="True" Width="140"/>
+                <dxg:GridColumn FieldName="user_name" Header="      Username" Name="username" AllowAutoFilter="False" />
+                <dxg:GridColumn FieldName="hoten" Header="Hä tªn" Name="hoten" Visible="True" Width="170" AllowAutoFilter="False" />
+                <dxg:GridColumn FieldName="namsinh"  Header="     N¨m sinh" Name="namsinh" UnboundType="DateTime" Visible="True" Width="100" AllowAutoFilter="False" UseLayoutRounding="True" DataContext="{Binding}" UnboundExpression="">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy}" Mask="dd/MM/yyyy" MaskType="DateTime" PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="gioitinh" Header="Giíi tÝnh" Name="gioitinh" Width="65" AllowAutoFilter="False" />
+                <dxg:GridColumn FieldName="phone" Header="        §iÖn tho¹i" Name="dienthoai" Visibility="Collapsed" Visible="True" Width="120" />                                
+                <dxg:GridColumn FieldName="m_password" Header="Password" Name="pass" Visible="False"/>
+                <dxg:GridColumn FieldName="m_menu" Header="Menu" Name="menu" Visible="False"/>
+                <dxg:GridColumn FieldName="sua" Header="Söa" Name="sua" Width="40"/>                
+                <dxg:GridColumn FieldName="e_mail" Header="    E Mail" Name="email" AllowAutoFilter="False" Width="160" />
+                <dxg:GridColumn FieldName="admin" Header="Admin" Name="admin" Width="50" />
+                <dxg:GridColumn FieldName="admin119" Header="Admin119" Name="admin119" Width="50" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" AllowGrouping="False" IsColumnMenuEnabled="False" IsGroupPanelMenuEnabled="False" IsRowCellMenuEnabled="False" Name="tableView1" ShowFilterPanelMode="Never" ShowGroupPanel="False" ShowGroupedColumns="False" ShowIndicator="False" AllowFilterEditor="False" AllowColumnFiltering="False" RowDoubleClick="tableView1_RowDoubleClick" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,12,340,0" Name="cmdThem" Width="80" Grid.Row="1" FontSize="13" Click="cmdThem_Click">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Add_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Thêm" Margin="4,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,12,255,0" Name="cmdSua" Width="80" Grid.Row="1" FontSize="13" Click="cmdSua_Click">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Edit_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Sửa" Margin="8,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,12,171,0" Name="cmdXoa" Width="80" Grid.Row="1" FontSize="13" Click="cmdXoa_Click">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Delete_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Xóa" Margin="4,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,12,86,0" Name="btnReset" Width="80" Grid.Row="1" FontSize="13" Click="btnReset_Click">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Reset_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Reset" Margin="4,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <dxe:TextEdit FontSize="12" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,12,0,0" Name="txttim" VerticalAlignment="Top" Width="133" Grid.Row="1" />
+        <Button FontSize="12" Height="23" HorizontalAlignment="Left" Margin="139,12,0,0" Name="FindButton" Width="86" Grid.Row="1" Click="FindButton_Click">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Search_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Tìm" Margin="8,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+    </Grid>
+</controls:ChildWindow>

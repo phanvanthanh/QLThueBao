@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/SilverlightQLThuebao.Web" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="Upload_DoUpload_InputMessage">
+    <wsdl:part name="parameters" element="DoUpload" />
+  </wsdl:message>
+  <wsdl:message name="Upload_DoUpload_OutputMessage">
+    <wsdl:part name="parameters" element="DoUploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="Upload_Download_InputMessage">
+    <wsdl:part name="parameters" element="Download" />
+  </wsdl:message>
+  <wsdl:message name="Upload_Download_OutputMessage">
+    <wsdl:part name="parameters" element="DownloadResponse" />
+  </wsdl:message>
+  <wsdl:message name="Upload_Rename_InputMessage">
+    <wsdl:part name="parameters" element="Rename" />
+  </wsdl:message>
+  <wsdl:message name="Upload_Rename_OutputMessage">
+    <wsdl:part name="parameters" element="RenameResponse" />
+  </wsdl:message>
+  <wsdl:message name="Upload_DeleFolder_InputMessage">
+    <wsdl:part name="parameters" element="DeleFolder" />
+  </wsdl:message>
+  <wsdl:message name="Upload_DeleFolder_OutputMessage">
+    <wsdl:part name="parameters" element="DeleFolderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Upload_DeleFile_InputMessage">
+    <wsdl:part name="parameters" element="DeleFile" />
+  </wsdl:message>
+  <wsdl:message name="Upload_DeleFile_OutputMessage">
+    <wsdl:part name="parameters" element="DeleFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="Upload_GetDateTime_InputMessage">
+    <wsdl:part name="parameters" element="GetDateTime" />
+  </wsdl:message>
+  <wsdl:message name="Upload_GetDateTime_OutputMessage">
+    <wsdl:part name="parameters" element="GetDateTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="Upload_GetSessionTimeOut_InputMessage">
+    <wsdl:part name="parameters" element="GetSessionTimeOut" />
+  </wsdl:message>
+  <wsdl:message name="Upload_GetSessionTimeOut_OutputMessage">
+    <wsdl:part name="parameters" element="GetSessionTimeOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="Upload_DoWork_InputMessage">
+    <wsdl:part name="parameters" element="DoWork" />
+  </wsdl:message>
+  <wsdl:message name="Upload_DoWork_OutputMessage">
+    <wsdl:part name="parameters" element="DoWorkResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Upload">
+    <wsdl:operation name="DoUpload">
+      <wsdl:input wsaw:Action="urn:Upload/DoUpload" message="Upload_DoUpload_InputMessage" />
+      <wsdl:output wsaw:Action="urn:Upload/DoUploadResponse" message="Upload_DoUpload_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Download">
+      <wsdl:input wsaw:Action="urn:Upload/Download" message="Upload_Download_InputMessage" />
+      <wsdl:output wsaw:Action="urn:Upload/DownloadResponse" message="Upload_Download_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Rename">
+      <wsdl:input wsaw:Action="urn:Upload/Rename" message="Upload_Rename_InputMessage" />
+      <wsdl:output wsaw:Action="urn:Upload/RenameResponse" message="Upload_Rename_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleFolder">
+      <wsdl:input wsaw:Action="urn:Upload/DeleFolder" message="Upload_DeleFolder_InputMessage" />
+      <wsdl:output wsaw:Action="urn:Upload/DeleFolderResponse" message="Upload_DeleFolder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleFile">
+      <wsdl:input wsaw:Action="urn:Upload/DeleFile" message="Upload_DeleFile_InputMessage" />
+      <wsdl:output wsaw:Action="urn:Upload/DeleFileResponse" message="Upload_DeleFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDateTime">
+      <wsdl:input wsaw:Action="urn:Upload/GetDateTime" message="Upload_GetDateTime_InputMessage" />
+      <wsdl:output wsaw:Action="urn:Upload/GetDateTimeResponse" message="Upload_GetDateTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSessionTimeOut">
+      <wsdl:input wsaw:Action="urn:Upload/GetSessionTimeOut" message="Upload_GetSessionTimeOut_InputMessage" />
+      <wsdl:output wsaw:Action="urn:Upload/GetSessionTimeOutResponse" message="Upload_GetSessionTimeOut_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DoWork">
+      <wsdl:input wsaw:Action="urn:Upload/DoWork" message="Upload_DoWork_InputMessage" />
+      <wsdl:output wsaw:Action="urn:Upload/DoWorkResponse" message="Upload_DoWork_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

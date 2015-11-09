@@ -1,0 +1,132 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmtkbd" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"     
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"    
+    xmlns:dxgext="clr-namespace:DevExpress.Xpf.Grid;assembly=DevExpress.Xpf.Grid.v12.1.Extensions"
+    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    mc:Ignorable="d" Width="800" Height="408" Title="Thống kê biến động" FontSize="13" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" KeepPosition="False">
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <dxg:GridControl AutoPopulateColumns="True" FontSize="13" FontFamily=".VnAvant" Grid.RowSpan="2" Name="gridmy" Grid.Row="1">
+                    
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Header="    §¬n vÞ " dxg:BandedViewBehavior.ColumnSpan="1" dxg:BandedViewBehavior.IsBand="True" />
+                <dxg:GridColumn FieldName="ten_dv" Header="" dxg:BandedViewBehavior.Column="0" dxg:BandedViewBehavior.Row="1" dxg:BandedViewBehavior.RowSpan="3"/>
+
+                <dxg:GridColumn FieldName="     Cè §Þnh" dxg:BandedViewBehavior.Column="1" dxg:BandedViewBehavior.ColumnSpan="5" dxg:BandedViewBehavior.IsBand="True" />
+                <dxg:GridColumn FieldName="hmcd" Header="Hoµ M" dxg:BandedViewBehavior.Column="1" dxg:BandedViewBehavior.Row="1" Width="40"/>
+                <dxg:GridColumn FieldName="ngungcd" Header="Ng­ng" dxg:BandedViewBehavior.Column="2" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="catcd" Header="C¾t" dxg:BandedViewBehavior.Column="3" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="hdlcd" Header="HDL" dxg:BandedViewBehavior.Column="4" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="thcd" Header="THTB" dxg:BandedViewBehavior.Column="5" dxg:BandedViewBehavior.Row="1" />
+
+                <dxg:GridColumn FieldName="     Gphone" dxg:BandedViewBehavior.Column="6" dxg:BandedViewBehavior.ColumnSpan="5" dxg:BandedViewBehavior.IsBand="True" />
+                <dxg:GridColumn FieldName="hmgp" Header="Hoµ M" dxg:BandedViewBehavior.Column="6" dxg:BandedViewBehavior.Row="1"/>
+                <dxg:GridColumn FieldName="ngunggp" Header="Ng­ng" dxg:BandedViewBehavior.Column="7" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="catgp" Header="C¾t" dxg:BandedViewBehavior.Column="8" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="hdlgp" Header="HDL" dxg:BandedViewBehavior.Column="9" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="thgp" Header="THTB" dxg:BandedViewBehavior.Column="10" dxg:BandedViewBehavior.Row="1" />
+
+                <dxg:GridColumn FieldName="     Gphone tr¶ tr­íc" dxg:BandedViewBehavior.Column="11" dxg:BandedViewBehavior.ColumnSpan="5" dxg:BandedViewBehavior.IsBand="True" />
+                <dxg:GridColumn FieldName="hmgpt" Header="Hoµ M" dxg:BandedViewBehavior.Column="11" dxg:BandedViewBehavior.Row="1"/>
+                <dxg:GridColumn FieldName="ngunggpt" Header="Ng­ng" dxg:BandedViewBehavior.Column="12" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="catgpt" Header="C¾t" dxg:BandedViewBehavior.Column="13" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="hdlgpt" Header="HDL" dxg:BandedViewBehavior.Column="14" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="thgpt" Header="THTB" dxg:BandedViewBehavior.Column="15" dxg:BandedViewBehavior.Row="1" />
+
+                <dxg:GridColumn FieldName="     MyTv" dxg:BandedViewBehavior.Column="16" dxg:BandedViewBehavior.ColumnSpan="5" dxg:BandedViewBehavior.IsBand="True" />
+                <dxg:GridColumn FieldName="hmmy" Header="Hoµ M" dxg:BandedViewBehavior.Column="16" dxg:BandedViewBehavior.Row="1"/>
+                <dxg:GridColumn FieldName="ngungmy" Header="Ng­ng" dxg:BandedViewBehavior.Column="17" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="catmy" Header="C¾t" dxg:BandedViewBehavior.Column="18" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="hdlmy" Header="HDL" dxg:BandedViewBehavior.Column="19" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="thmy" Header="THTB" dxg:BandedViewBehavior.Column="20" dxg:BandedViewBehavior.Row="1" />
+
+                <dxg:GridColumn FieldName="     Internet" dxg:BandedViewBehavior.Column="21" dxg:BandedViewBehavior.ColumnSpan="6" dxg:BandedViewBehavior.IsBand="True" />
+                <dxg:GridColumn FieldName="hmint" Header="Hoµ M" dxg:BandedViewBehavior.Column="21" dxg:BandedViewBehavior.Row="1"/>
+                <dxg:GridColumn FieldName="ngungint" Header="Ng­ng" dxg:BandedViewBehavior.Column="22" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="catint" Header="C¾t" dxg:BandedViewBehavior.Column="23" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="catnguint" Header="Ngñ" dxg:BandedViewBehavior.Column="24" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="hdlint" Header="HDL" dxg:BandedViewBehavior.Column="25" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="thint" Header="THTB" dxg:BandedViewBehavior.Column="26" dxg:BandedViewBehavior.Row="1" />
+
+                <dxg:GridColumn FieldName="     FTTH" dxg:BandedViewBehavior.Column="27" dxg:BandedViewBehavior.ColumnSpan="6" dxg:BandedViewBehavior.IsBand="True" />
+                <dxg:GridColumn FieldName="hmftth" Header="Hoµ M" dxg:BandedViewBehavior.Column="27" dxg:BandedViewBehavior.Row="1"/>
+                <dxg:GridColumn FieldName="ngungftth" Header="Ng­ng" dxg:BandedViewBehavior.Column="28" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="catftth" Header="C¾t" dxg:BandedViewBehavior.Column="29" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="catnguftth" Header="Ngñ" dxg:BandedViewBehavior.Column="30" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="hdlftth" Header="HDL" dxg:BandedViewBehavior.Column="31" dxg:BandedViewBehavior.Row="1" />
+                <dxg:GridColumn FieldName="thftth" Header="THTB" dxg:BandedViewBehavior.Column="32" dxg:BandedViewBehavior.Row="1" />
+
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" AllowGrouping="True" AllowHorizontalScrollingVirtualization="True" IsColumnMenuEnabled="False" IsGroupPanelMenuEnabled="False" IsRowCellMenuEnabled="False" Name="tableView1" ShowFilterPanelMode="Never" ShowGroupPanel="False" ShowGroupedColumns="False" ShowIndicator="False" MultiSelectMode="Cell" AllowGroupSummaryCascadeUpdate="True" ShowHorizontalLines="True" RowDoubleClick="tableView1_RowDoubleClick">
+                    <i:Interaction.Behaviors>
+                        <dxg:BandedViewBehavior>
+                            <dxg:BandedViewBehavior.ColumnDefinitions>
+                                <dxg:ColumnDefinition Width="220" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                                <dxg:ColumnDefinition Width="100" />
+                            </dxg:BandedViewBehavior.ColumnDefinitions>
+                            <dxg:BandedViewBehavior.RowDefinitions>
+                                <dxg:RowDefinition Height="Auto" />
+                                <dxg:RowDefinition Height="Auto" />
+                            </dxg:BandedViewBehavior.RowDefinitions>
+                            <dxg:BandedViewBehavior.TemplatesContainer>
+                                <dxg:TemplatesContainer />
+                            </dxg:BandedViewBehavior.TemplatesContainer>
+                        </dxg:BandedViewBehavior>
+                    </i:Interaction.Behaviors>
+                </dxg:TableView>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <Button FontSize="12" Height="23" HorizontalAlignment="Right" Margin="0,8,4,6" Name="FindButton" Width="100" Click="FindButton_Click" Grid.Row="0">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Search_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="8,0,0,0" Text="Tìm" Width="52" />
+            </StackPanel>
+        </Button>
+        <TextBlock FontSize="13" FontWeight="Normal" HorizontalAlignment="Right" Margin="0,9,335,9" Name="textBlock1" Text="Đến ngày" TextAlignment="Right" Width="74" Grid.Row="0" />
+        <dxe:DateEdit DisplayFormatString="dd/MM/yyyy hh:mm:ss tt" FontSize="13" HorizontalAlignment="Right" Margin="0,8,114,0" Mask="dd/MM/yyyy hh:mm:ss tt" MaskAllowNullInput="False" Name="dngaykt" TabIndex="2" VerticalAlignment="Top" Width="214" Grid.Row="0" />
+        <TextBlock FontSize="13" FontWeight="Normal" HorizontalAlignment="Right" Margin="0,9,622,9" Name="textBlock2" Text="Từ ngày" TextAlignment="Right" Width="82"  Grid.Row="0"/>
+        <dxe:DateEdit DisplayFormatString="dd/MM/yyyy hh:mm:ss tt" FontSize="13" HorizontalAlignment="Right" Margin="0,8,406,0" Mask="dd/MM/yyyy hh:mm:ss tt" MaskAllowNullInput="False" Name="dngaybd" TabIndex="1" VerticalAlignment="Top" Width="214" Grid.Row="0" />
+    </Grid>
+</dx:DXWindow>

@@ -1,0 +1,364 @@
+﻿<UserControl x:Class="SilverlightQLThuebao.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dxd="http://schemas.devexpress.com/winfx/2008/xaml/docking"
+    mc:Ignorable="d"
+    d:DesignHeight="421" d:DesignWidth="787" xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <dxb:BarManager Name="barManager1">
+            <dxb:BarManager.Items>
+                <dxb:BarButtonItem Content="Hợp đồng cố định" Name="hopdongcodinh" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/telephone_add.png" IsEnabled="False" />
+                <dxb:BarButtonItem Content="Hợp đồng Gphone" Name="hopdonggphone" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/telephone.png" IsEnabled="False" />
+                <dxb:BarButtonItem Content="Hợp đồng MyTV" Name="hopdongmytv" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/television_add.png" IsEnabled="False" />
+                <dxb:BarButtonItem Content="Hợp đồng Internet" Name="hopdongint" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/hd_new_internet.png" IsEnabled="False" />
+                <dxb:BarButtonItem Content="Thuê bao Internet" Name="doiaccountint" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/internet_options.png" IsEnabled="False" />
+                <dxb:BarButtonItem Content="Thuê bao MyTV" Name="doiaccountmytv" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Monitor.png" IsEnabled="False" />
+                <dxb:BarButtonItem Content="Thuê bao Internet-MyTv" Name="timthuebao" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Search.png" IsEnabled="False" />
+
+                <dxb:BarButtonItem Content="Bổ sung" Name="bosungcodinh" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/Kcall.png" />
+                <dxb:BarButtonItem Content="Sửa đổi" Name="suacodinh" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/pencil.png" />
+                <dxb:BarButtonItem Content="Cắt ngưng" Name="catcodinh" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/cut_32_32.png" />
+
+                <dxb:BarButtonItem Content="Bổ sung" Name="bosunggphone" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/telephone_edit.png" />
+                <dxb:BarButtonItem Content="Sửa đổi" Name="suagphone" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/pencil.png" />
+                <dxb:BarButtonItem Content="Cắt ngưng" Name="catgphone" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/cut_32_32.png" />
+
+                <dxb:BarButtonItem Content="Bổ sung" Name="bosungmytv" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/tv.png" />
+                <dxb:BarButtonItem Content="Sửa đổi" Name="suamytv" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/pencil.png" />
+                <dxb:BarButtonItem Content="Cắt ngưng" Name="catmytv" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/cut_32_32.png" />
+
+                <dxb:BarButtonItem Content="Bổ sung" Name="bosungint" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/internet_options.png" />
+                <dxb:BarButtonItem Content="Sửa đổi" Name="suaint" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/internet.png" />
+                <dxb:BarButtonItem Content="Cắt ngưng" Name="catint" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/cut_32_32.png" />
+
+                <dxb:BarButtonItem Content="Thuê bao cố định" Name="dsbdcodinh" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/telephone_delete.png" IsEnabled="False" />
+                <dxb:BarButtonItem Content="Thuê bao Gphone" Name="dsbdgphone" RibbonStyle="Large" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/telephone_blue.png" />
+                <dxb:BarButtonItem Content="Thuê bao MyTV" Name="dsbdmytv" RibbonStyle="Large" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/tv.png" />
+                <dxb:BarButtonItem Content="Thuê bao Internet" Name="dsbdint" RibbonStyle="Large" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/internet_options.png" />
+                
+
+                <dxb:BarButtonItem Content="Danh sách thuê bao" Name="dscodinh"  GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Addcolor_32x32.png" />
+                <dxb:BarButtonItem Content="Danh sách thuê bao" Name="dsgphone"  GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/bookcase.png" />
+                <dxb:BarButtonItem Content="Danh sách thuê bao" Name="dsmytv"  GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/contents.png" />
+                <dxb:BarButtonItem Content="Danh sách thuê bao" Name="dsint"  GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/internet_downloads_folder.png" />
+                
+                
+                <dxb:BarButtonItem Content="Đổi mật khẩu" Name="doimatkhau" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/UserKey_32x32.png" />
+                <dxb:BarButtonItem Content="Quản lý người dùng" Name="quanlyuser" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/image1.png" IsEnabled="False"  />
+                
+                <dxb:BarButtonItem Content="Log người dùng" Name="Loguser" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/AddCustomer_32x32.png" IsEnabled="False"  />
+                <dxb:BarButtonItem Content="Log cố định" Name="Logcodinh" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Codinh_32x32.png" IsEnabled="False"  />
+                <dxb:BarButtonItem Content="Log Gphone" Name="Loggphone" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/telephone.png" IsEnabled="False"  />
+                <dxb:BarButtonItem Content="Log MyTV" Name="Logmytv" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/tv.png" IsEnabled="False"  />
+                <dxb:BarButtonItem Content="Log Internet" Name="Loginternet" GlyphSize="Large"  HorizontalAlignment="Left" Alignment="Far" BarItemDisplayMode="ContentAndGlyph" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/internet_downloads_folder.png" IsEnabled="False"  />
+                                
+                <dxb:BarButtonItem Content="Tuyến thu cước" Name="tuyenthu" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Kind_32x32.png" IsEnabled="False" />
+                <dxb:BarButtonItem Content="Nhân viên thu cước" Name="nhanvien" RibbonStyle="Large" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/CustomerRevenue_32x32.png" />                
+                
+                <dxb:BarButtonItem Content="Monitor cắt mở" Name="monitorcatmo"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Monitor.png" />
+                <dxb:BarButtonItem Content="Yêu cầu cắt mở" Name="catmo"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Demo_KeyProperty_String_32x32.png" />
+                <dxb:BarButtonItem Content="Log cắt mở" Name="logcatmo"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Logfile.png" />
+                <dxb:BarButtonItem Content="Thống kê cắt mở" Name="tkcatmo"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/BO_Reports_Large.png" />
+
+                <dxb:BarButtonItem Content="Ds báo hỏng" Name="ds119"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/telephone_119.png" />
+                <dxb:BarButtonItem Content="Ds sửa xong" Name="ds119x"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/BO_Reports_Large.png" />
+                <dxb:BarButtonItem Content="Danh bạ" Name="db108"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/BO_Reports_Large.png" />
+                
+                <dxb:BarButtonItem Content="Thuê bao cố định" Name="tkptcodinh"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/contents.png" />
+                <dxb:BarButtonItem Content="Thuê bao Gphone" Name="tkptgphone" RibbonStyle="Large" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/Demo_ListEditors_PivotGrid_32x32.png" />
+                <dxb:BarButtonItem Content="Thuê bao MyTV" Name="tkptmytv"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Demo_ListEditors_Grid_32x32.png" />
+                <dxb:BarButtonItem Content="Thuê bao Internet" Name="tkptint"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/internet.png" />
+
+                <dxb:BarButtonItem Content="Thuê bao cố định" Name="tkckcodinh"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Codinh_32x32.png" />
+                <dxb:BarButtonItem Content="Thuê bao Gphone" Name="tkckgphone" RibbonStyle="Large" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/telephone_blue.png" />
+                <dxb:BarButtonItem Content="Thuê bao MyTV" Name="tkckmytv"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Monitor.png" />
+                <dxb:BarButtonItem Content="Thuê bao Internet" Name="tkckint"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/internet.png" />
+
+                <dxb:BarButtonItem Content="Khuyến mãi" Name="tkkm" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Palette_32x32.png" />
+                <dxb:BarButtonItem Content="Biến động" Name="tkbd" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Demo_ListEditors_Chart_Bar_32x32.png" />
+                <dxb:BarButtonItem Content="Lý do cắt, ngưng" Name="tklydocat" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Customer_32x32.png" />
+                <!--<dxb:BarButtonItem Content="KM điện thoại Gphone" Name="tkkmgphone" RibbonStyle="Large" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/Album_32x32.png" />
+                <dxb:BarButtonItem Content="KM thuê bao MyTV" Name="tkkmmytv"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Demo_ListEditors_Chart_Bar_32x32.png" />-->
+
+                <dxb:BarButtonItem Content="Xã-Phường" Name="xaphuong"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Palette_32x32.png" />
+                <dxb:BarButtonItem Content="Ấp-Khóm" Name="apkhom" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/Album_32x32.png" />
+                <dxb:BarButtonItem Content="Đường" Name="duong"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/Demo_ListEditors_Chart_Bar_32x32.png" />
+                <dxb:BarButtonItem Content="Trạm VT" Name="tramvt"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/Kind_32x32.png" />
+
+                <dxb:BarButtonItem Content="Khách hàng DN" Name="khdoanhnghiep"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/CustomerRevenue_32x32.png" />
+
+                <dxb:BarButtonItem Content="CB chăm sóc" Name="nhanviencs"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Customer_32x32.png" />
+                <dxb:BarButtonItem Content="Khu vực chăm sóc" Name="tuyencs"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Palette_32x32.png" />
+                <dxb:BarButtonItem Content="Thuê bao cố định" Name="cscodinh" GlyphAlignment="Top" GlyphSize="Default" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/Kcall.png" />
+                <dxb:BarButtonItem Content="Thuê bao Gphone" Name="csgphone" GlyphAlignment="Top" GlyphSize="Default" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/telephone_edit.png" />
+                <dxb:BarButtonItem Content="Thuê bao MyTV" Name="csmytv" GlyphAlignment="Top" GlyphSize="Default" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/tv.png" />
+                <dxb:BarButtonItem Content="Thuê bao Internet" Name="csint" GlyphAlignment="Top" GlyphSize="Default" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/internet.png" />
+
+                <dxb:BarButtonItem Content="Thuê bao cố định" Name="ktcodinh" GlyphAlignment="Top" GlyphSize="Default" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/Kcall.png" />
+                <dxb:BarButtonItem Content="Thuê bao Gphone" Name="ktgphone" GlyphAlignment="Top" GlyphSize="Default" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/telephone_edit.png" />
+                <dxb:BarButtonItem Content="Thuê bao MyTV" Name="ktmytv" GlyphAlignment="Top" GlyphSize="Default" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/tv.png" />
+                <dxb:BarButtonItem Content="Thuê bao Internet" Name="ktint" GlyphAlignment="Top" GlyphSize="Default" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/internet.png" />
+                <dxb:BarButtonItem Content="Số lượng" Name="tkslgandb" GlyphAlignment="Top" GlyphSize="Default" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/contents.png" />
+                <dxb:BarButtonItem Content="Doanh thu" Name="tkdtgandb" GlyphAlignment="Top" GlyphSize="Default" RibbonStyle="Default" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/contents.png" />
+
+                <dxb:BarButtonItem Content="Chương trình KM" Name="khuyenmai"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/CustomerRevenue_32x32.png" />
+                <dxb:BarButtonItem Content="Tạo file tính cước" Name="filetam"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/technology.png" />
+                <dxb:BarButtonItem Content="Nhóm Khách hàng" Name="nhomkhachhang"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Customer_32x32.png" />
+                <dxb:BarButtonItem Content="Logout" Name="logout" RibbonStyle="Large"  Glyph="/SilverlightQLThuebao;component/Images/Refresh_32x32.png" />
+                <dxb:BarButtonItem Content="Đóng chương trình" Name="shutdown" RibbonStyle="Large"  Glyph="/SilverlightQLThuebao;component/Images/close-32x32.png" />
+
+                <dxb:BarButtonItem Content="Cho so 119" Name="choso" RibbonStyle="Large" IsEnabled="False" Glyph="/SilverlightQLThuebao;component/Images/close-32x32.png" />
+
+                <dxb:BarButtonItem Content="Giao BSC cho đơn vị" Name="giaobsctinh" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Palette_32x32.png" />
+                <dxb:BarButtonItem Content="Giao BSC cho nhân viên" Name="giaobscnld" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Palette_32x32.png" />
+                
+                
+                <dxb:BarButtonItem Content="Download hướng dẫn sử dụng !" Name="help"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="True" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Help.png" />
+                <dxb:BarButtonItem Content="Nhóm phát triển chương trình !" Name="about"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="True" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/About.png" />
+                <dxb:BarStaticItem Name="bPosInfo" Content="" ItemMinWidth="350"/>
+                <dxr:RibbonGalleryBarItem Name="gTheme">
+                    <dxr:RibbonGalleryBarItem.Gallery>
+                        <dxb:Gallery MinColCount="2" ColCount="4" RowCount="2" ItemCheckMode="Single" AllowHoverAnimation="True" AllowHoverImages="True" FilterCaption="Themes" IsItemCaptionVisible="False" ItemCaptionHorizontalAlignment="Center" HoverGlyphSize="96,96" ItemClick="OnThemeItemClick">
+                            <dxb:Gallery.Groups>
+                                <dxb:GalleryItemGroup Caption="Standard">
+                                    <dxb:GalleryItem Caption="Office2007BlueName" Glyph="/SilverlightQLThuebao;component/Images/sticker_blue.png" />
+                                    <dxb:GalleryItem Caption="DeepBlueName" Glyph="/SilverlightQLThuebao;component/Images/DeepBlue.png" />
+                                    <dxb:GalleryItem Caption="DXStyleName" Glyph="/SilverlightQLThuebao;component/Images/LightGray_48x48.png" />
+                                </dxb:GalleryItemGroup>
+                            </dxb:Gallery.Groups>
+                        </dxb:Gallery>
+                    </dxr:RibbonGalleryBarItem.Gallery>
+                </dxr:RibbonGalleryBarItem>
+                <dxb:BarButtonItem Content="barButtonItem1" Name="barButtonItem1" />
+            </dxb:BarManager.Items>
+            
+            <dx:DockPanel Name="dockPanel1">
+                <dxr:RibbonStatusBarControl dx:DockPanel.Dock="Bottom" Name="ribbonStatusBarControl1">
+                   
+                    <dxr:RibbonStatusBarControl.LeftItemLinks>
+                        <dxb:BarItemLink BarItemName="bPosInfo"/>
+                        
+                    </dxr:RibbonStatusBarControl.LeftItemLinks>
+                </dxr:RibbonStatusBarControl>                  
+               
+                <Grid Name="grid1">
+                    <!--<Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="538" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="120" />
+                    </Grid.RowDefinitions>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/SilverlightQLThuebao;component/Images/bg_body-blue.jpg" />
+                    </Grid.Background>
+                    <Grid.OpacityMask>
+                        <ImageBrush ImageSource="/SilverlightQLThuebao;component/Images/bg_body-blue.jpg" />
+                    </Grid.OpacityMask>
+                    <dxr:RibbonControl AllowMinimizeRibbon="True" IsEnabled="True" MaxPageCaptionTextIndent="11" Name="ribbonControl1" RibbonTitleBarVisibility="Visible" ShowApplicationButton="False" ToolbarShowCustomizationButton="False" ToolbarShowMode="Hide" UseLayoutRounding="True" Visibility="Visible" IsMinimized="False" RibbonStyle="Office2010" FontFamily="Portable User Interface" FontStyle="Normal" FontWeight="Normal" IsHeaderBorderVisible="True" FontSize="13" Grid.ColumnSpan="2">
+                        <dxr:RibbonDefaultPageCategory Caption="defaultCategory" Name="ribbonDefaultPageCategory1">
+                            <dxr:RibbonPage Caption="Lập hợp đồng" IsVisible="true" Name="ribhopdong" OpacityMask="{x:Null}" >
+                                <dxr:RibbonPageGroup Caption="Lập hợp đồng" Name="ribthaotac" ShowCaptionButton="True">
+                                    <dxb:BarButtonItemLink BarItemName="hopdongcodinh" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="hopdonggphone" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="hopdongmytv" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="hopdongint" RibbonStyle="Large" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption="Đổi account" Name="ribdoiacc" ShowCaptionButton="True">
+                                    <dxb:BarButtonItemLink BarItemName="doiaccountint" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="doiaccountmytv" RibbonStyle="Large" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption="Tìm thông tin" Name="ribtim" ShowCaptionButton="True">
+                                    <dxb:BarButtonItemLink BarItemName="timthuebao" RibbonStyle="Large" />
+                                </dxr:RibbonPageGroup>
+                            </dxr:RibbonPage>
+                            <dxr:RibbonPage Caption="Biến động" IsVisible="true" Name="ribchucnang" OpacityMask="{x:Null}" >
+                                
+                                <dxr:RibbonPageGroup Caption="Thuê bao cố định" Name="ribkhachhang" ShowCaptionButton="True">
+                                    <dxb:BarButtonItemLink BarItemName="dscodinh" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="bosungcodinh" />
+                                    <dxb:BarButtonItemLink BarItemName="suacodinh" />
+                                    <dxb:BarButtonItemLink BarItemName="catcodinh" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption="Thuê bao Gphone" Name="ribgphone" ShowCaptionButton="True">
+                                    <dxb:BarButtonItemLink BarItemName="dsgphone" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="bosunggphone" />
+                                    <dxb:BarButtonItemLink BarItemName="suagphone" />
+                                    <dxb:BarButtonItemLink BarItemName="catgphone" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption="Thuê bao MyTV" Name="ribmytv" ShowCaptionButton="True">
+                                    <dxb:BarButtonItemLink BarItemName="dsmytv" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="bosungmytv" />
+                                    <dxb:BarButtonItemLink BarItemName="suamytv" />
+                                    <dxb:BarButtonItemLink BarItemName="catmytv" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption="Thuê bao Internet" Name="ribint" ShowCaptionButton="True">
+                                    <dxb:BarButtonItemLink BarItemName="dsint" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="bosungint" />
+                                    <dxb:BarButtonItemLink BarItemName="suaint" />
+                                    <dxb:BarButtonItemLink BarItemName="catint" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption="Thông tin biến động" Name="ribbiendong" ShowCaptionButton="True">
+                                    <dxb:BarButtonItemLink BarItemName="dsbdcodinh" UserGlyphSize="Large"/>
+                                    <dxb:BarButtonItemLink BarItemName="dsbdgphone" UserGlyphSize="Large"/>
+                                    <dxb:BarButtonItemLink BarItemName="dsbdmytv" UserGlyphSize="Large"/>
+                                    <dxb:BarButtonItemLink BarItemName="dsbdint" UserGlyphSize="Large"/>
+                                </dxr:RibbonPageGroup>
+
+                            </dxr:RibbonPage>
+                            <dxr:RibbonPage Caption="Thống kê" Name="ribthongke">
+                                <dxr:RibbonPageGroup Caption="Thống kê phát triển" Name="ribbonPageGroup1">
+                                    <dxb:BarButtonItemLink BarItemName="tkptcodinh" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="tkptgphone" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="tkptmytv" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="tkptint" UserGlyphSize="Large" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption="Cam kết sử dụng" Name="ribbonPageGroupck">
+                                    <dxb:BarButtonItemLink BarItemName="tkckcodinh" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="tkckgphone" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="tkckmytv" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="tkckint" UserGlyphSize="Large" />
+                                </dxr:RibbonPageGroup>
+
+                                <dxr:RibbonPageGroup Caption="Khuyến mãi-biến động" Name="ribbonPageGroup2">
+                                    <dxb:BarButtonItemLink BarItemName="tkkm" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="tkbd" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="tklydocat" UserGlyphSize="Large" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption=" " Name="ribbonPageGroup3">
+                                    <dxb:BarButtonItemLink BarItemName="khdoanhnghiep" UserGlyphSize="Large" />                                    
+                                </dxr:RibbonPageGroup>
+                            </dxr:RibbonPage>
+                            <dxr:RibbonPage Caption="Cắt mở" Name="ribcatmo">
+                                <dxr:RibbonPageGroup Caption="Yêu cầu cắt mở" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="monitorcatmo" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="catmo" UserGlyphSize="Large" />                                    
+                                    <dxb:BarButtonItemLink BarItemName="tkcatmo" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="logcatmo" UserGlyphSize="Large" />
+                                </dxr:RibbonPageGroup>
+                            </dxr:RibbonPage>
+                            <dxr:RibbonPage Caption="119 1080">
+                                <dxr:RibbonPageGroup Caption="Báo hỏng 119" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="ds119" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="ds119x" UserGlyphSize="Large" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption="" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="db108" UserGlyphSize="Large" />                                   
+                                </dxr:RibbonPageGroup>
+                            </dxr:RibbonPage>
+                            <dxr:RibbonPage Caption="Tuyến thu cước" Name="ribtuyenthu">
+                                <dxr:RibbonPageGroup Caption="Quản lý tuyến thu cước" Name="ribhethongsub1" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="tuyenthu" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="nhanvien" UserGlyphSize="Large" />
+                                </dxr:RibbonPageGroup>
+                            </dxr:RibbonPage>
+                            <dxr:RibbonPage Caption="Khoán địa bàn" Name="ribchamsoc">
+                                <dxr:RibbonPageGroup Caption="" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="nhanviencs" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="tuyencs" UserGlyphSize="Large" />
+                                   
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption="Gán địa bàn nhân viên kinh doanh" VerticalAlignment="Stretch">
+                                    
+                                    <dxb:BarButtonItemLink BarItemName="cscodinh" UserGlyphSize="Large" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="csgphone" UserGlyphSize="Large" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="csmytv" UserGlyphSize="Large" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="csint" UserGlyphSize="Large" RibbonStyle="Large" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption="Gán địa bàn nhân viên kỹ thuật" VerticalAlignment="Stretch">
+
+                                    <dxb:BarButtonItemLink BarItemName="ktcodinh" UserGlyphSize="Large" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="ktgphone" UserGlyphSize="Large" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="ktmytv" UserGlyphSize="Large" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="ktint" UserGlyphSize="Large" RibbonStyle="Large" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup Caption=" " VerticalAlignment="Stretch">
+
+                                    <dxb:BarButtonItemLink BarItemName="tkslgandb" UserGlyphSize="Large" RibbonStyle="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="tkdtgandb" UserGlyphSize="Large" RibbonStyle="Large" />
+                                   
+                                </dxr:RibbonPageGroup>
+                            </dxr:RibbonPage>
+
+                            <dxr:RibbonPage Caption="BSC" Name="ribbsc">
+                                <dxr:RibbonPageGroup Caption="" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="giaobsctinh" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="giaobscnld" UserGlyphSize="Large" />
+                                    
+                                </dxr:RibbonPageGroup>
+                             </dxr:RibbonPage>
+                                <dxr:RibbonPage Caption="Nhật ký" Name="riblog">
+                                <dxr:RibbonPageGroup Caption="" Name="ribhethonglog" ShowCaptionButton="True" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="Logcodinh" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="Loggphone" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="Logmytv" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="Loginternet" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="Loguser" UserGlyphSize="Large" />
+                                </dxr:RibbonPageGroup>
+                            </dxr:RibbonPage>
+                            <dxr:RibbonPage Caption="Hệ thống" Name="ribhethong">
+                                <dxr:RibbonPageGroup Caption="" Name="ribdiachi" ShowCaptionButton="True" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="xaphuong" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="apkhom"  />
+                                    <dxb:BarButtonItemLink BarItemName="duong" />
+                                    <dxb:BarButtonItemLink BarItemName="tramvt" />
+                                </dxr:RibbonPageGroup>                               
+
+                                <dxr:RibbonPageGroup Caption="" Name="ribhethongsub" ShowCaptionButton="True" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="doimatkhau" UserGlyphSize="Large" />
+                                    <dxb:BarButtonItemLink BarItemName="quanlyuser" UserGlyphSize="Large" />                                    
+                                </dxr:RibbonPageGroup>
+                                
+                                <dxr:RibbonPageGroup Caption="" Name="ribkm" ShowCaptionButton="True" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="filetam" />
+                                    <dxb:BarButtonItemLink BarItemName="khuyenmai"/>
+                                    <dxb:BarButtonItemLink BarItemName="nhomkhachhang"/>
+                                </dxr:RibbonPageGroup>
+                                <!--<dxr:RibbonPageGroup Caption="Quản lý nhóm" Name="ribnhomkh" VerticalAlignment="Stretch">
+                                    <dxb:BarButtonItemLink BarItemName="nhomkhachhang" UserGlyphSize="Large" />                                    
+                                </dxr:RibbonPageGroup> -->
+                                <dxr:RibbonPageGroup Caption="Theme" ShowCaptionButton="False">
+                                    <dxb:BarItemLink BarItemName="gTheme" />
+                                </dxr:RibbonPageGroup>
+                                <dxr:RibbonPageGroup  Name="riblogout" ShowCaptionButton="True">
+                                   <!-- <dxb:BarButtonItemLink BarItemName="choso" />-->
+                                    <dxb:BarButtonItemLink BarItemName="logout" />
+                                    <dxb:BarButtonItemLink BarItemName="shutdown" />
+                                </dxr:RibbonPageGroup>
+                            </dxr:RibbonPage>                            
+                            <dxr:RibbonPage Caption="Trợ giúp" Name="ribhelp">
+                                <dxr:RibbonPageGroup  Name="ribhelps" ShowCaptionButton="True">
+                                    <dxb:BarButtonItemLink BarItemName="help" />
+                                    <dxb:BarButtonItemLink BarItemName="about" />
+                                </dxr:RibbonPageGroup>
+                            </dxr:RibbonPage>
+                        </dxr:RibbonDefaultPageCategory>
+                    </dxr:RibbonControl>
+                    <!--<dxd:DockLayoutManager x:Name="dockLayoutManager" Margin="0,154,0,0">
+                        
+                        <dxd:LayoutGroup >
+                            <dxd:LayoutGroup Orientation="Vertical"  ItemWidth="3*">
+                                <dxd:DocumentGroup Name="mdoc" ItemHeight="3*">
+                                    <dxd:DocumentGroup.Background>
+                                        <ImageBrush ImageSource="/SilverlightQLThuebao;component/Images/background2.jpg" />
+                                    </dxd:DocumentGroup.Background>
+                                </dxd:DocumentGroup>
+                            </dxd:LayoutGroup>
+                            <dxd:TabbedGroup ItemWidth="*" SelectedTabIndex="0"></dxd:TabbedGroup>
+                        </dxd:LayoutGroup>
+                    </dxd:DockLayoutManager>-->
+                    <dxlc:LayoutControl Grid.Row="1" Grid.Column="0" Name="layoutControl1">
+                        
+                        <TextBlock Name="txtthongbao" Text="TextBlock" TextWrapping="Wrap" Foreground="#FFFF0400" FontSize="15" FontFamily=".VnAvant" />
+                    </dxlc:LayoutControl>
+                </Grid>
+                
+            </dx:DockPanel>            
+        </dxb:BarManager>
+       
+    </Grid>
+</UserControl>

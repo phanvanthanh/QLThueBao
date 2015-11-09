@@ -1,0 +1,80 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmlogint" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    mc:Ignorable="d" Width="939" Height="424" Title="Log thuê bao Internet" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" FontSize="13" KeepPosition="False">
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="29" />
+        </Grid.RowDefinitions>
+        <dxg:GridControl AutoPopulateColumns="True" Name="grid" FontFamily=".VnAvant"  FontSize="13">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="user_login" Header="  User  " Name="user_login" Width="100" ReadOnly="True" />                
+                <dxg:GridColumn FieldName="thoi_gian" Header="Thêi gian" Name="thoi_gian" Width="180">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy hh:mm:ss tt}" Mask="dd/MM/yyyy hh:mm:ss tt" MaskType="DateTime" PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="user_name" Header=" Account" Name="user_name" Width="160" ReadOnly="True" />
+                <dxg:GridColumn FieldName="n_user_name" Header=" Account củ" Name="n_user_name" Width="160" ReadOnly="True" />
+                <dxg:GridColumn FieldName="goi_cuoc" Header=" Gãi c­íc" Name="goi_cuoc" Width="140" ReadOnly="True" />
+                <dxg:GridColumn FieldName="ten_dktb" Header=" Tªn thuª bao" Name="ten_dktb" Width="250" AllowDrop="True" />                
+                <dxg:GridColumn FieldName="ten_dkdb" Header=" Tªn danh b¹" Name="ten_dkdb" Width="250" AllowDrop="True" />
+                <dxg:GridColumn FieldName="dia_chitb" Header=" §Þa chØ thuª bao" Name="diachi_tb" Width="300" AllowDrop="True" />
+                <dxg:GridColumn FieldName="dc_tbld" Header=" §Þa chØ l¾p ®Æt" Name="dc_tbld" Width="300" AllowDrop="True" />                
+                <dxg:GridColumn FieldName="tuyen_tc" Header="TuyÕn thu" Name="tuyen_tc" Width="100" />
+                <dxg:GridColumn FieldName="stt" Header="STT" Name="stt" Width="60" />
+                <dxg:GridColumn FieldName="pl" Header="PL" Name="pl" Width="40" />                      
+                <dxg:GridColumn FieldName="may_ngung" Header="TT" Name="may_ngung" Width="40" />
+                <dxg:GridColumn FieldName="ngay_ld" Header="Ngµy ld" Name="ngay_ld" Width="90">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy}" Mask="dd/MM/yyyy" MaskType="DateTime" PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="village" Header=" X·" Name="village" Width="80" />
+                <dxg:GridColumn FieldName="ma_km" Header=" KM" Name="ma_km" Width="80" />
+                <dxg:GridColumn FieldName="ma_nghe" Header=" NghÒ " Name="ma_nghe" Width="100" />
+                <dxg:GridColumn FieldName="ma_nhom" Header=" Nhãm" Name="ma_nhom" Width="100" />
+                <dxg:GridColumn FieldName="ma_kh" Header=" M· KH" Name="ma_kh" Width="140" />
+                <dxg:GridColumn FieldName="kh_uutien" Header="KHUT" Name="kh_uutien" Width="60" />
+                <dxg:GridColumn FieldName="socmnd" Header="CMND" Name="socmnd" Width="140" />
+                <dxg:GridColumn FieldName="noi_cap" Header="N¬i cÊp" Name="noi_cap" Width="140" />
+                <dxg:GridColumn FieldName="ngay_cap" Header="Ngµy cÊp" Name="ngay_cap" Width="90">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy}" Mask="dd/MM/yyyy" MaskType="DateTime" PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                
+            </dxg:GridControl.Columns>
+            
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" AllowGrouping="True" AllowHorizontalScrollingVirtualization="False" IsColumnMenuEnabled="False" IsGroupPanelMenuEnabled="False" IsRowCellMenuEnabled="False" Name="tableView1"  ShowFilterPanelMode="Never" ShowGroupPanel="False" ShowGroupedColumns="False" ShowIndicator="False" MultiSelectMode="Cell" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <Button FontSize="12" Height="23" HorizontalAlignment="Right" Margin="0,5,2,1" Name="CancelButton" Width="80" Grid.Row="1" Click="CancelButton_Click" TabIndex="4">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="2,0,0,0" Text="Đóng" Width="52" />
+            </StackPanel>
+        </Button>
+        <Button FontSize="12" Height="23" HorizontalAlignment="Right" Margin="0,5,88,1" Name="cmdXoa" Width="80" Grid.Row="1" Click="cmdXoa_Click" TabIndex="4">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Delete_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="4,0,0,0" Text="Xóa" Width="52" />
+            </StackPanel>
+        </Button>
+        <dxe:TextEdit FontSize="12" FontWeight="Bold" HorizontalAlignment="Right" Margin="0,4,265,2" Name="txttim"  Width="153" Grid.Row="1" TabIndex="0" />        
+        <TextBlock FontSize="13" FontWeight="Normal" Height="23" HorizontalAlignment="Right" Margin="0,4,413,0" Name="textBlock1" Text="Account" VerticalAlignment="Top" Width="70" Grid.Row="1" />        
+        <Button FontSize="12" Height="23" HorizontalAlignment="Right" Margin="0,4,176,1" Name="FindButton" TabIndex="1" Width="83" Grid.Row="1" Click="FindButton_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Search_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="8,0,0,0" Text="Tìm" Width="52" />
+            </StackPanel>
+        </Button>
+    </Grid>
+</dx:DXWindow>

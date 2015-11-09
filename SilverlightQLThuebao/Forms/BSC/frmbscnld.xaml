@@ -1,0 +1,109 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmbscnld" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    mc:Ignorable="d" Width="829" Height="535" Title="Giao BSC cho người lao động" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" FontSize="13" KeepPosition="False" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">
+
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Background>
+            <ImageBrush ImageSource="/SilverlightQLThuebao;component/Images/bgform.png" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="26*" />
+            <RowDefinition Height="433*" >
+            </RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <dxg:GridControl AutoPopulateColumns="True" Name="gridControl1" FontSize="12" Grid.Column="0">
+                <dxg:GridControl.Columns>
+                    <dxg:GridColumn Name="ten_kpo"  FieldName="ten_kpo" Header="" Width="150" VisibleIndex="0" />
+                    <dxg:GridColumn Name="ten_kpi"  FieldName="ten_kpi" Header="KPI" Width="200" VisibleIndex="1" />
+                    <dxg:GridColumn Name="dvt" FieldName="dvt" Header="ĐVT"  Width="80" VisibleIndex="2"/>
+                    <dxg:GridColumn Name="check" FieldName="check" Header="Chọn"  Width="50" VisibleIndex="3">
+                        <dxg:GridColumn.CellTemplate>
+                            <DataTemplate>
+                                <dxe:CheckEdit IsChecked="{Binding Path=DataContext.RowData.Row.check, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" >
+                                    <ToolTipService.ToolTip>
+                                        <TextBlock>Chọn</TextBlock>
+                                    </ToolTipService.ToolTip>
+                                </dxe:CheckEdit>
+                            </DataTemplate>
+                        </dxg:GridColumn.CellTemplate>
+
+                    </dxg:GridColumn>
+                    <dxg:GridColumn Name="ma_kpi" FieldName="ma_kpi" Header="ma_kpi" Width="80" VisibleIndex="4" Visible="False" />
+                   
+
+                </dxg:GridControl.Columns>
+                <dxg:GridControl.View>
+                    <dxg:TableView Name="tableView1" ShowIndicator="False" ShowGroupPanel="False" AllowEditing="False" />
+                </dxg:GridControl.View>
+            </dxg:GridControl>
+
+            <dxg:GridControl AutoPopulateColumns="True" Name="gridControl2" FontSize="12" Grid.Column="2">
+                <dxg:GridControl.Columns>
+                    <dxg:GridColumn Name="ten_kpo1"  FieldName="ten_kpo" Header="" Width="150" VisibleIndex="0" />
+                    <dxg:GridColumn Name="ten_kpi1"  FieldName="ten_kpi" Header="KPI" Width="200" VisibleIndex="1" />
+                    <dxg:GridColumn Name="dvt1" FieldName="dvt" Header="ĐVT"  Width="80" VisibleIndex="2"/>
+                    <dxg:GridColumn Name="trongso" FieldName="trongso" Header="Trọng số %"  Width="80" VisibleIndex="3"/>
+                    <dxg:GridColumn Name="chitieugiao" FieldName="chitieugiao" Header="Chỉ tiêu giao"  Width="100" VisibleIndex="4"/>
+
+                    <dxg:GridColumn Name="ma_kpi1" FieldName="ma_kpi" Header="ma_kpi" Width="80" VisibleIndex="5" Visible="False" />
+                   
+                </dxg:GridControl.Columns>
+                <dxg:GridControl.View>
+                    <dxg:TableView Name="tableView2" ShowIndicator="False" ShowGroupPanel="False" AllowEditing="True" CellValueChanged="tableView2_CellValueChanged" />
+                </dxg:GridControl.View>
+            </dxg:GridControl>
+
+            <Button FontSize="12" Height="30"  HorizontalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="1" Name="btnchon" Click="btnchon_Click" Width="90" Margin="0,167,0,236">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="16" Source="/SilverlightQLThuebao;component/Images/forwardB.png" Width="16" />
+                    <TextBlock FontSize="13" Margin="8,0,0,0" Text="Chọn" Width="52" />
+                </StackPanel>
+            </Button>
+            <Button FontSize="12" Height="30" Name="btnbochon" Width="90" Margin="0,167,0,160" Click="btnbochon_Click" Grid.Column="1" Grid.ColumnSpan="1">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="16" Source="/SilverlightQLThuebao;component/Images/backward.png" Width="16" />
+                    <TextBlock FontSize="13" Margin="8,0,0,0" Text="Bỏ" Width="52" />
+                </StackPanel>
+            </Button>
+            <Button FontSize="12" Height="30" Name="btnsave" Width="90" Margin="0,167,0,85"  Grid.Column="1" Grid.ColumnSpan="1" Click="btnsave_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="16" Source="/SilverlightQLThuebao;component/Images/save-16x16.png" Width="16" />
+                    <TextBlock FontSize="13" Margin="8,0,0,0" Text="Lưu" Width="52" />
+                </StackPanel>
+            </Button>
+        </Grid>
+        <TextBlock Height="22" HorizontalAlignment="Right" Margin="0,14,446,0" VerticalAlignment="Top" Width="71" Text="Nhân viên" FontSize="13" Foreground="#FFFAF7F7"/>
+        <dxe:ComboBoxEdit Height="23" Name="cmbnv" HorizontalAlignment="Right" Margin="0,12,235,15" Width="205" FontSize="13" />
+        <TextBlock Height="20" HorizontalAlignment="Right" Margin="0,15,146,0" VerticalAlignment="Top" Width="83" Text="Tháng năm" FontSize="13" Foreground="#FFFAF7F7"/>
+        <dxe:DateEdit Name="thang" DisplayFormatString="MM/yyyy" Mask="MM/yyyy" FontSize="13" Height="23" HorizontalAlignment="Right" Margin="0,1,42,0" Width="98" />
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Thư viện KPI" FontSize="13" FontWeight="Bold" Foreground="#FFFAF7F7" Margin="131,0" />
+            <TextBlock Name="giaonhanvien" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Giao cho nhân viên" FontSize="13" FontWeight="Bold" Grid.Column="2" Grid.Row="1" Foreground="#FFFAF7F7" />
+        </Grid>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,14,14,0" Name="cmdview" VerticalAlignment="Top" Width="28" Click="cmdview_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Search.png" Width="16" />
+
+            </StackPanel>
+        </Button>
+    </Grid>
+</dx:DXWindow>

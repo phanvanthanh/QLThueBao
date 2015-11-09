@@ -1,0 +1,106 @@
+﻿<controls:ChildWindow x:Class="SilverlightQLThuebao.frmhopdongkr"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="896" Height="488" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" Title="Hợp đồng MyTV" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">
+    <Grid x:Name="LayoutRoot" Margin="2" Height="452">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="864*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*" />
+            <RowDefinition Height="370*" />          
+            <RowDefinition Height="29" />
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Silver" BorderThickness="1" Height="423" HorizontalAlignment="Left" Name="border1" VerticalAlignment="Top" Width="874" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="414">
+                <TextBlock FontSize="13" Height="23" Margin="17,378,760,0" Text="Điện thoại LH" VerticalAlignment="Top" />
+                <dxe:TextEdit FontFamily=".VnAvant" FontSize="13" Height="22" HorizontalAlignment="Left" Margin="120,379,0,0" MaxLength="30" Name="txtdtlh" TabIndex="19" VerticalAlignment="Top" Width="299" />
+                <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="423,378,0,0" Text="Tháng cam kết SD" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" />
+                <dxe:ButtonEdit Height="22" HorizontalAlignment="Left" Margin="563,96,0,0" Name="txtdctb" DefaultButtonClick="dctb_click" ToolTipService.ToolTip="Nhập địa chỉ thuê bao" IsReadOnly="True" FontFamily=".VnAvant" VerticalAlignment="Top" Width="299" FontSize="13" MaxLength="100" TabIndex="7" />
+                <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="439,96,0,0" Name="textBlock8" Text="ĐC thanh toán" VerticalAlignment="Top" Width="123" />
+                <dxe:SpinEdit FontFamily=".VnAvant" FontSize="13" Height="22" HorizontalAlignment="Left" Margin="565,379,0,13" MaxValue="36" MinValue="0" Name="spcamket" TabIndex="20" Width="295" />
+            </Grid>
+        </Border> 
+        <Button x:Name="CancelButton" Click="CancelButton_Click" Width="85" Height="23" HorizontalAlignment="Right" Grid.Row="2" Grid.Column="1" Margin="0,3,1,3" FontSize="13" TabIndex="26">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Đóng" Margin="2,0,0,0" FontSize="13" Width="52" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <Button x:Name="OKButton" Click="OKButton_Click" Width="85" Height="23" HorizontalAlignment="Right" Margin="0,3,190,3" Grid.Row="2" Grid.Column="1" FontSize="13" TabIndex="24">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Name="PictureLuu" Source="/SilverlightQLThuebao;component/Images/save-16x16.png" Width="16" Height="16" />
+                    <TextBlock Name="TextLuu" Text="Lưu" Margin="4,0,0,0" FontSize="13" Width="50" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <Button FontSize="13" Height="23" Name="btnNew" Width="85" Grid.Column="1" Margin="684,3,95,3" Grid.Row="2" TabIndex="25" Click="btnNew_Click">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/SilverlightQLThuebao;component/Images/New_16x16.png" Width="16" Height="16" />
+                    <TextBlock Text="Mới" Margin="4,0,0,0" FontSize="13" Width="50" />
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <!--<Border BorderBrush="Silver" BorderThickness="1" Height="372" HorizontalAlignment="Left" Name="borderg" VerticalAlignment="Top" Width="874" Margin="0,0,0,0"/>-->
+            
+        
+        <Border Background="SteelBlue" BorderBrush="Silver" BorderThickness="1" Height="18" HorizontalAlignment="Left" Name="border2" VerticalAlignment="Top" Width="874" Grid.ColumnSpan="2" Margin="0,-1,0,0">
+            <TextBlock FontSize="12" FontWeight="Bold" Foreground="White" Height="17" Name="textBlock1" Text="     Thông tin chung" Width="874" Margin="0,0,0,0" />
+        </Border>
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="5,1,0,0" Name="textBlock3" Text="Mã khách hàng" VerticalAlignment="Top" FontSize="13" Width="104" Grid.Column="1" Grid.Row="1" />
+        <dxe:TextEdit Height="22" FontSize="13" HorizontalAlignment="Left" Margin="112,1,0,0" Name="txtmakh" VerticalAlignment="Top" Width="299" Grid.Column="1" IsReadOnly="False" Text="" Grid.Row="1" LostFocus="txtmakh_LostFocus" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="5,68,0,0" Name="textBlock5" Text="Tên thuê bao" VerticalAlignment="Top" Width="104" Grid.Column="1" Grid.Row="1" />
+        <dxe:TextEdit Height="22" FontSize="13" HorizontalAlignment="Left" Margin="112,69,0,0" Name="txttentb" FontFamily=".VnAvant" VerticalAlignment="Top" Width="299" Grid.Column="1" MaxLength="80" TabIndex="5" LostFocus="txttentb_LostFocus" Grid.Row="1" />
+        <Border Background="SteelBlue" BorderBrush="Silver" BorderThickness="1" Height="18" HorizontalAlignment="Left" Name="border3" VerticalAlignment="Top" Width="874" Margin="0,101,0,0" Grid.ColumnSpan="2" Grid.Row="1">
+            <TextBlock FontSize="12" FontWeight="Bold" Foreground="White" Height="17" Name="textBlock2" Text="     Thông tin khác" Width="874" Margin="0,0,0,0" />
+        </Border>
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="5,130,0,0" Name="textBlock12" Text="Hình thức TT" VerticalAlignment="Top" Width="104" Grid.Column="1" Grid.Row="1" />
+        <dxe:ComboBoxEdit HorizontalAlignment="Left" Margin="111,130,0,0" Name="cmbhttt" FontFamily=".VnAvant" VerticalAlignment="Top" Width="299" FontSize="13" Grid.Column="1" Grid.Row="1" TabIndex="13" SelectedIndex="0">
+            <dxe:ComboBoxEditItem Content="TiÒn mÆt" FontFamily=".VnAvant" />
+            <dxe:ComboBoxEditItem Content="ChuyÓn kho¶n" FontFamily=".VnAvant" />
+        </dxe:ComboBoxEdit>
+        <dxe:TextEdit FontSize="13" HorizontalAlignment="Left" Margin="111,163,0,0" Name="txtNH" FontFamily=".VnAvant" VerticalAlignment="Top" Width="300" Grid.Column="1" Grid.Row="1" TabIndex="15" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="5,163,0,0" Name="textBlock13" Text="Ngân hàng" VerticalAlignment="Top" Width="93" Grid.Column="1" Grid.Row="1" />
+        <dxe:TextEdit FontSize="13" HorizontalAlignment="Left" Margin="555,130,0,0" Name="txttk" FontFamily=".VnAvant" VerticalAlignment="Top" Width="300" Grid.Column="1" Grid.Row="1" MaxLength="20" TabIndex="14" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="428,130,0,0" Name="textBlock14" Text="Tài khoản" VerticalAlignment="Top" Width="79" Grid.Column="1" Grid.Row="1" />
+        <dxe:TextEdit FontSize="13" HorizontalAlignment="Left" Margin="555,163,0,0" Name="txtmst" FontFamily=".VnAvant" VerticalAlignment="Top" Width="300" Grid.Column="1" Grid.Row="1" MaxLength="25" TabIndex="16" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="428,163,0,0" Name="textBlock15" Text="Mã số thuế" VerticalAlignment="Top" Width="93" Grid.Column="1" Grid.Row="1" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="5,196,0,0" Name="textBlock16" Text="DV cộng thêm" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.Row="1" />
+        <dxe:ButtonEdit FontSize="13" HorizontalAlignment="Left" Margin="111,196,0,0" Name="txtdvct" FontFamily=".VnAvant" VerticalAlignment="Top" Width="299" Grid.Column="1" Grid.Row="1" TabIndex="17" Height="22" IsEnabled="False" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="428,196,0,0" Name="textBlock17" Text="Trạm viễn thông" VerticalAlignment="Top" Width="118" Grid.Column="1" Grid.Row="1" />
+        <dxe:ComboBoxEdit FontSize="13" HorizontalAlignment="Left" Margin="555,196,0,0" Name="cmbtramvt" FontFamily=".VnAvant" VerticalAlignment="Top" Width="300" Grid.Column="1" Grid.Row="1" TabIndex="18" Height="22" />
+        <Border Background="SteelBlue" BorderBrush="Silver" BorderThickness="1" Height="18" HorizontalAlignment="Left" Name="border4" VerticalAlignment="Top" Width="874" Margin="0,264,0,0" Grid.ColumnSpan="2" Grid.Row="1">
+            <TextBlock FontSize="12" FontWeight="Bold" Foreground="White" Height="17" Name="textBlock19" Text="     Thông tin CSKH, Cam kết sử dụng" Width="874" Margin="0,0,0,0" />
+        </Border>
+        <TextBlock FontSize="13" Height="23" Margin="5,291,752,0" Name="textBlock20" Text="Ngày kỹ niệm" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" />
+        <dxe:DateEdit Height="22" FontSize="12" HorizontalAlignment="Left" Margin="112,291,0,0" Name="dngaykn" VerticalAlignment="Top" Width="298" Grid.Column="1" Grid.Row="1" Mask="dd/MM/yyyy" MaskAllowNullInput="False" DisplayFormatString="dd/MM/yyyy" TabIndex="21" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="429,292,0,0" Name="textBlock21" Text="Ghi chú" VerticalAlignment="Top" Width="113" Grid.Column="1" Grid.Row="1" />
+        <TextBlock FontSize="13" Height="22" HorizontalAlignment="Left" Margin="426,322,0,0" Name="textBlock31" Text="CB Chăm sóc" VerticalAlignment="Top" Width="124" Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="6,321,0,0" Name="textBlock22" Text="E mail KH" VerticalAlignment="Top" Width="103" Grid.Column="1" Grid.Row="1" />
+        <dxe:TextEdit Height="22" FontSize="13" HorizontalAlignment="Left" Margin="112,322,0,0" Name="txtemail" FontFamily=".VnAvant" VerticalAlignment="Top" Width="298" Grid.Column="1" Grid.Row="1" MaxLength="40" TabIndex="23" />
+        <dxe:ComboBoxEdit Height="22" FontSize="13" HorizontalAlignment="Left" Margin="555,322,0,0" Name="cmbcbcs" FontFamily=".VnAvant" VerticalAlignment="Top" Width="297" Grid.Column="1" Grid.Row="1" TabIndex="23" />
+        <dxe:TextEdit Height="22" FontSize="13" HorizontalAlignment="Left" Margin="554,1,0,0" Name="txtsohd" VerticalAlignment="Top" Width="139" Grid.Column="1" IsReadOnly="True" Grid.Row="1" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="428,1,0,0" Name="textBlock4" Text="Hợp đồng / Ngày" VerticalAlignment="Top" Width="120" Grid.Column="1" Grid.Row="1" />
+        <dxe:DateEdit Height="22" FontSize="12" HorizontalAlignment="Left" Margin="704,1,0,0" Name="dngayhd" VerticalAlignment="Top" Width="150" Grid.Column="1" Mask="dd/MM/yyyy" MaskAllowNullInput="False" DisplayFormatString="dd/MM/yyyy" TabIndex="1" IsReadOnly="True" Grid.Row="1" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="696,0,0,0" Name="textBlock24" Text="/" VerticalAlignment="Top" Width="31" Grid.Column="1" Grid.Row="1" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="7,230,0,0" Text="Ngành nghề" VerticalAlignment="Top" Width="104" Grid.Column="1" Grid.Row="1" />
+        <dxe:ComboBoxEdit FontSize="13" HorizontalAlignment="Left" Margin="111,230,0,0" Name="cmbnganh" FontFamily=".VnAvant" VerticalAlignment="Top" Width="299" Grid.Column="1" Grid.Row="1" TabIndex="15" SelectedIndexChanged="cmbnganh_SelectedIndexChanged" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="430,230,0,0" Name="textBlock25" Text="KH thuộc nhóm" VerticalAlignment="Top" Width="118" Grid.Column="1" Grid.Row="1" />
+        <dxe:ComboBoxEdit FontSize="13" HorizontalAlignment="Left" Margin="555,230,0,0" Name="cmbnhom" FontFamily=".VnAvant" VerticalAlignment="Top" Width="299" Grid.Column="1" Grid.Row="1" TabIndex="21" />
+        <dxe:MemoEdit Height="22" FontFamily=".VnAvant" FontSize="13" Grid.Column="1" Grid.Row="1" Margin="555,292,0,0" Name="txtghichu" VerticalAlignment="Top" MaxLength="100" TabIndex="22" HorizontalAlignment="Left" Width="297" />
+        <TextBlock FontSize="13" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="5,35,0,0" Name="textBlock27" Text="Lại kênh" VerticalAlignment="Top" Width="107" Grid.Row="1" />
+        <TextBlock FontSize="13" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="428,35,0,0" Name="textBlock28" Text="Tốc độ" VerticalAlignment="Top" Width="120" Grid.Row="1" />
+        <dxe:ComboBoxEdit FontFamily=".VnAvant" FontSize="13" Grid.Column="1" HorizontalAlignment="Left" Margin="554,35,0,0" Name="cmbhtld" TabIndex="4" VerticalAlignment="Top" Width="300" Height="22" SelectedIndex="0" Grid.Row="1"/>            
+       
+        <dxe:ComboBoxEdit FontFamily=".VnAvant" FontSize="13" Grid.Column="1" Height="22" HorizontalAlignment="Left" Margin="112,34,0,0" Name="cmbgoicuoc" TabIndex="2" VerticalAlignment="Top" Width="298" Grid.Row="1" />
+        <dxe:CheckEdit Grid.Column="1" Grid.Row="3" FontSize="13" HorizontalAlignment="Left" Margin="0,5,0,0" Name="chkhdcq" Content="Hợp đồng với cơ quan" VerticalAlignment="Top" Width="198" Checked="chkhdcq_Checked" Unchecked="chkhdcq_Unchecked" />
+        <dxe:CheckEdit Grid.Column="1" Grid.Row="3" FontSize="13" HorizontalAlignment="Left" Margin="180,5,0,0" Name="nhiemthu" Content="BB nhiệm thu" VerticalAlignment="Top" Width="119" Checked="nhiemthu_Checked"  Unchecked="nhiemthu_Unchecked" />
+        <sdk:Label Grid.Column="1" Grid.Row="2" Height="21" HorizontalAlignment="Left" Margin="320,5,0,0" Name="label1" VerticalAlignment="Top" Width="240" Content=" " Foreground="#FFC10000" FontWeight="Bold" FontSize="12" />
+    </Grid>
+</controls:ChildWindow>

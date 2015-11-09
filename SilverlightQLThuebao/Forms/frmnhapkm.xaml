@@ -1,0 +1,36 @@
+﻿<controls:ChildWindow x:Class="SilverlightQLThuebao.frmnhapkm"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="474" Height="171" 
+           Title="Chương trình KM" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" FontSize="12" Closed="ChildWindow_Closed">
+    <Grid x:Name="LayoutRoot" Margin="2" Height="133">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="33*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Silver" BorderThickness="1" HorizontalAlignment="Left" Margin="1,1,0,1" Name="border2" Height="98" Width="451" />
+        <dxe:TextEdit FontFamily=".VnAvant" FontSize="13" Height="22" Margin="86,11,228,0" MaxLength="3" Name="txtmakm" TabIndex="0" VerticalAlignment="Top" />
+        <dxe:CheckEdit Content="Đang hiệu lực" IsChecked="False" FontSize="13" Height="22" Margin="233,11,12,0" Name="chkhieuluc" TabIndex="1" VerticalAlignment="Top" />
+        <dxe:MemoEdit FontFamily=".VnAvant" FontSize="13" Height="22" HorizontalAlignment="Left" Margin="86,41,0,0" MaxLength="100" Name="txtten" TabIndex="1" VerticalAlignment="Top" Width="357" MaxWidth="357" />
+        <dxe:DateEdit Height="22" HorizontalAlignment="Left" Margin="86,70,0,0" MaxLength="10" Name="dbatdau" TabIndex="2" VerticalAlignment="Top" Width="138" Mask="dd/MM/yyyy" MaskAllowNullInput="False" DisplayFormatString="dd/MM/yyyy"/>
+        <dxe:DateEdit Height="22" HorizontalAlignment="Left" Margin="301,70,0,0" MaxLength="10" Name="dketthuc" TabIndex="2" VerticalAlignment="Top" Width="142" Mask="dd/MM/yyyy" MaskAllowNullInput="False" DisplayFormatString="dd/MM/yyyy"/>
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="10,10,0,0" Name="textBlock4" Text="Mã CT" VerticalAlignment="Top" Width="72" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="10,41,0,0" Name="textBlock1" Text="Tên CT" VerticalAlignment="Top" Width="84" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="10,71,0,0" Name="textBlock2" Text="Bắt đầu" VerticalAlignment="Top" Width="72" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="233,71,0,0" Name="textBlock3" Text="Kết thúc" VerticalAlignment="Top" Width="72" />
+        <Button FontSize="13" Height="23" HorizontalAlignment="Right" Margin="0,7,4,3" Name="CancelButton" TabIndex="4" Grid.Row="1" Click="CancelButton_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="4,0,0,0" Text="Đóng" Width="52" />
+            </StackPanel>
+        </Button>
+        <Button FontSize="13" Height="23" HorizontalAlignment="Right" Margin="0,7,90,3" Name="OKButton" TabIndex="3" Width="80" Grid.Row="1" Click="OKButton_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/save-16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="10,0,0,0" Text="Lưu" Width="42" />
+            </StackPanel>
+        </Button>
+    </Grid>
+</controls:ChildWindow>

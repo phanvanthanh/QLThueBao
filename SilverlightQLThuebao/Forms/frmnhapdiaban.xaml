@@ -1,0 +1,34 @@
+﻿<controls:ChildWindow x:Class="SilverlightQLThuebao.frmnhapdiaban"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="400" Height="158" 
+           Title="Thêm, sửa địa bàn" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" FontSize="12" Closed="ChildWindow_Closed">
+    <Grid x:Name="LayoutRoot" Margin="2" Height="126">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60*" />
+            <RowDefinition Height="33" />           
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Silver" BorderThickness="1" HorizontalAlignment="Left" Margin="1,1,1,1" Name="border2" Height="80" Width="378"/>
+        <dxe:CheckEdit Name="checkEdit1" FontFamily=".VnAvant" FontSize="13" Height="22" HorizontalAlignment="Left" Margin="243,12,0,59" Width="131" Content="Lµ kü thuËt" />
+        <dxe:TextEdit  FontSize="13" Height="22" HorizontalAlignment="Left" Margin="88,11,0,0" MaxLength="15" Name="txtmanv" TabIndex="0" VerticalAlignment="Top" Width="140" />
+        <dxe:TextEdit  FontSize="13" Height="22" HorizontalAlignment="Left" Margin="88,46,0,0" MaxLength="70" Name="txtten" TabIndex="1" VerticalAlignment="Top" Width="284" LostFocus="txtten_LostFocus" />
+        
+        
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="10,10,0,0" Name="textBlock4" Text="Mã tuyến" VerticalAlignment="Top" Width="72" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="10,46,0,0" Name="textBlock1" Text="Tên tuyến" VerticalAlignment="Top" Width="84" />
+        
+        <Button FontSize="13" Height="23" HorizontalAlignment="Right" Margin="0,1,4,9" Name="CancelButton" TabIndex="4" Grid.Row="1" Click="CancelButton_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Close_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="4,0,0,0" Text="Đóng" Width="52" />
+            </StackPanel>
+        </Button>
+        <Button FontSize="13" Height="23" HorizontalAlignment="Right" Margin="0,1,92,9" Name="OKButton" TabIndex="3" Width="80" Grid.Row="1" Click="OKButton_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/save-16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="10,0,0,0" Text="Lưu" Width="42" />
+            </StackPanel>
+        </Button>
+    </Grid>
+</controls:ChildWindow>

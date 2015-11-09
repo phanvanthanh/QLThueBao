@@ -1,0 +1,31 @@
+C:\Users\Nam\Downloads\SilverlightApplication1\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\DevExpress.Xpf.Grid.v12.1.Extensions.dll
+C:\Users\Nam\Downloads\SilverlightApplication1\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\DevExpress.Xpf.Grid.v12.1.Extensions.pdb
+C:\Users\Nam\Downloads\SilverlightApplication1\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\System.Windows.Interactivity.dll
+C:\Users\Nam\Downloads\SilverlightApplication1\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.Extensions.SL.csprojResolveAssemblyReference.cache
+C:\Users\Nam\Downloads\SilverlightApplication1\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.g.resources
+C:\Users\Nam\Downloads\SilverlightApplication1\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.dll
+C:\Users\Nam\Downloads\SilverlightApplication1\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.pdb
+D:\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\DevExpress.Xpf.Grid.v12.1.Extensions.dll
+D:\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\DevExpress.Xpf.Grid.v12.1.Extensions.pdb
+D:\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\System.Windows.Interactivity.dll
+D:\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.g.resources
+D:\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.dll
+D:\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.pdb
+D:\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\DevExpress.Xpf.Grid.v12.1.Extensions.dll
+D:\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\DevExpress.Xpf.Grid.v12.1.Extensions.pdb
+D:\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\System.Windows.Interactivity.dll
+D:\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.g.resources
+D:\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.dll
+D:\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.pdb
+E:\VNPT\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\DevExpress.Xpf.Grid.v12.1.Extensions.dll
+E:\VNPT\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\DevExpress.Xpf.Grid.v12.1.Extensions.pdb
+E:\VNPT\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\System.Windows.Interactivity.dll
+E:\VNPT\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.g.resources
+E:\VNPT\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.dll
+E:\VNPT\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.pdb
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\DevExpress.Xpf.Grid.v12.1.Extensions.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\DevExpress.Xpf.Grid.v12.1.Extensions.pdb
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\Bin\Silverlight\System.Windows.Interactivity.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.g.resources
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\DevExpress.Xpf.Grid.Extensions.SL\obj.SL\Debug\DevExpress.Xpf.Grid.v12.1.Extensions.pdb

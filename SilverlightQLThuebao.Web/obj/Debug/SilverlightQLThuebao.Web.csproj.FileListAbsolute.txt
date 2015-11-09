@@ -1,0 +1,514 @@
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\user.png
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\SilverlightQLThuebao.Web.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\SilverlightQLThuebao.Web.pdb
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Charts.v12.1.Core.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Data.v12.1.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Office.v12.1.Core.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.PivotGrid.v12.1.Core.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Printing.v12.1.Core.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.RichEdit.v12.1.Core.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Utils.v12.1.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Core.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Service.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.Web.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraCharts.v12.1.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraEditors.v12.1.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraPivotGrid.v12.1.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Extensions.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Service.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.EntityFramework.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Hosting.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Server.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.Web.Services.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.Xml.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Data.v12.1.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.PivotGrid.v12.1.Core.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Printing.v12.1.Core.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Office.v12.1.Core.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.RichEdit.v12.1.Core.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Utils.v12.1.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Core.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Service.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.Web.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraCharts.v12.1.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraEditors.v12.1.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraPivotGrid.v12.1.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Extensions.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Service.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.EntityFramework.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Hosting.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Server.xml
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Data.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Data.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Data.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Data.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Printing.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Printing.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Printing.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Printing.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Utils.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Utils.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Utils.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Utils.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Xpo.v12.1.Web.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Xpo.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Xpo.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Xpo.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Xpo.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraCharts.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraCharts.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraCharts.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraCharts.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraEditors.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraEditors.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraEditors.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraEditors.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraReports.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraReports.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraReports.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraReports.v12.1.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.Server.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.Server.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.Server.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.Server.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.Server.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.Server.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.Server.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.Server.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.Server.resources.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rphopdong.resources
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.rphopdongmoi.resources
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthu.resources
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthuint.resources
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthumy.resources
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpthdint.resources
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpthdmytv.resources
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.csproj.GenerateResource.Cache
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.dll.licenses
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.dll
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.pdb
+D:\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.csprojResolveAssemblyReference.cache
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\user.png
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\SilverlightQLThuebao.Web.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\SilverlightQLThuebao.Web.pdb
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Charts.v12.1.Core.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Data.v12.1.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Office.v12.1.Core.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.PivotGrid.v12.1.Core.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Printing.v12.1.Core.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.RichEdit.v12.1.Core.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Utils.v12.1.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Core.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Service.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.Web.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraCharts.v12.1.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraEditors.v12.1.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraPivotGrid.v12.1.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Extensions.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Service.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.EntityFramework.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Hosting.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Server.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.Web.Services.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.Xml.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Data.v12.1.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.PivotGrid.v12.1.Core.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Printing.v12.1.Core.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Office.v12.1.Core.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.RichEdit.v12.1.Core.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Utils.v12.1.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Core.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Service.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.Web.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraCharts.v12.1.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraEditors.v12.1.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraPivotGrid.v12.1.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Extensions.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Service.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.EntityFramework.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Hosting.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Server.xml
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Data.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Data.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Data.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Data.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.PivotGrid.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Printing.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Printing.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Printing.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Printing.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.RichEdit.v12.1.Core.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Utils.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Utils.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Utils.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Utils.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Xpo.v12.1.Web.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Xpo.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Xpo.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Xpo.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Xpo.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraCharts.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraCharts.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraCharts.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraCharts.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraEditors.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraEditors.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraEditors.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraEditors.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraPivotGrid.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraReports.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraReports.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraReports.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraReports.v12.1.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.Hosting.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.Server.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.Server.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.Server.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.Server.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.Server.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.Server.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.Server.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.Server.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.Server.resources.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rphopdong.resources
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.rphopdongmoi.resources
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthu.resources
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthuint.resources
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthumy.resources
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpthdint.resources
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpthdmytv.resources
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.csproj.GenerateResource.Cache
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.dll.licenses
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.dll
+D:\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.pdb
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\user.png
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\SilverlightQLThuebao.Web.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\SilverlightQLThuebao.Web.pdb
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Charts.v12.1.Core.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Data.v12.1.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Office.v12.1.Core.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.PivotGrid.v12.1.Core.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Printing.v12.1.Core.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.RichEdit.v12.1.Core.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Utils.v12.1.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Core.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Service.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.Web.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraCharts.v12.1.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraEditors.v12.1.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraPivotGrid.v12.1.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Extensions.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Service.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.EntityFramework.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Hosting.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Server.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.Web.Services.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.Xml.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Data.v12.1.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.PivotGrid.v12.1.Core.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Printing.v12.1.Core.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Office.v12.1.Core.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.RichEdit.v12.1.Core.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Utils.v12.1.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Core.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Service.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.Web.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraCharts.v12.1.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraEditors.v12.1.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraPivotGrid.v12.1.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Extensions.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Service.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.EntityFramework.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Hosting.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Server.xml
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Data.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Data.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Data.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Data.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.PivotGrid.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.PivotGrid.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.PivotGrid.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.PivotGrid.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Printing.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Printing.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Printing.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Printing.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.RichEdit.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.RichEdit.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.RichEdit.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.RichEdit.v12.1.Core.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Utils.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Utils.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Utils.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Utils.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Xpo.v12.1.Web.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Xpo.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Xpo.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Xpo.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Xpo.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraCharts.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraCharts.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraCharts.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraCharts.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraEditors.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraEditors.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraEditors.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraEditors.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraPivotGrid.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraPivotGrid.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraPivotGrid.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraPivotGrid.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraReports.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraReports.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraReports.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraReports.v12.1.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.Hosting.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.Hosting.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.Hosting.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.Hosting.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.Hosting.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.Hosting.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.Hosting.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.Hosting.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.Hosting.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.Server.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.Server.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.Server.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.Server.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.Server.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.Server.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.Server.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.Server.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.Server.resources.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rphopdong.resources
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.rphopdongmoi.resources
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthu.resources
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthuint.resources
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthumy.resources
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpthdint.resources
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpthdmytv.resources
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.csproj.GenerateResource.Cache
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.dll.licenses
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.dll
+E:\VNPT\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.pdb
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\user.png
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\SilverlightQLThuebao.Web.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\SilverlightQLThuebao.Web.pdb
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Charts.v12.1.Core.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Data.v12.1.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Office.v12.1.Core.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.PivotGrid.v12.1.Core.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Printing.v12.1.Core.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.RichEdit.v12.1.Core.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Utils.v12.1.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Core.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Service.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.Web.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraCharts.v12.1.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraEditors.v12.1.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraPivotGrid.v12.1.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Extensions.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Service.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.EntityFramework.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Hosting.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Server.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.Web.Services.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.Xml.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Data.v12.1.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.PivotGrid.v12.1.Core.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Printing.v12.1.Core.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Office.v12.1.Core.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.RichEdit.v12.1.Core.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Utils.v12.1.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Core.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpf.Printing.v12.1.Service.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.Web.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.Xpo.v12.1.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraCharts.v12.1.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraEditors.v12.1.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraPivotGrid.v12.1.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Extensions.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\DevExpress.XtraReports.v12.1.Service.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.EntityFramework.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Hosting.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\System.ServiceModel.DomainServices.Server.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Data.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Data.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Data.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Data.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.PivotGrid.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.PivotGrid.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.PivotGrid.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.PivotGrid.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Printing.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.RichEdit.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.RichEdit.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.RichEdit.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.RichEdit.v12.1.Core.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Utils.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Utils.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Utils.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Utils.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Xpo.v12.1.Web.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.Xpo.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.Xpo.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.Xpo.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.Xpo.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraCharts.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraCharts.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraCharts.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraCharts.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraEditors.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraEditors.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraEditors.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraEditors.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraPivotGrid.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraPivotGrid.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraPivotGrid.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraPivotGrid.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraReports.v12.1.Extensions.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\DevExpress.XtraReports.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\DevExpress.XtraReports.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\DevExpress.XtraReports.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\DevExpress.XtraReports.v12.1.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.EntityFramework.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.Hosting.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.Hosting.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.Hosting.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.Hosting.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.Hosting.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.Hosting.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.Hosting.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.Hosting.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.Hosting.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\de\System.ServiceModel.DomainServices.Server.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\es\System.ServiceModel.DomainServices.Server.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\fr\System.ServiceModel.DomainServices.Server.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\it\System.ServiceModel.DomainServices.Server.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ja\System.ServiceModel.DomainServices.Server.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ko\System.ServiceModel.DomainServices.Server.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.Server.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.Server.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.Server.resources.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.csprojResolveAssemblyReference.cache
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rphopdong.resources
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.rphopdongmoi.resources
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthu.resources
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthuint.resources
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthumy.resources
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpthdint.resources
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpthdmytv.resources
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.csproj.GenerateResource.Cache
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.dll.licenses
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.dll
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.pdb

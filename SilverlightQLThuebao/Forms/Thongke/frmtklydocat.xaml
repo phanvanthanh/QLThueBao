@@ -1,0 +1,45 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmtklydocat" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"      
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"    
+    mc:Ignorable="d" Width="970" Height="408" Title="Thống kê lý do cắt" FontSize="13" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" KeepPosition="False" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">
+   
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Button FontSize="12" Height="23" HorizontalAlignment="Right" Margin="0,8,4,6" Name="FindButton" Width="100"  Grid.Row="0" Click="FindButton_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Search_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="8,0,0,0" Text="Tìm" Width="52" />
+            </StackPanel>
+        </Button>
+        <TextBlock FontSize="13" FontWeight="Normal" HorizontalAlignment="Right" Margin="0,9,335,9" Name="textBlock1" Text="Đến ngày" TextAlignment="Right" Width="74" Grid.Row="0" />
+        <dxe:DateEdit DisplayFormatString="dd/MM/yyyy hh:mm:ss tt" FontSize="13" HorizontalAlignment="Right" Margin="0,8,114,0" Mask="dd/MM/yyyy hh:mm:ss tt" MaskAllowNullInput="False" Name="dngaykt" TabIndex="2" VerticalAlignment="Top" Width="214" Grid.Row="0" />
+        <TextBlock FontSize="13" FontWeight="Normal" HorizontalAlignment="Right" Margin="0,9,622,9" Name="textBlock2" Text="Từ ngày" TextAlignment="Right" Width="82"  Grid.Row="0"/>
+        <dxe:DateEdit DisplayFormatString="dd/MM/yyyy hh:mm:ss tt" FontSize="13" HorizontalAlignment="Right" Margin="0,8,406,0" Mask="dd/MM/yyyy hh:mm:ss tt" MaskAllowNullInput="False" Name="dngaybd" TabIndex="1" VerticalAlignment="Top" Width="214" Grid.Row="0" />
+        <dxg:GridControl AutoPopulateColumns="True" Name="gridControl1" Grid.Row="2" FontSize="13" FontFamily=".VnAvant">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="ten_dv" Header="§¬n vÞ" Name="ten_dv"  Width="120" />
+                <dxg:GridColumn FieldName="ten_ld" Header="Nguyªn nh©n" Name="ten_ld"  Width="180" />
+                <dxg:GridColumn FieldName="ma_ld" Header="Lydo" Name="ma_ld"  Width="100" Visible="False" />
+                <dxg:GridColumn FieldName="slcd" Header="Cè ®Þnh" Name="slcd" Width="80" />
+                <dxg:GridColumn FieldName="slgp" Header="Gphone" Name="slgp" Width="80" />
+                <dxg:GridColumn FieldName="slmy" Header="MyTV" Name="slmy" Width="80" />
+                <dxg:GridColumn FieldName="slint" Header="MegaVNN" Name="slint" Width="80" />
+                <dxg:GridColumn FieldName="slftth" Header="Fiber" Name="slftth" Width="80" />
+                <dxg:GridColumn FieldName="ma_dv" Header="§V" Name="ma_dv" Width="80" Visible="False" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" AllowGrouping="True" AllowHorizontalScrollingVirtualization="False" IsColumnMenuEnabled="False" IsGroupPanelMenuEnabled="False" IsRowCellMenuEnabled="False" Name="tableView1" ShowFilterPanelMode="Never" ShowGroupPanel="False" ShowGroupedColumns="False" ShowIndicator="False" MultiSelectMode="Cell" RowDoubleClick="tableView1_RowDoubleClick" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <sdk:Label Height="28" HorizontalAlignment="Left" Margin="12,3,0,6" Name="label1" VerticalAlignment="Center" Width="278" Content="Double click để thấy danh sách chi tiết !" Foreground="Red" Grid.Row="0"  />
+    </Grid>
+</dx:DXWindow>

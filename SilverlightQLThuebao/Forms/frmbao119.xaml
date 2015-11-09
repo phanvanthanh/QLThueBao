@@ -1,0 +1,54 @@
+﻿<controls:ChildWindow x:Class="SilverlightQLThuebao.frmbao119"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+        Width="788" Height="377" 
+        Title="Báo hỏng 119" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" FontSize="13" >
+    <Grid x:Name="LayoutRoot" Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="145" />
+            <RowDefinition Height="*" />
+           
+        </Grid.RowDefinitions>
+<Border BorderBrush="Silver" BorderThickness="1" Name="border1" Margin="1,1,1,34">
+            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="10,10,0,0" Name="textBlock3" Text="Số báo 119" VerticalAlignment="Top" Width="86" />
+                <dxe:ButtonEdit FontSize="13" Height="22" DefaultButtonClick="txtsdt_DefaultButtonClick" HorizontalAlignment="Left" Margin="101,10,0,0"  Name="txtsdt" VerticalAlignment="Top" Width="231" />
+                <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="2,41,0,0" Name="textBlock5" Text="Tên thuê bao" VerticalAlignment="Top" Width="104" />
+                <dxe:ButtonEdit DefaultButtonClick="txttentb_DefaultButtonClick" FontFamily=".VnAvant" FontSize="13" Height="22" HorizontalAlignment="Left" Margin="102,41,0,0" MaxLength="80" Name="txttentb" TabIndex="2147483647" VerticalAlignment="Top" Width="645" />
+                <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="6,74,0,0" Name="textBlock6" Text="Địa chỉ" TextAlignment="Left" VerticalAlignment="Top" Width="90" />
+                <dxe:ButtonEdit DefaultButtonClick="txttendb_DefaultButtonClick" FontFamily=".VnAvant" FontSize="13" Height="22" HorizontalAlignment="Left" Margin="102,74,0,0" MaxLength="80" Name="txttendb" TabIndex="2147483647" VerticalAlignment="Top" Width="645" />
+                <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="364,10,0,0" Name="textBlock1" Text="Số gọi báo" VerticalAlignment="Top" Width="120" />
+                <dxe:TextEdit FontSize="13" Height="22" HorizontalAlignment="Left" Margin="516,10,0,0" Name="txtsogoibao" MaxLength="11" VerticalAlignment="Top" Width="231" MaskType="None" Mask="###########" />
+            </Grid>
+        </Border>
+        <Button x:Name="CancelButton" Click="CancelButton_Click" Width="105" Height="23" HorizontalAlignment="Right" Margin="0,116,12,6">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16"  Source="/SilverlightQLThuebao;component/Images/New_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="4,0,0,0" Text="Nhập mới" Width="77" />
+            </StackPanel>
+        </Button>
+        <Button x:Name="OKButton"  Click="OKButton_Click" Width="100" Height="23" HorizontalAlignment="Right" Margin="0,116,127,6">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Name="Picturecat" Source="/SilverlightQLThuebao;component/Images/Select_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="4,0,0,0" Name="Textcat" Text="Báo 119" Width="70" />
+            </StackPanel>
+        </Button>
+        <dxg:GridControl Name="grid" FontFamily=".VnAvant" FontSize="13" Grid.Row="1">
+            <dxg:GridControl.Columns>                
+                <dxg:GridColumn Name="so_dt" FieldName="so_dt" Header="Sè háng" Width="100" />
+                <dxg:GridColumn Name="user_name" FieldName="user_name" Header="Account" Width="120" />
+                <dxg:GridColumn Name="tentb" FieldName="ten_dktb" Header="Tªn thuª bao" Width="280" />
+                <dxg:GridColumn Name="diachidb" FieldName="dc_tbld" Header="§Þa chØ l¾p ®Æt" Width="320" />
+                <dxg:GridColumn Name="ma_huyen" FieldName="ma_huyen" Header="HuyÖn:" Width="120" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" ShowGroupedColumns="False" Name="view" AutoWidth="True" FontSize="13" ShowGroupPanel="False" RowDoubleClick="view_RowDoubleClick" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+
+    </Grid>
+</controls:ChildWindow>

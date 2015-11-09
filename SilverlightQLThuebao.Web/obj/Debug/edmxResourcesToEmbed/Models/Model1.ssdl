@@ -1,0 +1,1747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLThuebaoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="QLThuebaoModelStoreContainer">
+    <EntitySet Name="119TVPrefix" EntityType="QLThuebaoModel.Store.119TVPrefix" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="cat_mo" EntityType="QLThuebaoModel.Store.cat_mo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="cat_mo_log" EntityType="QLThuebaoModel.Store.cat_mo_log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="chi_tieu_ca_nhan" EntityType="QLThuebaoModel.Store.chi_tieu_ca_nhan" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="chi_tieu_huyen" EntityType="QLThuebaoModel.Store.chi_tieu_huyen" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="chungloaicap" EntityType="QLThuebaoModel.Store.chungloaicap" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CnfgStatus119" EntityType="QLThuebaoModel.Store.CnfgStatus119" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="codinh_log" EntityType="QLThuebaoModel.Store.codinh_log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="dichvugiatang" EntityType="QLThuebaoModel.Store.dichvugiatang" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="dichvugiatang_log" EntityType="QLThuebaoModel.Store.dichvugiatang_log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="don_vi" EntityType="QLThuebaoModel.Store.don_vi" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ds_119" EntityType="QLThuebaoModel.Store.ds_119" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ds_codinh" EntityType="QLThuebaoModel.Store.ds_codinh" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="dssuaxong_119" EntityType="QLThuebaoModel.Store.dssuaxong_119" store:Type="Tables" store:Schema="dbo" store:Name="dssuaxong_119">
+      <DefiningQuery>SELECT 
+      [dssuaxong_119].[sDamagedPhoneNo] AS [sDamagedPhoneNo], 
+      [dssuaxong_119].[sName] AS [sName], 
+      [dssuaxong_119].[sCallerNo] AS [sCallerNo], 
+      [dssuaxong_119].[dtfinished] AS [dtfinished], 
+      [dssuaxong_119].[bfinished] AS [bfinished], 
+      [dssuaxong_119].[iStatusID] AS [iStatusID], 
+      [dssuaxong_119].[sStatus] AS [sStatus], 
+      [dssuaxong_119].[user_name] AS [user_name], 
+      [dssuaxong_119].[ten_dkdb] AS [ten_dkdb], 
+      [dssuaxong_119].[dc_tbld] AS [dc_tbld], 
+      [dssuaxong_119].[ma_huyen] AS [ma_huyen], 
+      [dssuaxong_119].[dtRecvTime] AS [dtRecvTime], 
+      [dssuaxong_119].[sNotes] AS [sNotes], 
+      [dssuaxong_119].[ID] AS [ID], 
+      [dssuaxong_119].[tg] AS [tg], 
+      [dssuaxong_119].[ma_tram] AS [ma_tram], 
+      [dssuaxong_119].[ten_tram] AS [ten_tram], 
+      [dssuaxong_119].[sohopdong] AS [sohopdong]
+      FROM [dbo].[dssuaxong_119] AS [dssuaxong_119]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="dsw_119" EntityType="QLThuebaoModel.Store.dsw_119" store:Type="Tables" store:Schema="dbo" store:Name="dsw_119">
+      <DefiningQuery>SELECT 
+      [dsw_119].[sDamagedPhoneNo] AS [sDamagedPhoneNo], 
+      [dsw_119].[sName] AS [sName], 
+      [dsw_119].[sCallerNo] AS [sCallerNo], 
+      [dsw_119].[dtfinished] AS [dtfinished], 
+      [dsw_119].[user_name] AS [user_name], 
+      [dsw_119].[ten_dkdb] AS [ten_dkdb], 
+      [dsw_119].[dc_tbld] AS [dc_tbld], 
+      [dsw_119].[ma_huyen] AS [ma_huyen], 
+      [dsw_119].[dtRecvTime] AS [dtRecvTime], 
+      [dsw_119].[sNotes] AS [sNotes], 
+      [dsw_119].[ID] AS [ID], 
+      [dsw_119].[sendsms] AS [sendsms], 
+      [dsw_119].[phonekd] AS [phonekd], 
+      [dsw_119].[phonekt] AS [phonekt], 
+      [dsw_119].[tenkhkd] AS [tenkhkd], 
+      [dsw_119].[dckd] AS [dckd]
+      FROM [dbo].[dsw_119] AS [dsw_119]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="gc_mytv" EntityType="QLThuebaoModel.Store.gc_mytv" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Goi_th" EntityType="QLThuebaoModel.Store.Goi_th" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="goicuoc_int" EntityType="QLThuebaoModel.Store.goicuoc_int" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Gphone" EntityType="QLThuebaoModel.Store.Gphone" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Gphone_log" EntityType="QLThuebaoModel.Store.Gphone_log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="internet" EntityType="QLThuebaoModel.Store.internet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="internet_log" EntityType="QLThuebaoModel.Store.internet_log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="kenh_thue_rieng" EntityType="QLThuebaoModel.Store.kenh_thue_rieng" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="kh_mai" EntityType="QLThuebaoModel.Store.kh_mai" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="kh_uutien" EntityType="QLThuebaoModel.Store.kh_uutien" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="khachhangDN" EntityType="QLThuebaoModel.Store.khachhangDN" store:Type="Tables" store:Schema="dbo" store:Name="khachhangDN">
+      <DefiningQuery>SELECT 
+      [khachhangDN].[ten_dktb] AS [ten_dktb], 
+      [khachhangDN].[ngay_tl] AS [ngay_tl], 
+      [khachhangDN].[giam_doc] AS [giam_doc], 
+      [khachhangDN].[dia_chitb] AS [dia_chitb], 
+      [khachhangDN].[so_dt] AS [so_dt], 
+      [khachhangDN].[id] AS [id]
+      FROM [dbo].[khachhangDN] AS [khachhangDN]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="kho" EntityType="QLThuebaoModel.Store.kho" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="khoi" EntityType="QLThuebaoModel.Store.khoi" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KPIs" EntityType="QLThuebaoModel.Store.KPIs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KPOs" EntityType="QLThuebaoModel.Store.KPOs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="loai_catmo" EntityType="QLThuebaoModel.Store.loai_catmo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="loai_dv" EntityType="QLThuebaoModel.Store.loai_dv" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="loai_kenh" EntityType="QLThuebaoModel.Store.loai_kenh" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="loai_kh" EntityType="QLThuebaoModel.Store.loai_kh" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="lydocat" EntityType="QLThuebaoModel.Store.lydocat" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ma_ap" EntityType="QLThuebaoModel.Store.ma_ap" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ma_diaban" EntityType="QLThuebaoModel.Store.ma_diaban" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ma_duong" EntityType="QLThuebaoModel.Store.ma_duong" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ma_xa" EntityType="QLThuebaoModel.Store.ma_xa" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="menu" EntityType="QLThuebaoModel.Store.menu" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="mytv" EntityType="QLThuebaoModel.Store.mytv" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="mytv_log" EntityType="QLThuebaoModel.Store.mytv_log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="nganh_nghe" EntityType="QLThuebaoModel.Store.nganh_nghe" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="nhanvien_cs" EntityType="QLThuebaoModel.Store.nhanvien_cs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="nhanvien_cs_log" EntityType="QLThuebaoModel.Store.nhanvien_cs_log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="nhom_kh" EntityType="QLThuebaoModel.Store.nhom_kh" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="nv_thuethu" EntityType="QLThuebaoModel.Store.nv_thuethu" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Phong_huyen" EntityType="QLThuebaoModel.Store.Phong_huyen" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="rp_dsgan" EntityType="QLThuebaoModel.Store.rp_dsgan" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="rp_dt_diaban" EntityType="QLThuebaoModel.Store.rp_dt_diaban" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="rp_slg_diaban" EntityType="QLThuebaoModel.Store.rp_slg_diaban" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="rp_tklydocat" EntityType="QLThuebaoModel.Store.rp_tklydocat" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="rp_tktonghop" EntityType="QLThuebaoModel.Store.rp_tktonghop" store:Type="Tables" store:Schema="dbo" store:Name="rp_tktonghop">
+      <DefiningQuery>SELECT 
+      [rp_tktonghop].[ma_dv] AS [ma_dv], 
+      [rp_tktonghop].[ten_dv] AS [ten_dv], 
+      [rp_tktonghop].[hmcd] AS [hmcd], 
+      [rp_tktonghop].[ngungcd] AS [ngungcd], 
+      [rp_tktonghop].[catcd] AS [catcd], 
+      [rp_tktonghop].[hdlcd] AS [hdlcd], 
+      [rp_tktonghop].[thcd] AS [thcd], 
+      [rp_tktonghop].[hmgpt] AS [hmgpt], 
+      [rp_tktonghop].[ngunggpt] AS [ngunggpt], 
+      [rp_tktonghop].[catgpt] AS [catgpt], 
+      [rp_tktonghop].[hdlgpt] AS [hdlgpt], 
+      [rp_tktonghop].[thgpt] AS [thgpt], 
+      [rp_tktonghop].[hmgp] AS [hmgp], 
+      [rp_tktonghop].[ngunggp] AS [ngunggp], 
+      [rp_tktonghop].[catgp] AS [catgp], 
+      [rp_tktonghop].[hdlgp] AS [hdlgp], 
+      [rp_tktonghop].[thgp] AS [thgp], 
+      [rp_tktonghop].[hmmy] AS [hmmy], 
+      [rp_tktonghop].[ngungmy] AS [ngungmy], 
+      [rp_tktonghop].[catmy] AS [catmy], 
+      [rp_tktonghop].[hdlmy] AS [hdlmy], 
+      [rp_tktonghop].[thmy] AS [thmy], 
+      [rp_tktonghop].[hmint] AS [hmint], 
+      [rp_tktonghop].[ngungint] AS [ngungint], 
+      [rp_tktonghop].[catint] AS [catint], 
+      [rp_tktonghop].[catnguint] AS [catnguint], 
+      [rp_tktonghop].[hdlint] AS [hdlint], 
+      [rp_tktonghop].[thint] AS [thint], 
+      [rp_tktonghop].[hmftth] AS [hmftth], 
+      [rp_tktonghop].[ngungftth] AS [ngungftth], 
+      [rp_tktonghop].[catftth] AS [catftth], 
+      [rp_tktonghop].[catnguftth] AS [catnguftth], 
+      [rp_tktonghop].[hdlftth] AS [hdlftth], 
+      [rp_tktonghop].[thftth] AS [thftth]
+      FROM [dbo].[rp_tktonghop] AS [rp_tktonghop]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="sKPI" EntityType="QLThuebaoModel.Store.sKPI" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sKPO" EntityType="QLThuebaoModel.Store.sKPO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="td_kenhrieng" EntityType="QLThuebaoModel.Store.td_kenhrieng" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="thiet_bi" EntityType="QLThuebaoModel.Store.thiet_bi" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="thongbao" EntityType="QLThuebaoModel.Store.thongbao" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="thuhoi_log" EntityType="QLThuebaoModel.Store.thuhoi_log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="thuhoi_thietbi" EntityType="QLThuebaoModel.Store.thuhoi_thietbi" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tien_tb" EntityType="QLThuebaoModel.Store.tien_tb" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tk119" EntityType="QLThuebaoModel.Store.tk119" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tkloai119" EntityType="QLThuebaoModel.Store.tkloai119" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="toc_do" EntityType="QLThuebaoModel.Store.toc_do" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tram_vt" EntityType="QLThuebaoModel.Store.tram_vt" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tuyen_temp" EntityType="QLThuebaoModel.Store.tuyen_temp" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="users" EntityType="QLThuebaoModel.Store.users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="users_log" EntityType="QLThuebaoModel.Store.users_log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="vien_canh" EntityType="QLThuebaoModel.Store.vien_canh" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_chi_tieu_ca_nhan_sKPI" Association="QLThuebaoModel.Store.FK_chi_tieu_ca_nhan_sKPI">
+      <End Role="sKPI" EntitySet="sKPI" />
+      <End Role="chi_tieu_ca_nhan" EntitySet="chi_tieu_ca_nhan" />
+    </AssociationSet>
+    <AssociationSet Name="FK_chi_tieu_huyen_KPIs" Association="QLThuebaoModel.Store.FK_chi_tieu_huyen_KPIs">
+      <End Role="KPIs" EntitySet="KPIs" />
+      <End Role="chi_tieu_huyen" EntitySet="chi_tieu_huyen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_chi_tieu_huyen_Phong_huyen" Association="QLThuebaoModel.Store.FK_chi_tieu_huyen_Phong_huyen">
+      <End Role="Phong_huyen" EntitySet="Phong_huyen" />
+      <End Role="chi_tieu_huyen" EntitySet="chi_tieu_huyen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KPI_KPO" Association="QLThuebaoModel.Store.FK_KPI_KPO">
+      <End Role="sKPO" EntitySet="sKPO" />
+      <End Role="sKPI" EntitySet="sKPI" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KPIs_KPOs" Association="QLThuebaoModel.Store.FK_KPIs_KPOs">
+      <End Role="KPOs" EntitySet="KPOs" />
+      <End Role="KPIs" EntitySet="KPIs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KPOs_vien_canh" Association="QLThuebaoModel.Store.FK_KPOs_vien_canh">
+      <End Role="vien_canh" EntitySet="vien_canh" />
+      <End Role="KPOs" EntitySet="KPOs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_nhanvien_cs_don_vi" Association="QLThuebaoModel.Store.FK_nhanvien_cs_don_vi">
+      <End Role="don_vi" EntitySet="don_vi" />
+      <End Role="nhanvien_cs" EntitySet="nhanvien_cs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Phong_huyen_khoi" Association="QLThuebaoModel.Store.FK_Phong_huyen_khoi">
+      <End Role="khoi" EntitySet="khoi" />
+      <End Role="Phong_huyen" EntitySet="Phong_huyen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_vitricv_cs_nhanvien_cs" Association="QLThuebaoModel.Store.FK_vitricv_cs_nhanvien_cs">
+      <End Role="nhanvien_cs" EntitySet="nhanvien_cs" />
+      <End Role="chi_tieu_ca_nhan" EntitySet="chi_tieu_ca_nhan" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="119TVPrefix">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="nPrefixBegin" Type="int" />
+    <Property Name="nPrefixEnd" Type="int" />
+    <Property Name="nGroupID" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="cat_mo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="so_dt" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="ten_dktb" Type="char" MaxLength="80" />
+    <Property Name="ten_dkdb" Type="char" MaxLength="80" />
+    <Property Name="dia_chitb" Type="char" MaxLength="100" />
+    <Property Name="dc_tbld" Type="char" MaxLength="100" />
+    <Property Name="ma_yc" Type="char" MaxLength="7" />
+    <Property Name="tg_yc" Type="datetime" />
+    <Property Name="logic" Type="bit" />
+    <Property Name="nguoi_yc" Type="char" MaxLength="60" />
+    <Property Name="tg_mo" Type="datetime" />
+    <Property Name="nguoi_mo" Type="char" MaxLength="60" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="dlu" Type="int" />
+    <Property Name="shell" Type="int" />
+    <Property Name="card" Type="int" />
+    <Property Name="port" Type="int" />
+    <Property Name="slp" Type="int" />
+    <Property Name="en" Type="int" />
+    <Property Name="frame" Type="int" />
+    <Property Name="slot" Type="int" />
+    <Property Name="mo" Type="bit" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="cat_mo_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="so_dt" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="ten_dktb" Type="char" MaxLength="80" />
+    <Property Name="ten_dkdb" Type="char" MaxLength="80" />
+    <Property Name="dia_chitb" Type="char" MaxLength="100" />
+    <Property Name="dc_tbld" Type="char" MaxLength="100" />
+    <Property Name="ma_yc" Type="char" MaxLength="7" />
+    <Property Name="tg_yc" Type="datetime" />
+    <Property Name="logic" Type="bit" />
+    <Property Name="nguoi_yc" Type="char" MaxLength="60" />
+    <Property Name="tg_mo" Type="datetime" />
+    <Property Name="nguoi_mo" Type="char" MaxLength="60" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="dlu" Type="int" />
+    <Property Name="shell" Type="int" />
+    <Property Name="card" Type="int" />
+    <Property Name="port" Type="int" />
+    <Property Name="slp" Type="int" />
+    <Property Name="en" Type="int" />
+    <Property Name="frame" Type="int" />
+    <Property Name="slot" Type="int" />
+    <Property Name="mo" Type="bit" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="chi_tieu_ca_nhan">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="thang_nvcs" Type="nchar" MaxLength="6" />
+    <Property Name="tytrong" Type="float" />
+    <Property Name="sl_quydoi" Type="float" />
+    <Property Name="sanluong" Type="float" />
+    <Property Name="chitieu_giao" Type="float" />
+    <Property Name="tytrong_giao" Type="float" />
+    <Property Name="chitieu_th" Type="float" />
+    <Property Name="tytrong_th" Type="float" />
+    <Property Name="id_kpi" Type="char" MaxLength="4" />
+    <Property Name="id_nv_cs" Type="char" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="chi_tieu_huyen">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_kpis" Type="char" MaxLength="4" />
+    <Property Name="ma_dv" Type="nchar" MaxLength="10" />
+    <Property Name="qui" Type="char" MaxLength="6" />
+    <Property Name="chi_tieu_giao" Type="float" />
+    <Property Name="trong_so_giao" Type="float" />
+    <Property Name="chi_tieu_thuc_hien" Type="float" />
+    <Property Name="ty_trong_thuc_hien" Type="float" />
+  </EntityType>
+  <EntityType Name="chungloaicap">
+    <Key>
+      <PropertyRef Name="loai_cap" />
+    </Key>
+    <Property Name="loai_cap" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="ten_loai" Type="nchar" MaxLength="40" />
+    <Property Name="moi" Type="bit" />
+    <Property Name="dv" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="CnfgStatus119">
+    <Key>
+      <PropertyRef Name="iStatusID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="iStatusID" Type="int" Nullable="false" />
+    <Property Name="sStatus" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="codinh_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="so_dt" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="ten_dktb" Type="varchar" MaxLength="80" />
+    <Property Name="ten_dkdb" Type="varchar" MaxLength="80" />
+    <Property Name="dia_chitb" Type="varchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="varchar" MaxLength="100" />
+    <Property Name="tuyen_tc" Type="varchar" MaxLength="50" />
+    <Property Name="ma_tram" Type="char" MaxLength="3" />
+    <Property Name="pl" Type="char" MaxLength="1" />
+    <Property Name="tien_tb" Type="decimal" Precision="10" />
+    <Property Name="tienno" Type="decimal" Precision="10" />
+    <Property Name="tb_dv" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ngay_ld" Type="datetime" />
+    <Property Name="village" Type="char" MaxLength="3" />
+    <Property Name="ngay_mo" Type="datetime" />
+    <Property Name="may_ngung" Type="char" MaxLength="1" />
+    <Property Name="ngay_ngung" Type="datetime" />
+    <Property Name="keo_may" Type="bit" />
+    <Property Name="mo_may" Type="bit" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="stt" Type="decimal" />
+    <Property Name="sohopdong" Type="char" MaxLength="15" />
+    <Property Name="ngay_hd" Type="datetime" />
+    <Property Name="ma_kh" Type="char" MaxLength="14" />
+    <Property Name="ngay_kn" Type="datetime" />
+    <Property Name="note_ngay_kn" Type="char" MaxLength="100" />
+    <Property Name="ms_thue" Type="char" MaxLength="40" />
+    <Property Name="khg_vat" Type="bit" />
+    <Property Name="tbdc" Type="bit" />
+    <Property Name="socmnd" Type="char" MaxLength="20" />
+    <Property Name="noi_cap" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngay_cap" Type="datetime" />
+    <Property Name="thoi_gian" Type="datetime" />
+    <Property Name="users" Type="nvarchar" MaxLength="50" />
+    <Property Name="e_mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ma_km" Type="char" MaxLength="10" />
+    <Property Name="goi_th" Type="char" MaxLength="7" />
+    <Property Name="ma_nhom" Type="char" MaxLength="15" />
+    <Property Name="ma_nghe" Type="char" MaxLength="15" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ma_nvkt" Type="char" MaxLength="15" />
+    <Property Name="ma_nvld" Type="char" MaxLength="15" />
+    <Property Name="thtb" Type="bit" />
+    <Property Name="lydocat" Type="nvarchar" MaxLength="10" />
+    <Property Name="ldthtb" Type="nvarchar" MaxLength="150" />
+    <Property Name="camket" Type="int" />
+    <Property Name="dt_lh" Type="nchar" MaxLength="30" />
+    <Property Name="so_nha" Type="nchar" MaxLength="40" />
+    <Property Name="so_nhald" Type="nchar" MaxLength="40" />
+    <Property Name="loai_cap" Type="nchar" MaxLength="10" />
+    <Property Name="slg_cap" Type="numeric" Precision="5" Scale="2" />
+    <Property Name="id_goicuoc" Type="char" MaxLength="7" />
+  </EntityType>
+  <EntityType Name="dichvugiatang">
+    <Key>
+      <PropertyRef Name="ma_dv" />
+    </Key>
+    <Property Name="ma_dv" Type="varchar" Nullable="false" MaxLength="3" />
+    <Property Name="ten_dv" Type="varchar" MaxLength="60" />
+    <Property Name="tien" Type="decimal" Precision="7" />
+  </EntityType>
+  <EntityType Name="dichvugiatang_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="ngay" Type="datetime" />
+    <Property Name="so_dt" Type="varchar" MaxLength="10" />
+    <Property Name="ma_dv" Type="varchar" MaxLength="3" />
+    <Property Name="tien" Type="decimal" Precision="7" />
+    <Property Name="nguoi_mo" Type="varchar" MaxLength="40" />
+    <Property Name="don_vi" Type="varchar" MaxLength="3" />
+    <Property Name="mo_dv" Type="bit" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="don_vi">
+    <Key>
+      <PropertyRef Name="ma_dv" />
+    </Key>
+    <Property Name="ma_dv" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="ten_dv" Type="char" MaxLength="25" />
+    <Property Name="ind" Type="decimal" />
+    <Property Name="batdau_mkh" Type="nchar" MaxLength="7" />
+  </EntityType>
+  <EntityType Name="ds_119">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="sDamagedPhoneNo" Type="nvarchar" Nullable="false" MaxLength="13" />
+    <Property Name="sName" Type="nvarchar" MaxLength="100" />
+    <Property Name="sCallerNo" Type="nvarchar" MaxLength="13" />
+    <Property Name="dtfinished" Type="datetime" />
+    <Property Name="user_name" Type="varchar" MaxLength="50" />
+    <Property Name="ten_dkdb" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="dtRecvTime" Type="datetime" />
+    <Property Name="sNotes" Type="nvarchar" MaxLength="100" />
+    <Property Name="ID" Type="numeric" Nullable="false" />
+    <Property Name="sendsms" Type="bit" />
+    <Property Name="phonekd" Type="varchar" MaxLength="80" />
+    <Property Name="phonekt" Type="varchar" MaxLength="80" />
+    <Property Name="tenkhkd" Type="nvarchar" MaxLength="100" />
+    <Property Name="dckd" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ds_codinh">
+    <Key>
+      <PropertyRef Name="so_dt" />
+    </Key>
+    <Property Name="so_dt" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="80" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="ten_dkdb" Type="nvarchar" MaxLength="80" />
+    <Property Name="tuyen_tc" Type="char" MaxLength="15" />
+    <Property Name="ma_tram" Type="char" MaxLength="3" />
+    <Property Name="pl" Type="char" MaxLength="1" />
+    <Property Name="tien_tb" Type="decimal" Precision="10" />
+    <Property Name="tienno" Type="decimal" Precision="10" />
+    <Property Name="tb_dv" Type="decimal" Precision="8" />
+    <Property Name="ngay_ld" Type="datetime" />
+    <Property Name="village" Type="char" MaxLength="3" />
+    <Property Name="ngay_mo" Type="datetime" />
+    <Property Name="may_ngung" Type="char" MaxLength="1" />
+    <Property Name="ngay_ngung" Type="datetime" />
+    <Property Name="keo_may" Type="bit" />
+    <Property Name="mo_may" Type="bit" />
+    <Property Name="ma_nghe" Type="char" MaxLength="15" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="stt" Type="decimal" />
+    <Property Name="sohopdong" Type="char" MaxLength="15" />
+    <Property Name="ngay_hd" Type="datetime" />
+    <Property Name="thangbd" Type="char" MaxLength="6" />
+    <Property Name="inct" Type="bit" />
+    <Property Name="ma_kh" Type="char" MaxLength="14" />
+    <Property Name="ngay_kn" Type="datetime" />
+    <Property Name="note_ngay_kn" Type="char" MaxLength="100" />
+    <Property Name="dau" Type="bit" />
+    <Property Name="tenkhkd" Type="nvarchar" MaxLength="80" />
+    <Property Name="dckd" Type="nvarchar" MaxLength="100" />
+    <Property Name="ms_thue" Type="char" MaxLength="40" />
+    <Property Name="khg_vat" Type="bit" />
+    <Property Name="cuoc" Type="numeric" />
+    <Property Name="ngay" Type="datetime" />
+    <Property Name="duong" Type="char" MaxLength="80" />
+    <Property Name="xa_phuong" Type="char" MaxLength="80" />
+    <Property Name="khom_ap" Type="char" MaxLength="50" />
+    <Property Name="tbdc" Type="bit" />
+    <Property Name="ma_nhom" Type="char" MaxLength="15" />
+    <Property Name="socmnd" Type="char" MaxLength="20" />
+    <Property Name="noi_cap" Type="nchar" MaxLength="20" />
+    <Property Name="ngay_cap" Type="datetime" />
+    <Property Name="tai_khoan" Type="char" MaxLength="20" />
+    <Property Name="ngan_hang" Type="char" MaxLength="50" />
+    <Property Name="e_mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="ma_km" Type="char" MaxLength="10" />
+    <Property Name="goi_th" Type="char" MaxLength="7" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ma_nvkt" Type="char" MaxLength="15" />
+    <Property Name="ma_nvld" Type="char" MaxLength="15" />
+    <Property Name="thtb" Type="bit" />
+    <Property Name="camket" Type="int" />
+    <Property Name="dt_lh" Type="nchar" MaxLength="30" />
+    <Property Name="duongld" Type="char" MaxLength="80" />
+    <Property Name="xa_phuongld" Type="char" MaxLength="80" />
+    <Property Name="khom_apld" Type="char" MaxLength="50" />
+    <Property Name="kh_db" Type="char" MaxLength="5" />
+    <Property Name="so_nha" Type="nchar" MaxLength="40" />
+    <Property Name="so_nhald" Type="nchar" MaxLength="40" />
+    <Property Name="loai_cap" Type="nchar" MaxLength="10" />
+    <Property Name="slg_cap" Type="numeric" Precision="5" />
+    <Property Name="id_goicuoc" Type="char" MaxLength="7" />
+    <Property Name="ttin108s" Type="nchar" MaxLength="250" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'QLThuebao.dbo.dssuaxong_119' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="dssuaxong_119">
+    <Key>
+      <PropertyRef Name="sDamagedPhoneNo" />
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="sDamagedPhoneNo" Type="nvarchar" Nullable="false" MaxLength="13" />
+    <Property Name="sName" Type="nvarchar" MaxLength="100" />
+    <Property Name="sCallerNo" Type="nvarchar" MaxLength="13" />
+    <Property Name="dtfinished" Type="datetime" />
+    <Property Name="bfinished" Type="bit" />
+    <Property Name="iStatusID" Type="int" />
+    <Property Name="sStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="user_name" Type="varchar" MaxLength="50" />
+    <Property Name="ten_dkdb" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="dtRecvTime" Type="datetime" />
+    <Property Name="sNotes" Type="nvarchar" MaxLength="100" />
+    <Property Name="ID" Type="numeric" Nullable="false" />
+    <Property Name="tg" Type="varchar" MaxLength="50" />
+    <Property Name="ma_tram" Type="varchar" MaxLength="3" />
+    <Property Name="ten_tram" Type="varchar" MaxLength="60" />
+    <Property Name="sohopdong" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'QLThuebao.dbo.dsw_119' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="dsw_119">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="sDamagedPhoneNo" Type="nvarchar" Nullable="false" MaxLength="13" />
+    <Property Name="sName" Type="nvarchar" MaxLength="100" />
+    <Property Name="sCallerNo" Type="nvarchar" MaxLength="13" />
+    <Property Name="dtfinished" Type="datetime" />
+    <Property Name="user_name" Type="varchar" MaxLength="50" />
+    <Property Name="ten_dkdb" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="dtRecvTime" Type="datetime" />
+    <Property Name="sNotes" Type="nvarchar" MaxLength="100" />
+    <Property Name="ID" Type="numeric" Nullable="false" />
+    <Property Name="sendsms" Type="bit" />
+    <Property Name="phonekd" Type="varchar" MaxLength="80" />
+    <Property Name="phonekt" Type="varchar" MaxLength="80" />
+    <Property Name="tenkhkd" Type="nvarchar" MaxLength="100" />
+    <Property Name="dckd" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="gc_mytv">
+    <Key>
+      <PropertyRef Name="ma_goi" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ma_goi" Type="char" Nullable="false" MaxLength="4" />
+    <Property Name="ten_dv" Type="char" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Goi_th">
+    <Key>
+      <PropertyRef Name="ma_goi" />
+    </Key>
+    <Property Name="ma_goi" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="ten_goi" Type="char" MaxLength="40" />
+    <Property Name="tien" Type="numeric" Nullable="false" />
+    <Property Name="Ghi_chu" Type="char" MaxLength="60" />
+    <Property Name="sl_dd" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="goicuoc_int">
+    <Key>
+      <PropertyRef Name="ma_goi" />
+    </Key>
+    <Property Name="ma_goi" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="ten_goi" Type="nchar" MaxLength="50" />
+    <Property Name="ma_dv" Type="char" MaxLength="5" />
+    <Property Name="ghi_chu" Type="nchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Gphone">
+    <Key>
+      <PropertyRef Name="so_dt" />
+    </Key>
+    <Property Name="so_dt" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="SoSim" Type="char" MaxLength="20" />
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="80" />
+    <Property Name="ten_dkdb" Type="nvarchar" MaxLength="80" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="tuyen_tc" Type="char" MaxLength="15" />
+    <Property Name="pl" Type="char" MaxLength="1" />
+    <Property Name="ngay_ld" Type="datetime" />
+    <Property Name="village" Type="char" MaxLength="3" />
+    <Property Name="tien_tb" Type="decimal" Precision="10" />
+    <Property Name="tienno" Type="decimal" Precision="10" />
+    <Property Name="tb_dv" Type="decimal" Precision="8" />
+    <Property Name="may_ngung" Type="char" MaxLength="1" />
+    <Property Name="ngay_ngung" Type="datetime" />
+    <Property Name="ngay_mo" Type="datetime" />
+    <Property Name="keo_may" Type="bit" />
+    <Property Name="mo_may" Type="bit" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="stt" Type="decimal" />
+    <Property Name="sohopdong" Type="char" MaxLength="15" />
+    <Property Name="thangbd" Type="char" MaxLength="10" />
+    <Property Name="tt_tb" Type="char" MaxLength="60" />
+    <Property Name="inct" Type="bit" />
+    <Property Name="ma_kh" Type="char" MaxLength="14" />
+    <Property Name="ngay_hd" Type="datetime" />
+    <Property Name="ngay_kn" Type="datetime" />
+    <Property Name="note_ngay_kn" Type="nvarchar" MaxLength="60" />
+    <Property Name="tenkhkd" Type="nvarchar" MaxLength="80" />
+    <Property Name="dckd" Type="nvarchar" MaxLength="100" />
+    <Property Name="ms_thue" Type="nvarchar" MaxLength="50" />
+    <Property Name="CellID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ma_tram" Type="char" MaxLength="3" />
+    <Property Name="socmnd" Type="char" MaxLength="15" />
+    <Property Name="noi_cap" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngay_cap" Type="datetime" />
+    <Property Name="dvgt" Type="char" MaxLength="15" />
+    <Property Name="ng_daidien" Type="nvarchar" MaxLength="50" />
+    <Property Name="chucvu" Type="nvarchar" MaxLength="50" />
+    <Property Name="tai_khoan" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngan_hang" Type="nvarchar" MaxLength="50" />
+    <Property Name="ptt_toan" Type="nvarchar" MaxLength="50" />
+    <Property Name="nv_ld" Type="nvarchar" MaxLength="60" />
+    <Property Name="sohieu_nv" Type="nvarchar" MaxLength="10" />
+    <Property Name="ttin_khac" Type="nvarchar" MaxLength="200" />
+    <Property Name="khg_vat" Type="bit" />
+    <Property Name="duong" Type="nvarchar" MaxLength="80" />
+    <Property Name="xa_phuong" Type="nvarchar" MaxLength="80" />
+    <Property Name="khom_ap" Type="nvarchar" MaxLength="50" />
+    <Property Name="tbdc" Type="bit" />
+    <Property Name="seri" Type="nvarchar" MaxLength="15" />
+    <Property Name="imei" Type="char" MaxLength="20" />
+    <Property Name="kh_db" Type="char" MaxLength="10" />
+    <Property Name="cuoc" Type="numeric" />
+    <Property Name="ngay" Type="datetime" />
+    <Property Name="ma_nhom" Type="char" MaxLength="15" />
+    <Property Name="goicuoc" Type="nvarchar" MaxLength="20" />
+    <Property Name="e_mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="ma_km" Type="char" MaxLength="10" />
+    <Property Name="goi_th" Type="char" MaxLength="7" />
+    <Property Name="ma_nghe" Type="char" MaxLength="15" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ma_nvkt" Type="char" MaxLength="15" />
+    <Property Name="ma_nvld" Type="char" MaxLength="15" />
+    <Property Name="thtb" Type="bit" />
+    <Property Name="loai_tb" Type="bit" />
+    <Property Name="camket" Type="int" />
+    <Property Name="dt_lh" Type="nchar" MaxLength="30" />
+    <Property Name="duongld" Type="char" MaxLength="80" />
+    <Property Name="xa_phuongld" Type="char" MaxLength="80" />
+    <Property Name="khom_apld" Type="char" MaxLength="50" />
+    <Property Name="so_nha" Type="nchar" MaxLength="40" />
+    <Property Name="so_nhald" Type="nchar" MaxLength="40" />
+    <Property Name="id_goicuoc" Type="char" MaxLength="7" />
+    <Property Name="ttin108s" Type="nchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Gphone_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="so_dt" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="SoSim" Type="char" MaxLength="20" />
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="100" />
+    <Property Name="ten_dkdb" Type="nvarchar" MaxLength="80" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="tuyen_tc" Type="char" MaxLength="15" />
+    <Property Name="pl" Type="char" MaxLength="1" />
+    <Property Name="ngay_ld" Type="datetime" />
+    <Property Name="village" Type="char" MaxLength="3" />
+    <Property Name="tien_tb" Type="decimal" Precision="10" />
+    <Property Name="tienno" Type="decimal" Precision="10" />
+    <Property Name="tb_dv" Type="decimal" Precision="8" />
+    <Property Name="may_ngung" Type="char" MaxLength="1" />
+    <Property Name="ngay_ngung" Type="datetime" />
+    <Property Name="ngay_mo" Type="datetime" />
+    <Property Name="keo_may" Type="bit" />
+    <Property Name="mo_may" Type="bit" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="stt" Type="decimal" />
+    <Property Name="sohopdong" Type="nchar" MaxLength="15" />
+    <Property Name="ma_kh" Type="char" MaxLength="14" />
+    <Property Name="ngay_hd" Type="datetime" />
+    <Property Name="ngay_kn" Type="datetime" />
+    <Property Name="note_ngay_kn" Type="nvarchar" MaxLength="60" />
+    <Property Name="ms_thue" Type="char" MaxLength="40" />
+    <Property Name="socmnd" Type="char" MaxLength="15" />
+    <Property Name="noi_cap" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngay_cap" Type="datetime" />
+    <Property Name="ng_daidien" Type="nvarchar" MaxLength="50" />
+    <Property Name="chucvu" Type="nvarchar" MaxLength="50" />
+    <Property Name="tai_khoan" Type="char" MaxLength="15" />
+    <Property Name="ngan_hang" Type="nvarchar" MaxLength="30" />
+    <Property Name="nv_ld" Type="nvarchar" MaxLength="60" />
+    <Property Name="sohieu_nv" Type="nchar" MaxLength="10" />
+    <Property Name="tghmang" Type="datetime" />
+    <Property Name="ttin_khac" Type="nvarchar" MaxLength="200" />
+    <Property Name="khg_vat" Type="bit" />
+    <Property Name="so_nha" Type="nvarchar" MaxLength="50" />
+    <Property Name="duong" Type="nvarchar" MaxLength="60" />
+    <Property Name="xa_phuong" Type="nvarchar" MaxLength="50" />
+    <Property Name="khom_ap" Type="nvarchar" MaxLength="50" />
+    <Property Name="tbdc" Type="bit" />
+    <Property Name="seri" Type="char" MaxLength="15" />
+    <Property Name="imei" Type="char" MaxLength="20" />
+    <Property Name="goicuoc" Type="nvarchar" MaxLength="20" />
+    <Property Name="e_mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="thoi_gian" Type="datetime" />
+    <Property Name="users" Type="nvarchar" MaxLength="50" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ma_km" Type="char" MaxLength="10" />
+    <Property Name="goi_th" Type="char" MaxLength="7" />
+    <Property Name="ma_nhom" Type="char" MaxLength="15" />
+    <Property Name="ma_nghe" Type="char" MaxLength="15" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ma_nvkt" Type="char" MaxLength="15" />
+    <Property Name="ma_nvld" Type="char" MaxLength="15" />
+    <Property Name="thtb" Type="bit" />
+    <Property Name="lydocat" Type="nvarchar" MaxLength="10" />
+    <Property Name="ldthtb" Type="nvarchar" MaxLength="150" />
+    <Property Name="loai_tb" Type="bit" />
+    <Property Name="camket" Type="int" />
+    <Property Name="dt_lh" Type="nchar" MaxLength="30" />
+    <Property Name="so_nhald" Type="nchar" MaxLength="40" />
+    <Property Name="id_goicuoc" Type="char" MaxLength="7" />
+  </EntityType>
+  <EntityType Name="internet">
+    <Key>
+      <PropertyRef Name="user_name" />
+    </Key>
+    <Property Name="user_name" Type="char" Nullable="false" MaxLength="40" />
+    <Property Name="ngay_hd" Type="datetime" />
+    <Property Name="sohopdong" Type="char" MaxLength="20" />
+    <Property Name="ngay_ld" Type="datetime" />
+    <Property Name="ht_ld" Type="char" MaxLength="2" />
+    <Property Name="loai_cap" Type="nchar" MaxLength="10" />
+    <Property Name="goi_cuoc" Type="char" MaxLength="10" />
+    <Property Name="toc_do" Type="char" MaxLength="50" />
+    <Property Name="ms_thue" Type="char" MaxLength="35" />
+    <Property Name="tai_khoan" Type="nvarchar" MaxLength="30" />
+    <Property Name="ngan_hang" Type="nvarchar" MaxLength="40" />
+    <Property Name="ht_tt" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngay_kn" Type="datetime" />
+    <Property Name="note_ngay_kn" Type="nvarchar" MaxLength="100" />
+    <Property Name="tuyen_tc" Type="char" MaxLength="15" />
+    <Property Name="stt" Type="numeric" />
+    <Property Name="maxa" Type="char" MaxLength="3" />
+    <Property Name="socmnd" Type="char" MaxLength="15" />
+    <Property Name="ngay_cap" Type="datetime" />
+    <Property Name="noi_cap" Type="nchar" MaxLength="20" />
+    <Property Name="ma_kh" Type="char" MaxLength="14" />
+    <Property Name="ma_km" Type="char" MaxLength="10" />
+    <Property Name="duong" Type="nvarchar" MaxLength="80" />
+    <Property Name="khom_ap" Type="nvarchar" MaxLength="80" />
+    <Property Name="xa_phuong" Type="nvarchar" MaxLength="80" />
+    <Property Name="ma_tram" Type="char" MaxLength="3" />
+    <Property Name="ma_nhom" Type="char" MaxLength="15" />
+    <Property Name="ma_nghe" Type="char" MaxLength="15" />
+    <Property Name="e_mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="so_dt" Type="char" MaxLength="11" />
+    <Property Name="ten_dktb" Type="nchar" MaxLength="100" />
+    <Property Name="ten_nsd" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="khg_vat" Type="bit" />
+    <Property Name="may_ngung" Type="char" MaxLength="1" />
+    <Property Name="ngay_ngung" Type="datetime" />
+    <Property Name="tenkhkd" Type="nvarchar" MaxLength="100" />
+    <Property Name="dckd" Type="nvarchar" MaxLength="100" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ma_nvkt" Type="char" MaxLength="15" />
+    <Property Name="ma_nvld" Type="char" MaxLength="15" />
+    <Property Name="kh_uutien" Type="char" MaxLength="3" />
+    <Property Name="ma_dv" Type="char" MaxLength="5" />
+    <Property Name="thtb" Type="bit" />
+    <Property Name="camket" Type="int" />
+    <Property Name="dt_lh" Type="nchar" MaxLength="30" />
+    <Property Name="so_119" Type="char" MaxLength="10" />
+    <Property Name="duongld" Type="char" MaxLength="80" />
+    <Property Name="xa_phuongld" Type="char" MaxLength="80" />
+    <Property Name="khom_apld" Type="char" MaxLength="50" />
+    <Property Name="kh_db" Type="char" MaxLength="10" />
+    <Property Name="modem_seri" Type="nchar" MaxLength="20" />
+    <Property Name="loai_tb" Type="nchar" MaxLength="10" />
+    <Property Name="slg_cap" Type="numeric" Precision="5" />
+    <Property Name="so_nha" Type="nchar" MaxLength="40" />
+    <Property Name="so_nhald" Type="nchar" MaxLength="40" />
+    <Property Name="id_goicuoc" Type="char" MaxLength="7" />
+    <Property Name="goi_th" Type="char" MaxLength="7" />
+    <Property Name="pl" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="internet_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="user_name" Type="char" Nullable="false" MaxLength="40" />
+    <Property Name="n_user_name" Type="char" MaxLength="40" />
+    <Property Name="ngay_hd" Type="datetime" />
+    <Property Name="sohopdong" Type="char" MaxLength="20" />
+    <Property Name="ngay_ld" Type="datetime" />
+    <Property Name="ht_ld" Type="nchar" MaxLength="2" />
+    <Property Name="loai_cap" Type="nchar" MaxLength="10" />
+    <Property Name="goi_cuoc" Type="char" MaxLength="10" />
+    <Property Name="toc_do" Type="char" MaxLength="50" />
+    <Property Name="ms_thue" Type="char" MaxLength="35" />
+    <Property Name="tai_khoan" Type="nvarchar" MaxLength="15" />
+    <Property Name="ngan_hang" Type="nvarchar" MaxLength="40" />
+    <Property Name="ht_tt" Type="nvarchar" MaxLength="20" />
+    <Property Name="ngay_kn" Type="datetime" />
+    <Property Name="note_ngay_kn" Type="nvarchar" MaxLength="100" />
+    <Property Name="tuyen_tc" Type="char" MaxLength="15" />
+    <Property Name="stt" Type="numeric" />
+    <Property Name="maxa" Type="char" MaxLength="3" />
+    <Property Name="socmnd" Type="char" MaxLength="15" />
+    <Property Name="ngay_cap" Type="datetime" />
+    <Property Name="noi_cap" Type="nvarchar" MaxLength="20" />
+    <Property Name="ma_kh" Type="char" MaxLength="14" />
+    <Property Name="ma_km" Type="char" MaxLength="10" />
+    <Property Name="duong" Type="nvarchar" MaxLength="80" />
+    <Property Name="khom_ap" Type="nvarchar" MaxLength="80" />
+    <Property Name="xa_phuong" Type="nvarchar" MaxLength="80" />
+    <Property Name="ma_tram" Type="char" MaxLength="3" />
+    <Property Name="ma_nhom" Type="char" MaxLength="15" />
+    <Property Name="ma_nghe" Type="char" MaxLength="15" />
+    <Property Name="e_mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="so_dt" Type="char" MaxLength="11" />
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="80" />
+    <Property Name="ten_nsd" Type="nvarchar" MaxLength="80" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="khg_vat" Type="bit" />
+    <Property Name="may_ngung" Type="char" MaxLength="1" />
+    <Property Name="ngay_ngung" Type="datetime" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ma_nvkt" Type="char" MaxLength="15" />
+    <Property Name="ma_nvld" Type="char" MaxLength="15" />
+    <Property Name="user_login" Type="char" MaxLength="30" />
+    <Property Name="thoi_gian" Type="datetime" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="kh_uutien" Type="char" MaxLength="3" />
+    <Property Name="ma_dv" Type="char" MaxLength="5" />
+    <Property Name="thtb" Type="bit" />
+    <Property Name="lydocat" Type="nvarchar" MaxLength="10" />
+    <Property Name="ldthtb" Type="nvarchar" MaxLength="150" />
+    <Property Name="camket" Type="int" />
+    <Property Name="dt_lh" Type="nchar" MaxLength="30" />
+    <Property Name="slg_cap" Type="numeric" Precision="5" Scale="2" />
+    <Property Name="so_nha" Type="nchar" MaxLength="40" />
+    <Property Name="so_nhald" Type="nchar" MaxLength="40" />
+    <Property Name="modem_seri" Type="nchar" MaxLength="20" />
+    <Property Name="id_goicuoc" Type="char" MaxLength="7" />
+    <Property Name="goi_th" Type="char" MaxLength="7" />
+    <Property Name="pl" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="kenh_thue_rieng">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="so_dt" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="ten_dktb" Type="char" Nullable="false" MaxLength="80" />
+    <Property Name="dia_chitb" Type="char" Nullable="false" MaxLength="100" />
+    <Property Name="tuyen_tc" Type="char" Nullable="false" MaxLength="15" />
+    <Property Name="ma_tram" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="pl" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="tbao" Type="numeric" Nullable="false" Precision="10" />
+    <Property Name="tien_tb" Type="numeric" Nullable="false" Precision="12" />
+    <Property Name="tienno" Type="numeric" Nullable="false" Precision="12" />
+    <Property Name="ngay_ld" Type="datetime" Nullable="false" />
+    <Property Name="village" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="ngay_mo" Type="datetime" Nullable="false" />
+    <Property Name="may_ngung" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ngay_ngung" Type="datetime" Nullable="false" />
+    <Property Name="ma_nghe" Type="char" Nullable="false" MaxLength="15" />
+    <Property Name="ma_huyen" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="stt" Type="numeric" Nullable="false" Precision="10" />
+    <Property Name="sohopdong" Type="char" Nullable="false" MaxLength="15" />
+    <Property Name="ngay_hd" Type="datetime" Nullable="false" />
+    <Property Name="thanghd" Type="char" Nullable="false" MaxLength="6" />
+    <Property Name="ma_kh" Type="char" Nullable="false" MaxLength="14" />
+    <Property Name="ms_thue" Type="char" Nullable="false" MaxLength="40" />
+    <Property Name="kh_db" Type="char" Nullable="false" MaxLength="5" />
+    <Property Name="loaikenh" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="toc_do" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="dc_dau" Type="char" Nullable="false" MaxLength="40" />
+    <Property Name="dc_cuoi" Type="char" Nullable="false" MaxLength="40" />
+    <Property Name="ghichu" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ma_nvkt" Type="char" MaxLength="15" />
+    <Property Name="ma_nvld" Type="char" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="kh_mai">
+    <Key>
+      <PropertyRef Name="ma_km" />
+    </Key>
+    <Property Name="ma_km" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="ten_ct" Type="nchar" MaxLength="150" />
+    <Property Name="ngay_bd" Type="smalldatetime" />
+    <Property Name="ngay_kt" Type="smalldatetime" />
+    <Property Name="hieu_luc" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="kh_uutien">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="kh_uutien" Type="char" MaxLength="3" />
+    <Property Name="ten_uutien" Type="nchar" MaxLength="80" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'QLThuebao.dbo.khachhangDN' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="khachhangDN">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="150" />
+    <Property Name="ngay_tl" Type="datetime" />
+    <Property Name="giam_doc" Type="nvarchar" MaxLength="150" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="150" />
+    <Property Name="so_dt" Type="nvarchar" MaxLength="15" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="kho">
+    <Key>
+      <PropertyRef Name="ma_kho" />
+    </Key>
+    <Property Name="ma_kho" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="ten_kh" Type="nchar" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="khoi">
+    <Key>
+      <PropertyRef Name="ma_khoi" />
+    </Key>
+    <Property Name="ma_khoi" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="ten_khoi" Type="nchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="KPIs">
+    <Key>
+      <PropertyRef Name="ma_kpis" />
+    </Key>
+    <Property Name="ma_kpis" Type="char" Nullable="false" MaxLength="4" />
+    <Property Name="ten_kpis" Type="nvarchar" MaxLength="500" />
+    <Property Name="ma_cha" Type="char" MaxLength="10" />
+    <Property Name="id_kpos" Type="int" />
+    <Property Name="ky_thuat" Type="bit" />
+    <Property Name="dvt" Type="nvarchar" MaxLength="50" />
+    <Property Name="loai_dvt" Type="char" MaxLength="3" />
+    <Property Name="sap_xep" Type="int" />
+  </EntityType>
+  <EntityType Name="KPOs">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ten_kpos" Type="nvarchar" MaxLength="500" />
+    <Property Name="ky_thuat" Type="bit" />
+    <Property Name="sap_xep" Type="int" />
+    <Property Name="ma_vien_canh" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="loai_catmo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="ten_yc" Type="char" MaxLength="80" />
+    <Property Name="ma_yc" Type="char" MaxLength="7" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="loai_dv">
+    <Key>
+      <PropertyRef Name="ma_dv" />
+    </Key>
+    <Property Name="ma_dv" Type="char" Nullable="false" MaxLength="5" />
+    <Property Name="ten_dv" Type="char" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="loai_kenh">
+    <Key>
+      <PropertyRef Name="ma_loai" />
+    </Key>
+    <Property Name="ma_loai" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="ten_loai" Type="nchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="loai_kh">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="maloai" Type="char" Nullable="false" MaxLength="15" />
+    <Property Name="mota" Type="char" MaxLength="100" />
+    <Property Name="pl" Type="char" MaxLength="1" />
+    <Property Name="ma_nghe" Type="char" MaxLength="15" />
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="lydocat">
+    <Key>
+      <PropertyRef Name="ma_ld" />
+    </Key>
+    <Property Name="ma_ld" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="ten_ld" Type="nchar" MaxLength="100" />
+    <Property Name="loai" Type="char" MaxLength="1" />
+    <Property Name="m_order" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ma_ap">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="maxa" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="maap" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="ten_ap" Type="char" MaxLength="30" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="ma_diaban">
+    <Key>
+      <PropertyRef Name="ma_tuyen" />
+    </Key>
+    <Property Name="ma_tuyen" Type="char" Nullable="false" MaxLength="15" />
+    <Property Name="ten_tuyen" Type="nchar" MaxLength="900" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="kt" Type="bit" />
+  </EntityType>
+  <EntityType Name="ma_duong">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="ten_duong" Type="nchar" Nullable="false" MaxLength="30" />
+    <Property Name="ma_huyen" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="ma_xa">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="ma_huyen" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="maxa" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="ten" Type="char" Nullable="false" MaxLength="30" />
+    <Property Name="tientb" Type="decimal" />
+    <Property Name="vtci" Type="bit" Nullable="false" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="menu">
+    <Key>
+      <PropertyRef Name="m_menu" />
+    </Key>
+    <Property Name="m_menu" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="t_menu" Type="nvarchar" MaxLength="60" />
+    <Property Name="id" Type="numeric" />
+  </EntityType>
+  <EntityType Name="mytv">
+    <Key>
+      <PropertyRef Name="user_name" />
+    </Key>
+    <Property Name="user_name" Type="char" Nullable="false" MaxLength="40" />
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="80" />
+    <Property Name="ten_dkdb" Type="nvarchar" MaxLength="80" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="ngay_hd" Type="datetime" />
+    <Property Name="sohopdong" Type="char" MaxLength="15" />
+    <Property Name="ngay_ld" Type="datetime" />
+    <Property Name="ngay_ngung" Type="datetime" />
+    <Property Name="ngay_hdl" Type="datetime" />
+    <Property Name="goi_cuoc" Type="char" Nullable="false" MaxLength="4" />
+    <Property Name="so_dt" Type="char" MaxLength="7" />
+    <Property Name="stb_serial" Type="char" MaxLength="20" />
+    <Property Name="loai_cap" Type="nchar" MaxLength="10" />
+    <Property Name="ht_ld" Type="char" MaxLength="2" />
+    <Property Name="ma_huyen" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="maxa" Type="char" MaxLength="3" />
+    <Property Name="tuyen_tc" Type="char" MaxLength="15" />
+    <Property Name="socmnd" Type="char" MaxLength="10" />
+    <Property Name="ngay_cap" Type="datetime" />
+    <Property Name="noi_cap" Type="char" MaxLength="20" />
+    <Property Name="ma_kh" Type="char" Nullable="false" MaxLength="14" />
+    <Property Name="pl" Type="char" MaxLength="1" />
+    <Property Name="tinh_trang" Type="char" MaxLength="1" />
+    <Property Name="system_id" Type="char" MaxLength="20" />
+    <Property Name="user_adsl" Type="char" MaxLength="20" />
+    <Property Name="slot" Type="numeric" />
+    <Property Name="port" Type="numeric" />
+    <Property Name="user_login" Type="char" MaxLength="40" />
+    <Property Name="ms_thue" Type="char" MaxLength="35" />
+    <Property Name="ht_tt" Type="nvarchar" MaxLength="20" />
+    <Property Name="tai_khoan" Type="nvarchar" MaxLength="15" />
+    <Property Name="ngan_hang" Type="nvarchar" MaxLength="40" />
+    <Property Name="ngay_kn" Type="datetime" />
+    <Property Name="note_ngay_kn" Type="nvarchar" MaxLength="100" />
+    <Property Name="tenkhkd" Type="nvarchar" MaxLength="80" />
+    <Property Name="dckd" Type="nvarchar" MaxLength="100" />
+    <Property Name="ma_km" Type="char" MaxLength="10" />
+    <Property Name="duong" Type="nvarchar" MaxLength="80" />
+    <Property Name="khom_ap" Type="nvarchar" MaxLength="50" />
+    <Property Name="xa_phuong" Type="nvarchar" MaxLength="80" />
+    <Property Name="ma_tram" Type="char" MaxLength="3" />
+    <Property Name="ma_nhom" Type="char" MaxLength="15" />
+    <Property Name="ma_nghe" Type="char" MaxLength="15" />
+    <Property Name="e_mail" Type="nvarchar" MaxLength="40" />
+    <Property Name="goi_th" Type="nvarchar" MaxLength="7" />
+    <Property Name="stt" Type="numeric" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ma_nvkt" Type="char" MaxLength="15" />
+    <Property Name="ma_nvld" Type="char" MaxLength="15" />
+    <Property Name="thtb" Type="bit" />
+    <Property Name="camket" Type="int" />
+    <Property Name="dt_lh" Type="nchar" MaxLength="30" />
+    <Property Name="so_119" Type="char" MaxLength="10" />
+    <Property Name="duongld" Type="char" MaxLength="80" />
+    <Property Name="xa_phuongld" Type="char" MaxLength="80" />
+    <Property Name="khom_apld" Type="char" MaxLength="50" />
+    <Property Name="kh_db" Type="char" MaxLength="10" />
+    <Property Name="loai_tb" Type="nchar" MaxLength="10" />
+    <Property Name="slg_cap" Type="numeric" Precision="5" />
+    <Property Name="so_nha" Type="nchar" MaxLength="40" />
+    <Property Name="so_nhald" Type="nchar" MaxLength="40" />
+    <Property Name="id_goicuoc" Type="char" MaxLength="7" />
+    <Property Name="maychinh" Type="bit" />
+    <Property Name="id_nhom" Type="char" MaxLength="7" />
+  </EntityType>
+  <EntityType Name="mytv_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="user_name" Type="char" Nullable="false" MaxLength="40" />
+    <Property Name="n_user_name" Type="nchar" MaxLength="40" />
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="80" />
+    <Property Name="ten_dkdb" Type="nvarchar" MaxLength="80" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="ngay_hd" Type="datetime" />
+    <Property Name="sohopdong" Type="char" MaxLength="15" />
+    <Property Name="ngay_ld" Type="datetime" />
+    <Property Name="ngay_ngung" Type="datetime" />
+    <Property Name="ngay_hdl" Type="datetime" />
+    <Property Name="goi_cuoc" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="so_dt" Type="char" MaxLength="7" />
+    <Property Name="stb_serial" Type="char" MaxLength="20" />
+    <Property Name="loai_cap" Type="nchar" MaxLength="10" />
+    <Property Name="ht_ld" Type="nvarchar" MaxLength="10" />
+    <Property Name="ma_huyen" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="maxa" Type="char" MaxLength="3" />
+    <Property Name="tuyen_tc" Type="nvarchar" MaxLength="15" />
+    <Property Name="socmnd" Type="char" MaxLength="10" />
+    <Property Name="ngay_cap" Type="datetime" />
+    <Property Name="noi_cap" Type="nchar" MaxLength="20" />
+    <Property Name="ma_kh" Type="char" Nullable="false" MaxLength="14" />
+    <Property Name="pl" Type="char" MaxLength="1" />
+    <Property Name="tinh_trang" Type="char" MaxLength="1" />
+    <Property Name="slot" Type="numeric" />
+    <Property Name="port" Type="numeric" />
+    <Property Name="user_login" Type="nvarchar" MaxLength="40" />
+    <Property Name="ms_thue" Type="char" MaxLength="35" />
+    <Property Name="ht_tt" Type="nvarchar" MaxLength="20" />
+    <Property Name="tk_nh" Type="nvarchar" MaxLength="15" />
+    <Property Name="ngan_hang" Type="nvarchar" MaxLength="40" />
+    <Property Name="ngay_kn" Type="datetime" />
+    <Property Name="note_ngay_kn" Type="nvarchar" MaxLength="100" />
+    <Property Name="thoi_gian" Type="datetime" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ma_km" Type="char" MaxLength="10" />
+    <Property Name="goi_th" Type="char" MaxLength="7" />
+    <Property Name="stt" Type="numeric" />
+    <Property Name="ma_nhom" Type="char" MaxLength="15" />
+    <Property Name="ma_nghe" Type="char" MaxLength="15" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ma_nvkt" Type="char" MaxLength="15" />
+    <Property Name="ma_nvld" Type="char" MaxLength="15" />
+    <Property Name="thtb" Type="bit" />
+    <Property Name="lydocat" Type="nvarchar" MaxLength="10" />
+    <Property Name="ldthtb" Type="nvarchar" MaxLength="150" />
+    <Property Name="camket" Type="int" />
+    <Property Name="dt_lh" Type="nchar" MaxLength="30" />
+    <Property Name="loai_tb" Type="nchar" MaxLength="10" />
+    <Property Name="slg_cap" Type="numeric" Precision="5" Scale="2" />
+    <Property Name="so_nha" Type="nchar" MaxLength="40" />
+    <Property Name="so_nhald" Type="nchar" MaxLength="40" />
+    <Property Name="id_goicuoc" Type="char" MaxLength="7" />
+    <Property Name="maychinh" Type="bit" />
+    <Property Name="id_nhom" Type="char" MaxLength="7" />
+  </EntityType>
+  <EntityType Name="nganh_nghe">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="ma_nghe" Type="char" MaxLength="15" />
+    <Property Name="ten_nghe" Type="nchar" MaxLength="40" />
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="nhanvien_cs">
+    <Key>
+      <PropertyRef Name="ma_nvcs" />
+    </Key>
+    <Property Name="ma_nvcs" Type="char" Nullable="false" MaxLength="15" />
+    <Property Name="ten_nv" Type="nvarchar" MaxLength="30" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="kt" Type="bit" />
+    <Property Name="phone" Type="nchar" MaxLength="12" />
+    <Property Name="diaban" Type="nchar" MaxLength="100" />
+    <Property Name="id_donvi" Type="char" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="nhanvien_cs_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ten_nv" Type="nvarchar" MaxLength="30" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="kt" Type="bit" />
+    <Property Name="phone" Type="nchar" MaxLength="12" />
+    <Property Name="diaban" Type="nchar" MaxLength="100" />
+    <Property Name="users" Type="nchar" MaxLength="40" />
+    <Property Name="thoi_gian" Type="datetime" />
+  </EntityType>
+  <EntityType Name="nhom_kh">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="so_dt" Type="char" Nullable="false" MaxLength="9" />
+    <Property Name="ma_kh" Type="char" MaxLength="13" />
+    <Property Name="ten_dktb_cd" Type="char" MaxLength="80" />
+    <Property Name="dc_dktb_cd" Type="char" MaxLength="80" />
+    <Property Name="ten_dktb" Type="char" MaxLength="80" />
+    <Property Name="dc_dktb" Type="char" MaxLength="72" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="soluu" Type="numeric" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="nv_thuethu">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="ten_nv" Type="char" MaxLength="50" />
+    <Property Name="ten" Type="char" MaxLength="15" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="ghi_chu" Type="char" MaxLength="10" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Phong_huyen">
+    <Key>
+      <PropertyRef Name="ma_dv" />
+    </Key>
+    <Property Name="ma_khoi" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="ma_dv" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="ten_dv" Type="nchar" MaxLength="50" />
+    <Property Name="nhom" Type="int" />
+    <Property Name="kythuat" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="rp_dsgan">
+    <Key>
+      <PropertyRef Name="so_dt" />
+    </Key>
+    <Property Name="so_dt" Type="char" Nullable="false" MaxLength="50" />
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="80" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="ma_nvcs" Type="char" MaxLength="15" />
+    <Property Name="ma_nvkt" Type="char" MaxLength="15" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="ten_nv" Type="char" MaxLength="200" />
+    <Property Name="ten_nvkt" Type="char" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="rp_dt_diaban">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="decimal" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="ma_nv" Type="varchar" MaxLength="15" />
+    <Property Name="ten_nv" Type="varchar" MaxLength="400" />
+    <Property Name="ma_tuyen" Type="nchar" MaxLength="150" />
+    <Property Name="ten_tuyen" Type="varchar" MaxLength="1500" />
+    <Property Name="soluongcdb" Type="int" />
+    <Property Name="soluonggpb" Type="int" />
+    <Property Name="soluongintb" Type="int" />
+    <Property Name="soluongftthb" Type="int" />
+    <Property Name="soluongmyb" Type="int" />
+    <Property Name="soluongb" Type="int" />
+    <Property Name="tiencdb" Type="numeric" />
+    <Property Name="tiengpb" Type="numeric" />
+    <Property Name="tienintb" Type="numeric" />
+    <Property Name="tienftthb" Type="numeric" />
+    <Property Name="tienmyb" Type="numeric" />
+    <Property Name="tienb" Type="numeric" />
+    <Property Name="thangb" Type="char" MaxLength="7" />
+    <Property Name="soluongcd" Type="int" />
+    <Property Name="soluonggp" Type="int" />
+    <Property Name="soluongint" Type="int" />
+    <Property Name="soluongftth" Type="int" />
+    <Property Name="soluongmy" Type="int" />
+    <Property Name="soluong" Type="int" />
+    <Property Name="tiencd" Type="numeric" />
+    <Property Name="tiengp" Type="numeric" />
+    <Property Name="tienint" Type="numeric" />
+    <Property Name="tienftth" Type="numeric" />
+    <Property Name="tienmy" Type="numeric" />
+    <Property Name="tien" Type="numeric" />
+    <Property Name="thang" Type="char" MaxLength="7" />
+  </EntityType>
+  <EntityType Name="rp_slg_diaban">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="decimal" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ma_huyen" Type="nchar" MaxLength="3" />
+    <Property Name="ma_nv" Type="nchar" MaxLength="10" />
+    <Property Name="ten_nv" Type="nchar" MaxLength="400" />
+    <Property Name="ma_tuyen" Type="nchar" MaxLength="150" />
+    <Property Name="ten_tuyen" Type="nchar" MaxLength="1500" />
+    <Property Name="soluongcd" Type="int" />
+    <Property Name="soluonggp" Type="int" />
+    <Property Name="soluongint" Type="int" />
+    <Property Name="soluongftth" Type="int" />
+    <Property Name="soluongmy" Type="int" />
+    <Property Name="soluong" Type="int" />
+    <Property Name="tiencd" Type="numeric" />
+    <Property Name="tiengp" Type="numeric" />
+    <Property Name="tienint" Type="numeric" />
+    <Property Name="tienftth" Type="numeric" />
+    <Property Name="tienmy" Type="numeric" />
+    <Property Name="tien" Type="numeric" />
+    <Property Name="thang" Type="char" MaxLength="7" />
+  </EntityType>
+  <EntityType Name="rp_tklydocat">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ma_dv" Type="varchar" MaxLength="3" />
+    <Property Name="ten_dv" Type="varchar" MaxLength="20" />
+    <Property Name="ma_ld" Type="varchar" MaxLength="20" />
+    <Property Name="ten_ld" Type="varchar" MaxLength="40" />
+    <Property Name="slcd" Type="int" />
+    <Property Name="slgp" Type="int" />
+    <Property Name="slmy" Type="int" />
+    <Property Name="slint" Type="int" />
+    <Property Name="slftth" Type="int" />
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'QLThuebao.dbo.rp_tktonghop' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="rp_tktonghop">
+    <Key>
+      <PropertyRef Name="ma_dv" />
+    </Key>
+    <Property Name="ma_dv" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="ten_dv" Type="char" MaxLength="25" />
+    <Property Name="hmcd" Type="numeric" Precision="12" />
+    <Property Name="ngungcd" Type="numeric" Precision="12" />
+    <Property Name="catcd" Type="numeric" Precision="12" />
+    <Property Name="hdlcd" Type="numeric" Precision="12" />
+    <Property Name="thcd" Type="numeric" Precision="12" />
+    <Property Name="hmgpt" Type="numeric" Precision="12" />
+    <Property Name="ngunggpt" Type="numeric" Precision="12" />
+    <Property Name="catgpt" Type="numeric" Precision="12" />
+    <Property Name="hdlgpt" Type="numeric" Precision="12" />
+    <Property Name="thgpt" Type="numeric" Precision="12" />
+    <Property Name="hmgp" Type="numeric" Precision="12" />
+    <Property Name="ngunggp" Type="numeric" Precision="12" />
+    <Property Name="catgp" Type="numeric" Precision="12" />
+    <Property Name="hdlgp" Type="numeric" Precision="12" />
+    <Property Name="thgp" Type="numeric" Precision="12" />
+    <Property Name="hmmy" Type="numeric" Precision="12" />
+    <Property Name="ngungmy" Type="numeric" Precision="12" />
+    <Property Name="catmy" Type="numeric" Precision="12" />
+    <Property Name="hdlmy" Type="numeric" Precision="12" />
+    <Property Name="thmy" Type="numeric" Precision="12" />
+    <Property Name="hmint" Type="numeric" Precision="12" />
+    <Property Name="ngungint" Type="numeric" Precision="12" />
+    <Property Name="catint" Type="numeric" Precision="12" />
+    <Property Name="catnguint" Type="numeric" Precision="12" />
+    <Property Name="hdlint" Type="numeric" Precision="12" />
+    <Property Name="thint" Type="numeric" Precision="12" />
+    <Property Name="hmftth" Type="numeric" Precision="12" />
+    <Property Name="ngungftth" Type="numeric" Precision="12" />
+    <Property Name="catftth" Type="numeric" Precision="12" />
+    <Property Name="catnguftth" Type="numeric" Precision="12" />
+    <Property Name="hdlftth" Type="numeric" Precision="12" />
+    <Property Name="thftth" Type="numeric" Precision="12" />
+  </EntityType>
+  <EntityType Name="sKPI">
+    <Key>
+      <PropertyRef Name="ma_kpi" />
+    </Key>
+    <Property Name="ma_kpi" Type="char" Nullable="false" MaxLength="4" />
+    <Property Name="ten_kpi" Type="nvarchar" MaxLength="500" />
+    <Property Name="id_cha" Type="char" MaxLength="10" />
+    <Property Name="ky_thuat" Type="bit" />
+    <Property Name="sap_xep" Type="int" />
+    <Property Name="tong_hop" Type="bit" />
+    <Property Name="id_kpis" Type="numeric" />
+    <Property Name="id_kpo" Type="numeric" />
+    <Property Name="dvt" Type="nvarchar" MaxLength="50" />
+    <Property Name="loai_dvt" Type="char" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="sKPO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Nullable="false" />
+    <Property Name="ten_kpo" Type="nvarchar" MaxLength="500" />
+    <Property Name="ky_thuat" Type="bit" />
+    <Property Name="sap_xep" Type="int" />
+  </EntityType>
+  <EntityType Name="td_kenhrieng">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ma_loai" Type="nchar" MaxLength="10" />
+    <Property Name="toc_do" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="thiet_bi">
+    <Key>
+      <PropertyRef Name="ma_tb" />
+    </Key>
+    <Property Name="ma_tb" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="ten_tb" Type="nchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="thongbao">
+    <Key>
+      <PropertyRef Name="ma_huyen" />
+    </Key>
+    <Property Name="ma_huyen" Type="nchar" Nullable="false" MaxLength="3" />
+    <Property Name="noi_dung" Type="nchar" MaxLength="400" />
+  </EntityType>
+  <EntityType Name="thuhoi_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="user_name" Type="char" MaxLength="40" />
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="100" />
+    <Property Name="ten_nsd" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="may_ngung" Type="char" MaxLength="1" />
+    <Property Name="ngay_ngung" Type="datetime" />
+    <Property Name="loai_cap" Type="char" MaxLength="1" />
+    <Property Name="goi_cuoc" Type="char" MaxLength="10" />
+    <Property Name="toc_do" Type="nchar" MaxLength="50" />
+    <Property Name="thtb" Type="bit" />
+    <Property Name="ngay_th" Type="datetime" />
+    <Property Name="tinhtrang_tb" Type="nchar" MaxLength="10" />
+    <Property Name="nhap_kho" Type="char" MaxLength="3" />
+    <Property Name="loai_dv" Type="char" MaxLength="1" />
+    <Property Name="thoi_gian" Type="datetime" />
+    <Property Name="users" Type="nchar" MaxLength="40" />
+    <Property Name="ld_khong_thuhoi" Type="nchar" MaxLength="200" />
+    <Property Name="seri_ld" Type="nchar" MaxLength="20" />
+    <Property Name="seri_th" Type="nchar" MaxLength="20" />
+    <Property Name="loai_tb" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="thuhoi_thietbi">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="user_name" Type="char" MaxLength="40" />
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="100" />
+    <Property Name="ten_nsd" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="ma_huyen" Type="char" MaxLength="3" />
+    <Property Name="may_ngung" Type="char" MaxLength="1" />
+    <Property Name="ngay_ngung" Type="datetime" />
+    <Property Name="loai_cap" Type="char" MaxLength="1" />
+    <Property Name="goi_cuoc" Type="char" MaxLength="10" />
+    <Property Name="toc_do" Type="nchar" MaxLength="50" />
+    <Property Name="thtb" Type="bit" />
+    <Property Name="ngay_th" Type="datetime" />
+    <Property Name="tinhtrang_tb" Type="nchar" MaxLength="10" />
+    <Property Name="nhap_kho" Type="char" MaxLength="3" />
+    <Property Name="loai_dv" Type="char" MaxLength="1" />
+    <Property Name="ld_khong_thuhoi" Type="nchar" MaxLength="200" />
+    <Property Name="seri_ld" Type="nchar" MaxLength="20" />
+    <Property Name="seri_th" Type="nchar" MaxLength="20" />
+    <Property Name="loai_tb" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="tien_tb">
+    <Key>
+      <PropertyRef Name="loai" />
+    </Key>
+    <Property Name="loai" Type="nchar" Nullable="false" MaxLength="1" />
+    <Property Name="tien_tb" Type="numeric" />
+    <Property Name="ghi_chu" Type="nchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="tk119">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="loai" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="suaxong" Type="int" />
+    <Property Name="baohong" Type="int" />
+    <Property Name="ton" Type="int" />
+    <Property Name="ID" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ts" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tkloai119">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="istatusID" Type="int" />
+    <Property Name="sstatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="sl" Type="int" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="toc_do">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ma_goi" Type="char" MaxLength="10" />
+    <Property Name="ma_td" Type="char" MaxLength="50" />
+    <Property Name="toc_do" Type="nchar" MaxLength="50" />
+    <Property Name="ghi_chu" Type="nchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tram_vt">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="ma_tram" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="ten_tram" Type="nchar" Nullable="false" MaxLength="50" />
+    <Property Name="ma_huyen" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="dauso" Type="nchar" MaxLength="100" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="tuyen_temp">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="so_dt" Type="char" Nullable="false" MaxLength="7" />
+    <Property Name="ten_dktb" Type="nvarchar" MaxLength="80" />
+    <Property Name="ten_dkdb" Type="nvarchar" MaxLength="80" />
+    <Property Name="dia_chitb" Type="nvarchar" MaxLength="100" />
+    <Property Name="dc_tbld" Type="nvarchar" MaxLength="100" />
+    <Property Name="tuyen_tc" Type="char" MaxLength="15" />
+    <Property Name="stt" Type="decimal" />
+    <Property Name="ma_kh" Type="char" MaxLength="14" />
+    <Property Name="id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="user_name" />
+    </Key>
+    <Property Name="user_name" Type="char" Nullable="false" MaxLength="20" />
+    <Property Name="m_password" Type="char" MaxLength="50" />
+    <Property Name="hoten" Type="char" MaxLength="60" />
+    <Property Name="namsinh" Type="datetime" />
+    <Property Name="gioitinh" Type="bit" />
+    <Property Name="phone" Type="nchar" MaxLength="11" />
+    <Property Name="huyen" Type="char" MaxLength="40" />
+    <Property Name="connecting" Type="bit" />
+    <Property Name="e_mail" Type="char" MaxLength="25" />
+    <Property Name="m_menu" Type="nvarchar" MaxLength="800" />
+    <Property Name="sua" Type="bit" />
+    <Property Name="admin" Type="bit" />
+    <Property Name="lock_usr" Type="bit" />
+    <Property Name="lan_dau" Type="bit" />
+    <Property Name="themes" Type="int" />
+    <Property Name="huyentd" Type="nchar" MaxLength="40" />
+    <Property Name="admin119" Type="bit" />
+    <Property Name="kt" Type="bit" />
+    <Property Name="adminBSC_VTT" Type="bit" Nullable="false" />
+    <Property Name="adminBSC_TTKD" Type="bit" Nullable="false" />
+    <Property Name="xemBSC" Type="nchar" MaxLength="80" />
+  </EntityType>
+  <EntityType Name="users_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="user_name" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="thoi_gian" Type="datetime" />
+    <Property Name="ip_address" Type="nchar" MaxLength="15" />
+    <Property Name="thanhcong" Type="bit" />
+    <Property Name="id" Type="decimal" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="vien_canh">
+    <Key>
+      <PropertyRef Name="ma_vien_canh" />
+    </Key>
+    <Property Name="ma_vien_canh" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="ten_vien_canh" Type="nchar" MaxLength="50" />
+    <Property Name="sap_xep" Type="int" />
+  </EntityType>
+  <Association Name="FK_chi_tieu_ca_nhan_sKPI">
+    <End Role="sKPI" Type="QLThuebaoModel.Store.sKPI" Multiplicity="0..1" />
+    <End Role="chi_tieu_ca_nhan" Type="QLThuebaoModel.Store.chi_tieu_ca_nhan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKPI">
+        <PropertyRef Name="ma_kpi" />
+      </Principal>
+      <Dependent Role="chi_tieu_ca_nhan">
+        <PropertyRef Name="id_kpi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_chi_tieu_huyen_KPIs">
+    <End Role="KPIs" Type="QLThuebaoModel.Store.KPIs" Multiplicity="0..1" />
+    <End Role="chi_tieu_huyen" Type="QLThuebaoModel.Store.chi_tieu_huyen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KPIs">
+        <PropertyRef Name="ma_kpis" />
+      </Principal>
+      <Dependent Role="chi_tieu_huyen">
+        <PropertyRef Name="id_kpis" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_chi_tieu_huyen_Phong_huyen">
+    <End Role="Phong_huyen" Type="QLThuebaoModel.Store.Phong_huyen" Multiplicity="0..1" />
+    <End Role="chi_tieu_huyen" Type="QLThuebaoModel.Store.chi_tieu_huyen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Phong_huyen">
+        <PropertyRef Name="ma_dv" />
+      </Principal>
+      <Dependent Role="chi_tieu_huyen">
+        <PropertyRef Name="ma_dv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KPI_KPO">
+    <End Role="sKPO" Type="QLThuebaoModel.Store.sKPO" Multiplicity="0..1" />
+    <End Role="sKPI" Type="QLThuebaoModel.Store.sKPI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sKPO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sKPI">
+        <PropertyRef Name="id_kpo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KPIs_KPOs">
+    <End Role="KPOs" Type="QLThuebaoModel.Store.KPOs" Multiplicity="0..1" />
+    <End Role="KPIs" Type="QLThuebaoModel.Store.KPIs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KPOs">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="KPIs">
+        <PropertyRef Name="id_kpos" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KPOs_vien_canh">
+    <End Role="vien_canh" Type="QLThuebaoModel.Store.vien_canh" Multiplicity="0..1" />
+    <End Role="KPOs" Type="QLThuebaoModel.Store.KPOs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="vien_canh">
+        <PropertyRef Name="ma_vien_canh" />
+      </Principal>
+      <Dependent Role="KPOs">
+        <PropertyRef Name="ma_vien_canh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_nhanvien_cs_don_vi">
+    <End Role="don_vi" Type="QLThuebaoModel.Store.don_vi" Multiplicity="0..1" />
+    <End Role="nhanvien_cs" Type="QLThuebaoModel.Store.nhanvien_cs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="don_vi">
+        <PropertyRef Name="ma_dv" />
+      </Principal>
+      <Dependent Role="nhanvien_cs">
+        <PropertyRef Name="id_donvi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Phong_huyen_khoi">
+    <End Role="khoi" Type="QLThuebaoModel.Store.khoi" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Phong_huyen" Type="QLThuebaoModel.Store.Phong_huyen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="khoi">
+        <PropertyRef Name="ma_khoi" />
+      </Principal>
+      <Dependent Role="Phong_huyen">
+        <PropertyRef Name="ma_khoi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_vitricv_cs_nhanvien_cs">
+    <End Role="nhanvien_cs" Type="QLThuebaoModel.Store.nhanvien_cs" Multiplicity="0..1" />
+    <End Role="chi_tieu_ca_nhan" Type="QLThuebaoModel.Store.chi_tieu_ca_nhan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="nhanvien_cs">
+        <PropertyRef Name="ma_nvcs" />
+      </Principal>
+      <Dependent Role="chi_tieu_ca_nhan">
+        <PropertyRef Name="id_nv_cs" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="bao_119" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="so_dt" Type="char" Mode="In" />
+    <Parameter Name="m_user" Type="nchar" Mode="In" />
+    <Parameter Name="nGroupID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CreateTable" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="dathongbao_119" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="so_dt" Type="char" Mode="In" />
+  </Function>
+  <Function Name="Delete_119" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="so_dt" Type="char" Mode="In" />
+  </Function>
+  <Function Name="doi_accint" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ac" Type="char" Mode="In" />
+    <Parameter Name="ac1" Type="char" Mode="In" />
+  </Function>
+  <Function Name="doi_accmytv" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ac" Type="char" Mode="In" />
+    <Parameter Name="ac1" Type="char" Mode="In" />
+  </Function>
+  <Function Name="DSGanDiaban" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="kt" Type="bit" Mode="In" />
+    <Parameter Name="ma_nv" Type="char" Mode="In" />
+    <Parameter Name="ma_huyen" Type="char" Mode="In" />
+    <Parameter Name="emp" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="get_119_new" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="get_suaxong119" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="m_huyen" Type="char" Mode="In" />
+    <Parameter Name="tungay" Type="datetime" Mode="In" />
+    <Parameter Name="denngay" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="p_tklydocat" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tungay" Type="datetime" Mode="In" />
+    <Parameter Name="denngay" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="p_tktonghop" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tungay" Type="datetime" Mode="In" />
+    <Parameter Name="denngay" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="SendSMS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="mess" Type="char" Mode="In" />
+    <Parameter Name="phone" Type="nchar" Mode="In" />
+    <Parameter Name="id" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="suaxong_119" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="so_dt" Type="char" Mode="In" />
+    <Parameter Name="m_loai" Type="int" Mode="In" />
+    <Parameter Name="m_user" Type="nchar" Mode="In" />
+  </Function>
+  <Function Name="TKDoanhThuGanNV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="kt" Type="bit" Mode="In" />
+    <Parameter Name="nv" Type="bit" Mode="In" />
+    <Parameter Name="dtDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="TKsoluongtbGanNV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="kt" Type="bit" Mode="In" />
+    <Parameter Name="nv" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="update_goi_tich_hop" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ac" Type="char" Mode="In" />
+    <Parameter Name="goi" Type="char" Mode="In" />
+    <Parameter Name="idg" Type="char" Mode="In" />
+    <Parameter Name="loai" Type="char" Mode="In" />
+    <Parameter Name="ten_dktb" Type="char" Mode="In" />
+    <Parameter Name="dia_chitb" Type="char" Mode="In" />
+    <Parameter Name="users" Type="char" Mode="In" />
+  </Function>
+</Schema>

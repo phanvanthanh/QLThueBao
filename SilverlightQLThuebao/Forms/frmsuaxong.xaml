@@ -1,0 +1,136 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.frmsuaxong" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    mc:Ignorable="d" Width="785" Height="450" Title="Danh sách các máy sửa xong " xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" FontSize="13" KeepPosition="False" xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts">
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="0.6*" />
+            <RowDefinition Height="0.4*" />
+        </Grid.RowDefinitions>
+      
+      
+        <dxg:GridControl Name="grid" Grid.Row="1" FontFamily=".VnAvant" FontSize="13">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn Name="ma_huyen" FieldName="ma_huyen" Header="HuyÖn" Width="65" />
+                <dxg:GridColumn Name="sDamagedPhoneNo" FieldName="sDamagedPhoneNo" Header="Sè háng" Width="80" />
+                <dxg:GridColumn Name="sStatus" FieldName="sStatus" Header="Lo¹i háng" Width="120" />
+                <dxg:GridColumn Name="sCallerNo" FieldName="user_name" Header=" Account " Width="120" />
+                <dxg:GridColumn Name="user_name" FieldName="sCallerNo" Header="Sè b¸o" Width="120" />
+                <dxg:GridColumn Name="dtRecvTime" FieldName="dtRecvTime" Header="Thêi gian b¸o" Width="180">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy HH:mm:ss}"  PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn Name="dtfinished" FieldName="dtfinished" Header="Thêi gian xong" Width="180">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:DateEditSettings DisplayFormat="{}{0:dd/MM/yyyy HH:mm:ss}"  PopupFooterButtons="None" ShowSizeGrip="False" />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn Name="tg" FieldName="tg" Header="TG kh¾c phôc" Width="180" />
+                <dxg:GridColumn Name="tentb" FieldName="ten_dkdb" Header="Tªn thuª bao" Width="280" />
+                <dxg:GridColumn Name="diachidb" FieldName="dc_tbld" Header="§Þa chØ l¾p ®Æt" Width="320" />
+                <dxg:GridColumn Name="ten_tram" FieldName="ten_tram" Header="Tr¹m VT" Width="160" />
+                <dxg:GridColumn Name="sohopdong" FieldName="sohopdong" Header="Sè hîp ®ång" Width="120" />
+                <dxg:GridColumn Name="ID" FieldName="ID" Header="ID" Width="120" Visible="False" />
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowEditing="False" ShowGroupedColumns="False" Name="view" AutoWidth="True" FontSize="13" ShowGroupPanel="False" MultiSelectMode="Cell"/>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="0.3*" />
+            </Grid.ColumnDefinitions>
+            <dxc:ChartControl Name="chart" CustomDrawSeriesPoint="chart_CustomDrawSeriesPoint" BorderThickness="0" EnableAnimation="True"  Margin="0,0,0,0" Grid.Row="2" Grid.Column="0">
+                <dxc:ChartControl.CrosshairOptions>
+                    <dxc:CrosshairOptions CrosshairLabelMode="ShowForNearestSeries" />
+                </dxc:ChartControl.CrosshairOptions>
+                <dxc:ChartControl.Diagram>
+
+                    <dxc:XYDiagram2D>
+                        <dxc:XYDiagram2D.DefaultPane>
+                            <dxc:Pane Name="pane" />
+                        </dxc:XYDiagram2D.DefaultPane>
+                        <dxc:XYDiagram2D.AxisY>
+                            <dxc:AxisY2D GridLinesMinorVisible="True">
+                                <!--<dxc:AxisY2D.Title>
+                                <dxc:AxisTitle Content="Số lượng thuê bao" />
+                            </dxc:AxisY2D.Title>-->
+                            </dxc:AxisY2D>
+                        </dxc:XYDiagram2D.AxisY>
+                        <dxc:XYDiagram2D.Series>
+                        <dxc:BarSideBySideSeries2D x:Name="Series" DisplayName="Máy sửa xong" ArgumentDataMember="Name" ValueDataMember="SL" AnimationAutoStartMode="SetStartState">
+                                <!--<dxc:BarSideBySideSeries2D.Model>
+                                <dxc:GradientBar2DModel />
+                            </dxc:BarSideBySideSeries2D.Model>-->
+                                <dxc:BarSideBySideSeries2D.Label>
+                                    <dxc:SeriesLabel ResolveOverlappingMode="Default" Visible="True" />
+                                </dxc:BarSideBySideSeries2D.Label>
+                                <dxc:BarSideBySideSeries2D.Model>
+                                    <dxc:GlassCylinderBar2DModel />
+                                </dxc:BarSideBySideSeries2D.Model>
+                                <dxc:BarSideBySideSeries2D.PointAnimation>
+                                    <dxc:Bar2DWidenAnimation />
+                                </dxc:BarSideBySideSeries2D.PointAnimation>
+                            </dxc:BarSideBySideSeries2D>
+                            <dxc:BarSideBySideSeries2D x:Name="Series1" DisplayName="Máy báo Hỏng" ArgumentDataMember="Name" ValueDataMember="SLx" AnimationAutoStartMode="SetStartState">
+                                <!--<dxc:BarSideBySideSeries2D.Model>
+                                <dxc:GradientBar2DModel />
+                            </dxc:BarSideBySideSeries2D.Model>-->
+                                <dxc:BarSideBySideSeries2D.Label>
+                                    <dxc:SeriesLabel ResolveOverlappingMode="Default" Visible="True" />
+                                </dxc:BarSideBySideSeries2D.Label>
+                                <dxc:BarSideBySideSeries2D.Model>
+                                    <dxc:GlassCylinderBar2DModel />
+                                </dxc:BarSideBySideSeries2D.Model>
+                                <dxc:BarSideBySideSeries2D.PointAnimation>
+                                    <dxc:Bar2DWidenAnimation />
+                                </dxc:BarSideBySideSeries2D.PointAnimation>
+                            </dxc:BarSideBySideSeries2D>
+                        </dxc:XYDiagram2D.Series>
+                    </dxc:XYDiagram2D>
+                </dxc:ChartControl.Diagram>
+                <!--<dxc:ChartControl.Legend>
+                    <dxc:Legend HorizontalPosition="Right" />
+                </dxc:ChartControl.Legend>-->
+                <dxc:ChartControl.Legend>
+                    <dxc:Legend ReverseItems="True" />
+                </dxc:ChartControl.Legend>
+                <!--<dxc:ChartControl.Legend>
+                <dxc:Legend />
+            </dxc:ChartControl.Legend>-->
+            </dxc:ChartControl>
+
+            <dxg:GridControl Name="grid1" Grid.Row="2" Grid.Column="1"  FontSize="13">
+                <dxg:GridControl.Columns>
+
+                    <dxg:GridColumn Name="sStatus1" FieldName="sstatus" Header="Loại hỏng" Width="120" />
+                    <dxg:GridColumn Name="sl" FieldName="sl" Header=" SL " Width="80" />
+                    <dxg:GridColumn Name="ID1" FieldName="ID" Header="ID" Width="120" Visible="False" />
+                </dxg:GridControl.Columns>
+                <dxg:GridControl.View>
+                    <dxg:TableView AllowEditing="False" ShowGroupedColumns="False" Name="view1" AutoWidth="True" FontSize="13" ShowGroupPanel="False" MultiSelectMode="Cell"/>
+                </dxg:GridControl.View>
+            </dxg:GridControl>
+        </Grid>
+        <Button FontSize="12" Height="23" HorizontalAlignment="Right" Margin="0,4,5,3" Name="FindButton" Click="FindButton_Click" Width="100">
+            <StackPanel Orientation="Horizontal">
+                <Image Height="16" Source="/SilverlightQLThuebao;component/Images/Search_16x16.png" Width="16" />
+                <TextBlock FontSize="13" Margin="8,0,0,0" Text="Tìm" Width="52" />
+            </StackPanel>
+        </Button>
+        <TextBlock FontSize="13" FontWeight="Normal" HorizontalAlignment="Right" Margin="0,4,282,7" Name="textBlock1" Text="Đến ngày" TextAlignment="Right" Width="74" />
+        <dxe:DateEdit DisplayFormatString="dd/MM/yyyy hh:mm:ss tt" FontSize="13" HorizontalAlignment="Right" Margin="0,4,115,0" Mask="dd/MM/yyyy hh:mm:ss tt" MaskAllowNullInput="False" Name="dngaykt" TabIndex="2" VerticalAlignment="Top" Width="163" />
+        <TextBlock FontSize="13" FontWeight="Normal" HorizontalAlignment="Right" Margin="0,4,523,7" Name="textBlock2" Text="Từ ngày" TextAlignment="Right" Width="82" />
+        <dxe:DateEdit DisplayFormatString="dd/MM/yyyy hh:mm:ss tt" FontSize="13" HorizontalAlignment="Right" Margin="0,4,356,0" Mask="dd/MM/yyyy hh:mm:ss tt" MaskAllowNullInput="False" Name="dngaybd" TabIndex="1" VerticalAlignment="Top" Width="163" />
+        <!--</Grid>-->
+        
+    </Grid>
+</dx:DXWindow>
