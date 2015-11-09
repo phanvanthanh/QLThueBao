@@ -129,6 +129,9 @@
     <Compile Include="Forms\BSC\frmbsctinh.xaml.cs">
       <DependentUpon>frmbsctinh.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\BSC\frmNewKpi.xaml.cs">
+      <DependentUpon>frmNewKpi.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DXPopup.xaml.cs">
       <DependentUpon>DXPopup.xaml</DependentUpon>
     </Compile>
@@ -508,6 +511,10 @@
     <Page Include="Forms\BSC\frmbsctinh.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\BSC\frmNewKpi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Forms\DXPopup.xaml">
       <SubType>Designer</SubType>

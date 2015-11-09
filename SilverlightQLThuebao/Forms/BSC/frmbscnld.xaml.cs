@@ -26,6 +26,7 @@ namespace SilverlightQLThuebao
         public frmbscnld()
         {
             InitializeComponent();
+            btnbochon.IsEnabled = false;
             EntityQuery<nhanvien_cs> Querys = db.Getnhanvien_csQuery();
             Loads = db.Load(Querys.Where(p => p.ma_huyen == App.ma_huyen), LoadOpCompleteS, null);
             btnsave.IsEnabled = false;  
@@ -164,8 +165,8 @@ namespace SilverlightQLThuebao
                             dvt = (string)gridControl1.GetCellValue(rowHandle, dvt),
                             //check = lo.Entities.ElementAt(i).check==null? false: lo.Entities.ElementAt(i).check,
                             chitieugiao = 0
-
                         });
+                        btnbochon.IsEnabled = true;
                     }
                 }
             }
@@ -190,20 +191,28 @@ namespace SilverlightQLThuebao
             btnsave.IsEnabled = true;
         }
 
+        // Thanh sửa
         private void btnbochon_Click(object sender, RoutedEventArgs e)
         {
-            string m_id = gridControl2.GetFocusedRowCellValue(ma_kpi1).ToString().Trim();
             gridControl2.UngroupBy("ten_kpo");
+            xoa:
             for (int i = 0; i < gridControl2.VisibleRowCount; i++)
             {
                 int rowHandle = gridControl2.GetRowHandleByVisibleIndex(i);
-                if (gridControl2.GetCellValue(rowHandle, ma_kpi1).ToString().Trim() == m_id)
+                if ((bool)gridControl2.GetCellValue(rowHandle, check_bochon) == true)
+                {
                     tableView2.DeleteRow(i);
+                    goto xoa;
+                }
             }
             gridControl2.GroupBy("ten_kpo");
             gridControl2.ExpandAllGroups();
             get_data();
-            btnsave.IsEnabled = true;
+            if (gridControl2.VisibleRowCount==0)
+            {
+                btnbochon.IsEnabled = false;
+            }
+            btnsave.IsEnabled = true;            
         }
 
         private void btnsave_Click(object sender, RoutedEventArgs e)
@@ -282,6 +291,11 @@ namespace SilverlightQLThuebao
         {
             if (e.Column == gridControl2.Columns["chitieugiao"] || e.Column == gridControl2.Columns["trongso"])
                 btnsave.IsEnabled = true;
+
+        }
+
+        private void CheckEdit_Checked(object sender, RoutedEventArgs e)
+        {
 
         }
     }

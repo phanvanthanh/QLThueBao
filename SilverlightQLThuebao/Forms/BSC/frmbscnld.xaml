@@ -57,8 +57,20 @@
                     <dxg:GridColumn Name="dvt1" FieldName="dvt" Header="ĐVT"  Width="80" VisibleIndex="2"/>
                     <dxg:GridColumn Name="trongso" FieldName="trongso" Header="Trọng số %"  Width="80" VisibleIndex="3"/>
                     <dxg:GridColumn Name="chitieugiao" FieldName="chitieugiao" Header="Chỉ tiêu giao"  Width="100" VisibleIndex="4"/>
+                    <!-- Thanh sửa -->
+                    <dxg:GridColumn Name="check_bochon" FieldName="check" Header="Chọn"  Width="50" VisibleIndex="5">
+                        <dxg:GridColumn.CellTemplate>
+                            <DataTemplate>
+                                <dxe:CheckEdit IsChecked="{Binding Path=DataContext.RowData.Row.check, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" Checked="CheckEdit_Checked">
+                                    <ToolTipService.ToolTip>
+                                        <TextBlock>Chọn</TextBlock>
+                                    </ToolTipService.ToolTip>
+                                </dxe:CheckEdit>
+                            </DataTemplate>
+                        </dxg:GridColumn.CellTemplate>
 
-                    <dxg:GridColumn Name="ma_kpi1" FieldName="ma_kpi" Header="ma_kpi" Width="80" VisibleIndex="5" Visible="False" />
+                    </dxg:GridColumn>
+                    <dxg:GridColumn Name="ma_kpi1" FieldName="ma_kpi" Header="ma_kpi" Width="80" VisibleIndex="6" Visible="False" />
                    
                 </dxg:GridControl.Columns>
                 <dxg:GridControl.View>

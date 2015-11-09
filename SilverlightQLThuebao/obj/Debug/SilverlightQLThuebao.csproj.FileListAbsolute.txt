@@ -1606,3 +1606,4 @@ C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\Silverl
 C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao\obj\Debug\SilverlightQLThuebao.dll
 C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao\obj\Debug\SilverlightQLThuebao.pdb
 C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao\obj\Debug\XapCacheFile.xml
+C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao\obj\Debug\Forms\BSC\frmNewKpi.g.i.cs

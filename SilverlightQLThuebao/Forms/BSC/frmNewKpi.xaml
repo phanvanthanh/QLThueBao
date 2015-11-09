@@ -1,0 +1,14 @@
+﻿<dx:DXWindow 
+    x:Class="SilverlightQLThuebao.Forms.BSC.frmNewKpi" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    mc:Ignorable="d" Width="400" Height="300" Title="frmNewKpi"
+    >
+    
+    <Grid x:Name="LayoutRoot">
+        
+    </Grid>
+</dx:DXWindow>
