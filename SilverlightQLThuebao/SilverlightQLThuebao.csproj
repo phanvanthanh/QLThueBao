@@ -96,7 +96,9 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
     <Reference Include="System.Windows.Controls, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Data, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="System.Windows.Controls.Data.Input, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Windows.Controls.DomainServices, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="System.Windows.Data, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Windows.Interactivity, Version=4.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml" />
@@ -122,6 +124,9 @@
     <Compile Include="Forms\BosungCat\frmcatmy.xaml.cs">
       <DependentUpon>frmcatmy.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Forms\BSC\frmaddskpi.xaml.cs">
+      <DependentUpon>frmaddskpi.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Forms\BSC\frmbscnld.xaml.cs">
       <DependentUpon>frmbscnld.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -129,8 +134,8 @@
     <Compile Include="Forms\BSC\frmbsctinh.xaml.cs">
       <DependentUpon>frmbsctinh.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BSC\frmNewKpi.xaml.cs">
-      <DependentUpon>frmNewKpi.xaml</DependentUpon>
+    <Compile Include="Forms\BSC\frmindexskpi.xaml.cs">
+      <DependentUpon>frmnewskpi.xaml</DependentUpon>
     </Compile>
     <Compile Include="Forms\DXPopup.xaml.cs">
       <DependentUpon>DXPopup.xaml</DependentUpon>
@@ -504,6 +509,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Forms\BSC\frmaddskpi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Forms\BSC\frmbscnld.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -512,7 +521,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Forms\BSC\frmNewKpi.xaml">
+    <Page Include="Forms\BSC\frmnewskpi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

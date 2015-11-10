@@ -500,7 +500,6 @@ C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\Silverl
 C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\ru\System.ServiceModel.DomainServices.Server.resources.dll
 C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hans\System.ServiceModel.DomainServices.Server.resources.dll
 C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\bin\zh-Hant\System.ServiceModel.DomainServices.Server.resources.dll
-C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.csprojResolveAssemblyReference.cache
 C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rphopdong.resources
 C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.rphopdongmoi.resources
 C:\Users\Phan\Documents\Visual Studio 2010\Projects\SilverlightQLThuebao\SilverlightQLThuebao.Web\obj\Debug\SilverlightQLThuebao.Web.Rpnhiemthu.resources

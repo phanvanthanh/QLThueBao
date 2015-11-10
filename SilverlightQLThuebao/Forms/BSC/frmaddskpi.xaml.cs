@@ -13,9 +13,9 @@ using DevExpress.Xpf.Core;
 
 namespace SilverlightQLThuebao.Forms.BSC
 {
-    public partial class frmNewKpi : DXWindow
+    public partial class frmaddskpi : DXWindow
     {
-        public frmNewKpi()
+        public frmaddskpi()
         {
             InitializeComponent();
         }

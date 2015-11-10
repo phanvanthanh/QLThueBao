@@ -41547,6 +41547,17 @@ namespace SilverlightQLThuebao.Web.Services
         }
         
         /// <summary>
+        /// Gets the set of <see cref="BSCT"/> entity instances that have been loaded into this <see cref="QLThuebaoDomainContext"/> instance.
+        /// </summary>
+        public EntitySet<BSCT> BSCTs
+        {
+            get
+            {
+                return base.EntityContainer.GetEntitySet<BSCT>();
+            }
+        }
+        
+        /// <summary>
         /// Gets the set of <see cref="C119TVPrefix"/> entity instances that have been loaded into this <see cref="QLThuebaoDomainContext"/> instance.
         /// </summary>
         public EntitySet<C119TVPrefix> C119TVPrefixes
@@ -41763,17 +41774,6 @@ namespace SilverlightQLThuebao.Web.Services
             get
             {
                 return base.EntityContainer.GetEntitySet<dsw_119>();
-            }
-        }
-        
-        /// <summary>
-        /// Gets the set of <see cref="BSCT"/> entity instances that have been loaded into this <see cref="QLThuebaoDomainContext"/> instance.
-        /// </summary>
-        public EntitySet<BSCT> BSCTs
-        {
-            get
-            {
-                return base.EntityContainer.GetEntitySet<BSCT>();
             }
         }
         
@@ -42527,6 +42527,16 @@ namespace SilverlightQLThuebao.Web.Services
             parameters.Add("m_ma", m_ma);
             this.ValidateMethod("Get119MytvQuery", parameters);
             return base.CreateQuery<maxmakhachhang>("Get119Mytv", parameters, false, true);
+        }
+        
+        /// <summary>
+        /// Gets an EntityQuery instance that can be used to load <see cref="BSCT"/> entity instances using the 'GetAllSKpi' query.
+        /// </summary>
+        /// <returns>An EntityQuery that can be loaded to retrieve <see cref="BSCT"/> entity instances.</returns>
+        public EntityQuery<BSCT> GetAllSKpiQuery()
+        {
+            this.ValidateMethod("GetAllSKpiQuery", null);
+            return base.CreateQuery<BSCT>("GetAllSKpi", null, false, true);
         }
         
         /// <summary>
@@ -44620,6 +44630,24 @@ namespace SilverlightQLThuebao.Web.Services
             /// <param name="result">The IAsyncResult returned from 'BeginGet119Mytv'.</param>
             /// <returns>The 'QueryResult' returned from the 'Get119Mytv' operation.</returns>
             QueryResult<maxmakhachhang> EndGet119Mytv(IAsyncResult result);
+            
+            /// <summary>
+            /// Asynchronously invokes the 'GetAllSKpi' operation.
+            /// </summary>
+            /// <param name="callback">Callback to invoke on completion.</param>
+            /// <param name="asyncState">Optional state object.</param>
+            /// <returns>An IAsyncResult that can be used to monitor the request.</returns>
+            [FaultContract(typeof(DomainServiceFault), Action="http://tempuri.org/QLThuebaoDomainService/GetAllSKpiDomainServiceFault", Name="DomainServiceFault", Namespace="DomainServices")]
+            [OperationContract(AsyncPattern=true, Action="http://tempuri.org/QLThuebaoDomainService/GetAllSKpi", ReplyAction="http://tempuri.org/QLThuebaoDomainService/GetAllSKpiResponse")]
+            [WebGet()]
+            IAsyncResult BeginGetAllSKpi(AsyncCallback callback, object asyncState);
+            
+            /// <summary>
+            /// Completes the asynchronous operation begun by 'BeginGetAllSKpi'.
+            /// </summary>
+            /// <param name="result">The IAsyncResult returned from 'BeginGetAllSKpi'.</param>
+            /// <returns>The 'QueryResult' returned from the 'GetAllSKpi' operation.</returns>
+            QueryResult<BSCT> EndGetAllSKpi(IAsyncResult result);
             
             /// <summary>
             /// Asynchronously invokes the 'GetC119TVPrefix' operation.

@@ -136,6 +136,7 @@ namespace SilverlightQLThuebao
 
             giaobsctinh.ItemClick += new ItemClickEventHandler(giaobsctinhclick);
             giaobscnld.ItemClick += new ItemClickEventHandler(giaobscnldclick);
+            themskpi.ItemClick += new ItemClickEventHandler(themskpiclick);
 
             xaphuong.ItemClick += new ItemClickEventHandler(xaphuongclick);
             apkhom.ItemClick += new ItemClickEventHandler(apkhomclick);
@@ -782,6 +783,14 @@ namespace SilverlightQLThuebao
          void giaobscnldclick(object sender, RoutedEventArgs e)
          {
              frmbscnld frm = new frmbscnld();
+             frm.Width = this.ActualWidth;
+             frm.Height = this.ActualHeight;
+             frm.Show();
+         }
+
+         void themskpiclick(object sender, RoutedEventArgs e)
+         {
+             frmnewskpi frm = new frmnewskpi();
              frm.Width = this.ActualWidth;
              frm.Height = this.ActualHeight;
              frm.Show();

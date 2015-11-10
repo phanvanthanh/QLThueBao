@@ -114,6 +114,7 @@
 
                 <dxb:BarButtonItem Content="Giao BSC cho đơn vị" Name="giaobsctinh" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Palette_32x32.png" />
                 <dxb:BarButtonItem Content="Giao BSC cho nhân viên" Name="giaobscnld" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="False" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Palette_32x32.png" />
+                <dxb:BarButtonItem Content="Quản lý sKpi" Name="themskpi" GlyphAlignment="Top" GlyphSize="Default" IsEnabled="true" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Palette_32x32.png" />
                 
                 
                 <dxb:BarButtonItem Content="Download hướng dẫn sử dụng !" Name="help"   GlyphAlignment="Top" GlyphSize="Default" IsEnabled="True" RibbonStyle="Large" Glyph="/SilverlightQLThuebao;component/Images/Help.png" />
@@ -288,7 +289,7 @@
                                 <dxr:RibbonPageGroup Caption="" VerticalAlignment="Stretch">
                                     <dxb:BarButtonItemLink BarItemName="giaobsctinh" UserGlyphSize="Large" />
                                     <dxb:BarButtonItemLink BarItemName="giaobscnld" UserGlyphSize="Large" />
-                                    
+                                    <dxb:BarButtonItemLink BarItemName="themskpi" UserGlyphSize="Large" />
                                 </dxr:RibbonPageGroup>
                              </dxr:RibbonPage>
                                 <dxr:RibbonPage Caption="Nhật ký" Name="riblog">

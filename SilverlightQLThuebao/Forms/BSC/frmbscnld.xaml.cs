@@ -298,5 +298,10 @@ namespace SilverlightQLThuebao
         {
 
         }
+
+        private void btn_new_kpi_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

@@ -3603,6 +3603,28 @@ namespace SilverlightQLThuebao.Web.Services
             return query;
         }
         // het quang them
+
+
+        //Thanh them
+        public IQueryable<BSCT> GetAllSKpi()
+        {
+            var query = (from skpi in this.ObjectContext.sKPIs
+                         from skpo in this.ObjectContext.sKPOes
+                         where skpi.id_kpo == skpo.id
+                         orderby skpo.sap_xep
+                         select new BSCT
+                         {
+                             ten_kpo = skpo.ten_kpo.Trim(),
+                             ten_kpi = skpi.ten_kpi.Trim(),
+                             ma_kpi = skpi.ma_kpi,
+                             dvt = skpi.dvt,
+                             loai_dvt = skpi.loai_dvt,
+                             sap_xep = skpo.sap_xep
+                         });
+
+            return query;
+        }
+        // het Thanh them
      
     }
 }
